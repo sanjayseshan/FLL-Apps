@@ -1,0 +1,10 @@
+/* 
+  File.strings
+  FLL Animal Allies Scorer
+
+  Created by Sanjay Seshan on 9/8/16.
+  Copyright © 2016 EV3Lessons. All rights reserved.
+*/
+"CFBundleDisplayName" = "FLL Marcador Animal Allies";
+
+"CFBundleName" = "FLL Animal Allies Scorer";

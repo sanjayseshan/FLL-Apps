@@ -15,6 +15,9 @@
 		68AB10CC1F5F67ED0001F384 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68AB10CA1F5F67ED0001F384 /* LaunchScreen.storyboard */; };
 		68AB10D71F5F67ED0001F384 /* FLL_Hydro_Dynamics_ScorerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AB10D61F5F67ED0001F384 /* FLL_Hydro_Dynamics_ScorerTests.m */; };
 		68AB10E21F5F67ED0001F384 /* FLL_Hydro_Dynamics_ScorerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AB10E11F5F67ED0001F384 /* FLL_Hydro_Dynamics_ScorerUITests.m */; };
+		68AB10F01F5F68EA0001F384 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 68AB10EF1F5F68EA0001F384 /* www */; };
+		68AED11F1F5F77BB00124496 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68AED1211F5F77BB00124496 /* InfoPlist.strings */; };
+		68AED1291F5F7C1E00124496 /* RGSSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = 68AED1281F5F7C1E00124496 /* RGSSquare.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6813BE2C1F5F84F50073469F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		6813BE2D1F5F85100073469F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		6813BE2F1F5F86030073469F /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		6813BE301F621E570073469F /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Main.strings; sourceTree = "<group>"; };
+		6813BE311F621E580073469F /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		6813BE321F621E580073469F /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6813BE331F621E6D0073469F /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Main.strings; sourceTree = "<group>"; };
+		6813BE341F621E6E0073469F /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		6813BE351F621E6E0073469F /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6813BE361F621E860073469F /* hu-HU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hu-HU"; path = "hu-HU.lproj/Main.strings"; sourceTree = "<group>"; };
+		6813BE371F621E870073469F /* hu-HU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hu-HU"; path = "hu-HU.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		6813BE381F621E870073469F /* hu-HU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hu-HU"; path = "hu-HU.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		6813BE391F6D62570073469F /* fr-FR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-FR"; path = "fr-FR.lproj/Main.strings"; sourceTree = "<group>"; };
+		6813BE3A1F6D62580073469F /* fr-FR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-FR"; path = "fr-FR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		6813BE3B1F6D62580073469F /* fr-FR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-FR"; path = "fr-FR.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		68AB10B91F5F67ED0001F384 /* FLL Hydro Dynamics Scorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FLL Hydro Dynamics Scorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68AB10BD1F5F67ED0001F384 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		68AB10BF1F5F67ED0001F384 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +69,23 @@
 		68AB10DD1F5F67ED0001F384 /* FLL Hydro Dynamics ScorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FLL Hydro Dynamics ScorerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68AB10E11F5F67ED0001F384 /* FLL_Hydro_Dynamics_ScorerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLL_Hydro_Dynamics_ScorerUITests.m; sourceTree = "<group>"; };
 		68AB10E31F5F67ED0001F384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68AB10EF1F5F68EA0001F384 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		68AED1151F5F76FB00124496 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		68AED1171F5F770600124496 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		68AED1191F5F770D00124496 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Main.strings; sourceTree = "<group>"; };
+		68AED11A1F5F770D00124496 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		68AED11B1F5F776100124496 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/Main.strings; sourceTree = "<group>"; };
+		68AED11C1F5F776200124496 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		68AED11D1F5F778000124496 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Main.strings; sourceTree = "<group>"; };
+		68AED11E1F5F778000124496 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		68AED1201F5F77BB00124496 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68AED1221F5F77C100124496 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68AED1231F5F77C300124496 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68AED1241F5F77C400124496 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68AED1251F5F77C800124496 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68AED1261F5F781600124496 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68AED1271F5F781800124496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68AED1281F5F7C1E00124496 /* RGSSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RGSSquare.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +116,8 @@
 		68AB10B01F5F67ED0001F384 = {
 			isa = PBXGroup;
 			children = (
+				68AED1281F5F7C1E00124496 /* RGSSquare.png */,
+				68AB10EF1F5F68EA0001F384 /* www */,
 				68AB10BB1F5F67ED0001F384 /* FLL Hydro Dynamics Scorer */,
 				68AB10D51F5F67ED0001F384 /* FLL Hydro Dynamics ScorerTests */,
 				68AB10E01F5F67ED0001F384 /* FLL Hydro Dynamics ScorerUITests */,
@@ -110,6 +147,7 @@
 				68AB10CA1F5F67ED0001F384 /* LaunchScreen.storyboard */,
 				68AB10CD1F5F67ED0001F384 /* Info.plist */,
 				68AB10BC1F5F67ED0001F384 /* Supporting Files */,
+				68AED1211F5F77BB00124496 /* InfoPlist.strings */,
 			);
 			path = "FLL Hydro Dynamics Scorer";
 			sourceTree = "<group>";
@@ -207,6 +245,7 @@
 				TargetAttributes = {
 					68AB10B81F5F67ED0001F384 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YNNP28TXVG;
 						ProvisioningStyle = Automatic;
 					};
 					68AB10D11F5F67ED0001F384 = {
@@ -228,6 +267,15 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
+				nl,
+				sk,
+				pt,
+				es,
+				he,
+				el,
+				"hu-HU",
+				"fr-FR",
 			);
 			mainGroup = 68AB10B01F5F67ED0001F384;
 			productRefGroup = 68AB10BA1F5F67ED0001F384 /* Products */;
@@ -246,9 +294,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68AB10F01F5F68EA0001F384 /* www in Resources */,
+				68AED1291F5F7C1E00124496 /* RGSSquare.png in Resources */,
 				68AB10CC1F5F67ED0001F384 /* LaunchScreen.storyboard in Resources */,
 				68AB10C91F5F67ED0001F384 /* Assets.xcassets in Resources */,
 				68AB10C71F5F67ED0001F384 /* Main.storyboard in Resources */,
+				68AED11F1F5F77BB00124496 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +366,15 @@
 			isa = PBXVariantGroup;
 			children = (
 				68AB10C61F5F67ED0001F384 /* Base */,
+				68AED1151F5F76FB00124496 /* es */,
+				68AED1171F5F770600124496 /* de */,
+				68AED1191F5F770D00124496 /* nl */,
+				68AED11B1F5F776100124496 /* sk */,
+				68AED11D1F5F778000124496 /* pt */,
+				6813BE301F621E570073469F /* he */,
+				6813BE331F621E6D0073469F /* el */,
+				6813BE361F621E860073469F /* hu-HU */,
+				6813BE391F6D62570073469F /* fr-FR */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -323,8 +383,36 @@
 			isa = PBXVariantGroup;
 			children = (
 				68AB10CB1F5F67ED0001F384 /* Base */,
+				68AED11A1F5F770D00124496 /* nl */,
+				68AED11C1F5F776200124496 /* sk */,
+				68AED11E1F5F778000124496 /* pt */,
+				6813BE2C1F5F84F50073469F /* en */,
+				6813BE2D1F5F85100073469F /* es */,
+				6813BE2F1F5F86030073469F /* de */,
+				6813BE311F621E580073469F /* he */,
+				6813BE341F621E6E0073469F /* el */,
+				6813BE371F621E870073469F /* hu-HU */,
+				6813BE3A1F6D62580073469F /* fr-FR */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		68AED1211F5F77BB00124496 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68AED1201F5F77BB00124496 /* es */,
+				68AED1221F5F77C100124496 /* de */,
+				68AED1231F5F77C300124496 /* nl */,
+				68AED1241F5F77C400124496 /* sk */,
+				68AED1251F5F77C800124496 /* pt */,
+				68AED1261F5F781600124496 /* en */,
+				68AED1271F5F781800124496 /* Base */,
+				6813BE321F621E580073469F /* he */,
+				6813BE351F621E6E0073469F /* el */,
+				6813BE381F621E870073469F /* hu-HU */,
+				6813BE3B1F6D62580073469F /* fr-FR */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -334,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -383,6 +472,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -426,9 +516,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YNNP28TXVG;
 				INFOPLIST_FILE = "FLL Hydro Dynamics Scorer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.FLL-Hydro-Dynamics-Scorer";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.Hydro-Dynamics-Scorer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -437,9 +529,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YNNP28TXVG;
 				INFOPLIST_FILE = "FLL Hydro Dynamics Scorer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.FLL-Hydro-Dynamics-Scorer";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.Hydro-Dynamics-Scorer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -509,6 +603,7 @@
 				68AB10E81F5F67ED0001F384 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68AB10E91F5F67ED0001F384 /* Build configuration list for PBXNativeTarget "FLL Hydro Dynamics ScorerTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +612,7 @@
 				68AB10EB1F5F67ED0001F384 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68AB10EC1F5F67ED0001F384 /* Build configuration list for PBXNativeTarget "FLL Hydro Dynamics ScorerUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +621,7 @@
 				68AB10EE1F5F67ED0001F384 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
