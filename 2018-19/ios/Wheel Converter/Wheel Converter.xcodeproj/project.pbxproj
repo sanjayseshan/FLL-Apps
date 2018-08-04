@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9202052E1BB21B0D00C17FA3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9202052D1BB21B0D00C17FA3 /* Default-568h@2x.png */; };
+		922AB1E820EEC9D40014D4AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 922AB1EA20EEC9D40014D4AE /* InfoPlist.strings */; };
+		92FBAC961BAF8DD500C843BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FBAC951BAF8DD500C843BA /* main.m */; };
+		92FBAC991BAF8DD500C843BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FBAC981BAF8DD500C843BA /* AppDelegate.m */; };
+		92FBAC9C1BAF8DD500C843BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FBAC9B1BAF8DD500C843BA /* ViewController.m */; };
+		92FBAC9F1BAF8DD500C843BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FBAC9D1BAF8DD500C843BA /* Main.storyboard */; };
+		92FBACA11BAF8DD500C843BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FBACA01BAF8DD500C843BA /* Assets.xcassets */; };
+		92FBACA41BAF8DD500C843BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FBACA21BAF8DD500C843BA /* LaunchScreen.storyboard */; };
+		92FBACAF1BAF8DD500C843BA /* Wheel_ConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FBACAE1BAF8DD500C843BA /* Wheel_ConverterTests.m */; };
+		92FBACBA1BAF8DD500C843BA /* Wheel_ConverterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FBACB91BAF8DD500C843BA /* Wheel_ConverterUITests.m */; };
+		92FBACC81BAF8DF300C843BA /* www in Resources */ = {isa = PBXBuildFile; fileRef = 92FBACC71BAF8DF300C843BA /* www */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92FBACAB1BAF8DD500C843BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92FBAC891BAF8DD500C843BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92FBAC901BAF8DD500C843BA;
+			remoteInfo = "Wheel Converter";
+		};
+		92FBACB61BAF8DD500C843BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92FBAC891BAF8DD500C843BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92FBAC901BAF8DD500C843BA;
+			remoteInfo = "Wheel Converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9202052D1BB21B0D00C17FA3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		922AB1E420EEC98A0014D4AE /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		922AB1E520EEC98A0014D4AE /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		922AB1E920EEC9D40014D4AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		922AB1EB20EEC9D90014D4AE /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		922AB1EC20EEC9ED0014D4AE /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		922AB1ED20EEC9ED0014D4AE /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		922AB1EE20EEC9ED0014D4AE /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		92FBAC911BAF8DD500C843BA /* Wheel Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wheel Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92FBAC951BAF8DD500C843BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92FBAC971BAF8DD500C843BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92FBAC981BAF8DD500C843BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92FBAC9A1BAF8DD500C843BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		92FBAC9B1BAF8DD500C843BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		92FBAC9E1BAF8DD500C843BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92FBACA01BAF8DD500C843BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92FBACA31BAF8DD500C843BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92FBACA51BAF8DD500C843BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92FBACAA1BAF8DD500C843BA /* Wheel ConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wheel ConverterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92FBACAE1BAF8DD500C843BA /* Wheel_ConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wheel_ConverterTests.m; sourceTree = "<group>"; };
+		92FBACB01BAF8DD500C843BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92FBACB51BAF8DD500C843BA /* Wheel ConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wheel ConverterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92FBACB91BAF8DD500C843BA /* Wheel_ConverterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wheel_ConverterUITests.m; sourceTree = "<group>"; };
+		92FBACBB1BAF8DD500C843BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92FBACC71BAF8DF300C843BA /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92FBAC8E1BAF8DD500C843BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FBACA71BAF8DD500C843BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FBACB21BAF8DD500C843BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92FBAC881BAF8DD500C843BA = {
+			isa = PBXGroup;
+			children = (
+				9202052D1BB21B0D00C17FA3 /* Default-568h@2x.png */,
+				92FBACC71BAF8DF300C843BA /* www */,
+				92FBAC931BAF8DD500C843BA /* Wheel Converter */,
+				92FBACAD1BAF8DD500C843BA /* Wheel ConverterTests */,
+				92FBACB81BAF8DD500C843BA /* Wheel ConverterUITests */,
+				92FBAC921BAF8DD500C843BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92FBAC921BAF8DD500C843BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92FBAC911BAF8DD500C843BA /* Wheel Converter.app */,
+				92FBACAA1BAF8DD500C843BA /* Wheel ConverterTests.xctest */,
+				92FBACB51BAF8DD500C843BA /* Wheel ConverterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92FBAC931BAF8DD500C843BA /* Wheel Converter */ = {
+			isa = PBXGroup;
+			children = (
+				92FBAC971BAF8DD500C843BA /* AppDelegate.h */,
+				92FBAC981BAF8DD500C843BA /* AppDelegate.m */,
+				92FBAC9A1BAF8DD500C843BA /* ViewController.h */,
+				92FBAC9B1BAF8DD500C843BA /* ViewController.m */,
+				92FBAC9D1BAF8DD500C843BA /* Main.storyboard */,
+				92FBACA01BAF8DD500C843BA /* Assets.xcassets */,
+				92FBACA21BAF8DD500C843BA /* LaunchScreen.storyboard */,
+				92FBACA51BAF8DD500C843BA /* Info.plist */,
+				92FBAC941BAF8DD500C843BA /* Supporting Files */,
+				922AB1EA20EEC9D40014D4AE /* InfoPlist.strings */,
+			);
+			path = "Wheel Converter";
+			sourceTree = "<group>";
+		};
+		92FBAC941BAF8DD500C843BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92FBAC951BAF8DD500C843BA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92FBACAD1BAF8DD500C843BA /* Wheel ConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				92FBACAE1BAF8DD500C843BA /* Wheel_ConverterTests.m */,
+				92FBACB01BAF8DD500C843BA /* Info.plist */,
+			);
+			path = "Wheel ConverterTests";
+			sourceTree = "<group>";
+		};
+		92FBACB81BAF8DD500C843BA /* Wheel ConverterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92FBACB91BAF8DD500C843BA /* Wheel_ConverterUITests.m */,
+				92FBACBB1BAF8DD500C843BA /* Info.plist */,
+			);
+			path = "Wheel ConverterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92FBAC901BAF8DD500C843BA /* Wheel Converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92FBACBE1BAF8DD600C843BA /* Build configuration list for PBXNativeTarget "Wheel Converter" */;
+			buildPhases = (
+				92FBAC8D1BAF8DD500C843BA /* Sources */,
+				92FBAC8E1BAF8DD500C843BA /* Frameworks */,
+				92FBAC8F1BAF8DD500C843BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wheel Converter";
+			productName = "Wheel Converter";
+			productReference = 92FBAC911BAF8DD500C843BA /* Wheel Converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92FBACA91BAF8DD500C843BA /* Wheel ConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92FBACC11BAF8DD600C843BA /* Build configuration list for PBXNativeTarget "Wheel ConverterTests" */;
+			buildPhases = (
+				92FBACA61BAF8DD500C843BA /* Sources */,
+				92FBACA71BAF8DD500C843BA /* Frameworks */,
+				92FBACA81BAF8DD500C843BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92FBACAC1BAF8DD500C843BA /* PBXTargetDependency */,
+			);
+			name = "Wheel ConverterTests";
+			productName = "Wheel ConverterTests";
+			productReference = 92FBACAA1BAF8DD500C843BA /* Wheel ConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92FBACB41BAF8DD500C843BA /* Wheel ConverterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92FBACC41BAF8DD600C843BA /* Build configuration list for PBXNativeTarget "Wheel ConverterUITests" */;
+			buildPhases = (
+				92FBACB11BAF8DD500C843BA /* Sources */,
+				92FBACB21BAF8DD500C843BA /* Frameworks */,
+				92FBACB31BAF8DD500C843BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92FBACB71BAF8DD500C843BA /* PBXTargetDependency */,
+			);
+			name = "Wheel ConverterUITests";
+			productName = "Wheel ConverterUITests";
+			productReference = 92FBACB51BAF8DD500C843BA /* Wheel ConverterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92FBAC891BAF8DD500C843BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = EV3Lessons.com;
+				TargetAttributes = {
+					92FBAC901BAF8DD500C843BA = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = YNNP28TXVG;
+					};
+					92FBACA91BAF8DD500C843BA = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 92FBAC901BAF8DD500C843BA;
+					};
+					92FBACB41BAF8DD500C843BA = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 92FBAC901BAF8DD500C843BA;
+					};
+				};
+			};
+			buildConfigurationList = 92FBAC8C1BAF8DD500C843BA /* Build configuration list for PBXProject "Wheel Converter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+				"pt-BR",
+			);
+			mainGroup = 92FBAC881BAF8DD500C843BA;
+			productRefGroup = 92FBAC921BAF8DD500C843BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92FBAC901BAF8DD500C843BA /* Wheel Converter */,
+				92FBACA91BAF8DD500C843BA /* Wheel ConverterTests */,
+				92FBACB41BAF8DD500C843BA /* Wheel ConverterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92FBAC8F1BAF8DD500C843BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FBACC81BAF8DF300C843BA /* www in Resources */,
+				922AB1E820EEC9D40014D4AE /* InfoPlist.strings in Resources */,
+				92FBACA41BAF8DD500C843BA /* LaunchScreen.storyboard in Resources */,
+				92FBACA11BAF8DD500C843BA /* Assets.xcassets in Resources */,
+				9202052E1BB21B0D00C17FA3 /* Default-568h@2x.png in Resources */,
+				92FBAC9F1BAF8DD500C843BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FBACA81BAF8DD500C843BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FBACB31BAF8DD500C843BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92FBAC8D1BAF8DD500C843BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FBAC9C1BAF8DD500C843BA /* ViewController.m in Sources */,
+				92FBAC991BAF8DD500C843BA /* AppDelegate.m in Sources */,
+				92FBAC961BAF8DD500C843BA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FBACA61BAF8DD500C843BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FBACAF1BAF8DD500C843BA /* Wheel_ConverterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92FBACB11BAF8DD500C843BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FBACBA1BAF8DD500C843BA /* Wheel_ConverterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92FBACAC1BAF8DD500C843BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92FBAC901BAF8DD500C843BA /* Wheel Converter */;
+			targetProxy = 92FBACAB1BAF8DD500C843BA /* PBXContainerItemProxy */;
+		};
+		92FBACB71BAF8DD500C843BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92FBAC901BAF8DD500C843BA /* Wheel Converter */;
+			targetProxy = 92FBACB61BAF8DD500C843BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		922AB1EA20EEC9D40014D4AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				922AB1E920EEC9D40014D4AE /* en */,
+				922AB1EB20EEC9D90014D4AE /* fr */,
+				922AB1EE20EEC9ED0014D4AE /* pt-BR */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		92FBAC9D1BAF8DD500C843BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92FBAC9E1BAF8DD500C843BA /* Base */,
+				922AB1E420EEC98A0014D4AE /* fr */,
+				922AB1EC20EEC9ED0014D4AE /* pt-BR */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92FBACA21BAF8DD500C843BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92FBACA31BAF8DD500C843BA /* Base */,
+				922AB1E520EEC98A0014D4AE /* fr */,
+				922AB1ED20EEC9ED0014D4AE /* pt-BR */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92FBACBC1BAF8DD600C843BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92FBACBD1BAF8DD600C843BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92FBACBF1BAF8DD600C843BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YNNP28TXVG;
+				INFOPLIST_FILE = "Wheel Converter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ev3lessons.WheelConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92FBACC01BAF8DD600C843BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YNNP28TXVG;
+				INFOPLIST_FILE = "Wheel Converter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ev3lessons.WheelConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92FBACC21BAF8DD600C843BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Wheel ConverterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.Wheel-ConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wheel Converter.app/Wheel Converter";
+			};
+			name = Debug;
+		};
+		92FBACC31BAF8DD600C843BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Wheel ConverterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.Wheel-ConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wheel Converter.app/Wheel Converter";
+			};
+			name = Release;
+		};
+		92FBACC51BAF8DD600C843BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wheel ConverterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.Wheel-ConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Wheel Converter";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		92FBACC61BAF8DD600C843BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wheel ConverterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.Wheel-ConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Wheel Converter";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92FBAC8C1BAF8DD500C843BA /* Build configuration list for PBXProject "Wheel Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FBACBC1BAF8DD600C843BA /* Debug */,
+				92FBACBD1BAF8DD600C843BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92FBACBE1BAF8DD600C843BA /* Build configuration list for PBXNativeTarget "Wheel Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FBACBF1BAF8DD600C843BA /* Debug */,
+				92FBACC01BAF8DD600C843BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92FBACC11BAF8DD600C843BA /* Build configuration list for PBXNativeTarget "Wheel ConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FBACC21BAF8DD600C843BA /* Debug */,
+				92FBACC31BAF8DD600C843BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92FBACC41BAF8DD600C843BA /* Build configuration list for PBXNativeTarget "Wheel ConverterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92FBACC51BAF8DD600C843BA /* Debug */,
+				92FBACC61BAF8DD600C843BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92FBAC891BAF8DD500C843BA /* Project object */;
+}

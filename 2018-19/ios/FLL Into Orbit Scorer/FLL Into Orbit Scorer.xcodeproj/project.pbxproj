@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		921713BD20ED5C8500D00E81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 921713BF20ED5C8500D00E81 /* InfoPlist.strings */; };
+		922AB1A520EE66F80014D4AE /* www in Resources */ = {isa = PBXBuildFile; fileRef = 922AB1A420EE66F80014D4AE /* www */; };
+		929E9FBD20EBD75800F157CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E9FBC20EBD75800F157CA /* AppDelegate.swift */; };
+		929E9FBF20EBD75800F157CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E9FBE20EBD75800F157CA /* ViewController.swift */; };
+		929E9FC220EBD75800F157CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929E9FC020EBD75800F157CA /* Main.storyboard */; };
+		929E9FC420EBD75800F157CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929E9FC320EBD75800F157CA /* Assets.xcassets */; };
+		929E9FC720EBD75800F157CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929E9FC520EBD75800F157CA /* LaunchScreen.storyboard */; };
+		929E9FD220EBD75800F157CA /* FLL_Into_Orbit_ScorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E9FD120EBD75800F157CA /* FLL_Into_Orbit_ScorerTests.swift */; };
+		929E9FDD20EBD75800F157CA /* FLL_Into_Orbit_ScorerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E9FDC20EBD75800F157CA /* FLL_Into_Orbit_ScorerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		929E9FCE20EBD75800F157CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 929E9FB120EBD75800F157CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 929E9FB820EBD75800F157CA;
+			remoteInfo = "FLL Into Orbit Scorer";
+		};
+		929E9FD920EBD75800F157CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 929E9FB120EBD75800F157CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 929E9FB820EBD75800F157CA;
+			remoteInfo = "FLL Into Orbit Scorer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		921713BE20ED5C8500D00E81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		921713C020ED5CBB00D00E81 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9224AF9320ED170800AE137A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		9224AF9420ED170800AE137A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		9224AF9920ED18AE00AE137A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		922AB1A420EE66F80014D4AE /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		929E9FB920EBD75800F157CA /* FLL Into Orbit Scorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FLL Into Orbit Scorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		929E9FBC20EBD75800F157CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		929E9FBE20EBD75800F157CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		929E9FC120EBD75800F157CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		929E9FC320EBD75800F157CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		929E9FC620EBD75800F157CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		929E9FCD20EBD75800F157CA /* FLL Into Orbit ScorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FLL Into Orbit ScorerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		929E9FD120EBD75800F157CA /* FLL_Into_Orbit_ScorerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLL_Into_Orbit_ScorerTests.swift; sourceTree = "<group>"; };
+		929E9FD320EBD75800F157CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		929E9FD820EBD75800F157CA /* FLL Into Orbit ScorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FLL Into Orbit ScorerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		929E9FDC20EBD75800F157CA /* FLL_Into_Orbit_ScorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLL_Into_Orbit_ScorerUITests.swift; sourceTree = "<group>"; };
+		929E9FDE20EBD75800F157CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		929E9FB620EBD75800F157CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929E9FCA20EBD75800F157CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929E9FD520EBD75800F157CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		929E9FB020EBD75800F157CA = {
+			isa = PBXGroup;
+			children = (
+				929E9FBB20EBD75800F157CA /* FLL Into Orbit Scorer */,
+				929E9FD020EBD75800F157CA /* FLL Into Orbit ScorerTests */,
+				929E9FDB20EBD75800F157CA /* FLL Into Orbit ScorerUITests */,
+				929E9FBA20EBD75800F157CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		929E9FBA20EBD75800F157CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				929E9FB920EBD75800F157CA /* FLL Into Orbit Scorer.app */,
+				929E9FCD20EBD75800F157CA /* FLL Into Orbit ScorerTests.xctest */,
+				929E9FD820EBD75800F157CA /* FLL Into Orbit ScorerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		929E9FBB20EBD75800F157CA /* FLL Into Orbit Scorer */ = {
+			isa = PBXGroup;
+			children = (
+				922AB1A420EE66F80014D4AE /* www */,
+				929E9FBC20EBD75800F157CA /* AppDelegate.swift */,
+				929E9FBE20EBD75800F157CA /* ViewController.swift */,
+				929E9FC020EBD75800F157CA /* Main.storyboard */,
+				929E9FC320EBD75800F157CA /* Assets.xcassets */,
+				929E9FC520EBD75800F157CA /* LaunchScreen.storyboard */,
+				9224AF9920ED18AE00AE137A /* Info.plist */,
+				921713BF20ED5C8500D00E81 /* InfoPlist.strings */,
+			);
+			path = "FLL Into Orbit Scorer";
+			sourceTree = "<group>";
+		};
+		929E9FD020EBD75800F157CA /* FLL Into Orbit ScorerTests */ = {
+			isa = PBXGroup;
+			children = (
+				929E9FD120EBD75800F157CA /* FLL_Into_Orbit_ScorerTests.swift */,
+				929E9FD320EBD75800F157CA /* Info.plist */,
+			);
+			path = "FLL Into Orbit ScorerTests";
+			sourceTree = "<group>";
+		};
+		929E9FDB20EBD75800F157CA /* FLL Into Orbit ScorerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				929E9FDC20EBD75800F157CA /* FLL_Into_Orbit_ScorerUITests.swift */,
+				929E9FDE20EBD75800F157CA /* Info.plist */,
+			);
+			path = "FLL Into Orbit ScorerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		929E9FB820EBD75800F157CA /* FLL Into Orbit Scorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929E9FE120EBD75800F157CA /* Build configuration list for PBXNativeTarget "FLL Into Orbit Scorer" */;
+			buildPhases = (
+				929E9FB520EBD75800F157CA /* Sources */,
+				929E9FB620EBD75800F157CA /* Frameworks */,
+				929E9FB720EBD75800F157CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FLL Into Orbit Scorer";
+			productName = "FLL Into Orbit Scorer";
+			productReference = 929E9FB920EBD75800F157CA /* FLL Into Orbit Scorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		929E9FCC20EBD75800F157CA /* FLL Into Orbit ScorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929E9FE420EBD75800F157CA /* Build configuration list for PBXNativeTarget "FLL Into Orbit ScorerTests" */;
+			buildPhases = (
+				929E9FC920EBD75800F157CA /* Sources */,
+				929E9FCA20EBD75800F157CA /* Frameworks */,
+				929E9FCB20EBD75800F157CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				929E9FCF20EBD75800F157CA /* PBXTargetDependency */,
+			);
+			name = "FLL Into Orbit ScorerTests";
+			productName = "FLL Into Orbit ScorerTests";
+			productReference = 929E9FCD20EBD75800F157CA /* FLL Into Orbit ScorerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		929E9FD720EBD75800F157CA /* FLL Into Orbit ScorerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929E9FE720EBD75800F157CA /* Build configuration list for PBXNativeTarget "FLL Into Orbit ScorerUITests" */;
+			buildPhases = (
+				929E9FD420EBD75800F157CA /* Sources */,
+				929E9FD520EBD75800F157CA /* Frameworks */,
+				929E9FD620EBD75800F157CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				929E9FDA20EBD75800F157CA /* PBXTargetDependency */,
+			);
+			name = "FLL Into Orbit ScorerUITests";
+			productName = "FLL Into Orbit ScorerUITests";
+			productReference = 929E9FD820EBD75800F157CA /* FLL Into Orbit ScorerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		929E9FB120EBD75800F157CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ev3lessons;
+				TargetAttributes = {
+					929E9FB820EBD75800F157CA = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					929E9FCC20EBD75800F157CA = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 929E9FB820EBD75800F157CA;
+					};
+					929E9FD720EBD75800F157CA = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 929E9FB820EBD75800F157CA;
+					};
+				};
+			};
+			buildConfigurationList = 929E9FB420EBD75800F157CA /* Build configuration list for PBXProject "FLL Into Orbit Scorer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+			);
+			mainGroup = 929E9FB020EBD75800F157CA;
+			productRefGroup = 929E9FBA20EBD75800F157CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				929E9FB820EBD75800F157CA /* FLL Into Orbit Scorer */,
+				929E9FCC20EBD75800F157CA /* FLL Into Orbit ScorerTests */,
+				929E9FD720EBD75800F157CA /* FLL Into Orbit ScorerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		929E9FB720EBD75800F157CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922AB1A520EE66F80014D4AE /* www in Resources */,
+				929E9FC720EBD75800F157CA /* LaunchScreen.storyboard in Resources */,
+				921713BD20ED5C8500D00E81 /* InfoPlist.strings in Resources */,
+				929E9FC420EBD75800F157CA /* Assets.xcassets in Resources */,
+				929E9FC220EBD75800F157CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929E9FCB20EBD75800F157CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929E9FD620EBD75800F157CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		929E9FB520EBD75800F157CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929E9FBF20EBD75800F157CA /* ViewController.swift in Sources */,
+				929E9FBD20EBD75800F157CA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929E9FC920EBD75800F157CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929E9FD220EBD75800F157CA /* FLL_Into_Orbit_ScorerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929E9FD420EBD75800F157CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929E9FDD20EBD75800F157CA /* FLL_Into_Orbit_ScorerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		929E9FCF20EBD75800F157CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 929E9FB820EBD75800F157CA /* FLL Into Orbit Scorer */;
+			targetProxy = 929E9FCE20EBD75800F157CA /* PBXContainerItemProxy */;
+		};
+		929E9FDA20EBD75800F157CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 929E9FB820EBD75800F157CA /* FLL Into Orbit Scorer */;
+			targetProxy = 929E9FD920EBD75800F157CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		921713BF20ED5C8500D00E81 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				921713BE20ED5C8500D00E81 /* en */,
+				921713C020ED5CBB00D00E81 /* es */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		929E9FC020EBD75800F157CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				929E9FC120EBD75800F157CA /* Base */,
+				9224AF9320ED170800AE137A /* es */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		929E9FC520EBD75800F157CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				929E9FC620EBD75800F157CA /* Base */,
+				9224AF9420ED170800AE137A /* es */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		929E9FDF20EBD75800F157CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		929E9FE020EBD75800F157CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		929E9FE220EBD75800F157CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YNNP28TXVG;
+				INFOPLIST_FILE = "FLL Into Orbit Scorer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.FLL-Into-Orbit-Scorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		929E9FE320EBD75800F157CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YNNP28TXVG;
+				INFOPLIST_FILE = "FLL Into Orbit Scorer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.FLL-Into-Orbit-Scorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		929E9FE520EBD75800F157CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FLL Into Orbit ScorerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.FLL-Into-Orbit-ScorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLL Into Orbit Scorer.app/FLL Into Orbit Scorer";
+			};
+			name = Debug;
+		};
+		929E9FE620EBD75800F157CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FLL Into Orbit ScorerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.FLL-Into-Orbit-ScorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLL Into Orbit Scorer.app/FLL Into Orbit Scorer";
+			};
+			name = Release;
+		};
+		929E9FE820EBD75800F157CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FLL Into Orbit ScorerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.FLL-Into-Orbit-ScorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FLL Into Orbit Scorer";
+			};
+			name = Debug;
+		};
+		929E9FE920EBD75800F157CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FLL Into Orbit ScorerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.FLL-Into-Orbit-ScorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FLL Into Orbit Scorer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		929E9FB420EBD75800F157CA /* Build configuration list for PBXProject "FLL Into Orbit Scorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929E9FDF20EBD75800F157CA /* Debug */,
+				929E9FE020EBD75800F157CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		929E9FE120EBD75800F157CA /* Build configuration list for PBXNativeTarget "FLL Into Orbit Scorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929E9FE220EBD75800F157CA /* Debug */,
+				929E9FE320EBD75800F157CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		929E9FE420EBD75800F157CA /* Build configuration list for PBXNativeTarget "FLL Into Orbit ScorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929E9FE520EBD75800F157CA /* Debug */,
+				929E9FE620EBD75800F157CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		929E9FE720EBD75800F157CA /* Build configuration list for PBXNativeTarget "FLL Into Orbit ScorerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929E9FE820EBD75800F157CA /* Debug */,
+				929E9FE920EBD75800F157CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 929E9FB120EBD75800F157CA /* Project object */;
+}

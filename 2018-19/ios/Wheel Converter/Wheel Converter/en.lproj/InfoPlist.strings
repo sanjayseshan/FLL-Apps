@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  Wheel Converter
+
+  Created by Sanjay Seshan on 7/5/18.
+  Copyright © 2018 EV3Lessons.com. All rights reserved.
+*/
+"CFBundleDisplayName" = "Wheel Converter";
+
+"CFBundleName" = "Wheel Converter";
