@@ -27,34 +27,50 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let bounds = UIScreen.main.bounds
+
         webView.navigationDelegate = self;
+        webView.contentScaleFactor = bounds.size.width/100
+        webView.contentMode = UIViewContentMode.scaleAspectFit
         
-        // Add addScriptMessageHandler in javascript: window.webkit.messageHandlers.MyObserver.postMessage()
-        //       webView.configuration.userContentController.add(self, name: "MyObserver")
-        
-        // Choose to load a file or a string
-        //      let loadFile = false
-        //     let langStr = Locale.current.languageCode
-        
-        
-        if let filePath = Bundle.main.path(forResource:"index", ofType:"html", inDirectory: "www") {
-            /*        if (loadFile) {
-             // load file
-             let filePathURL = URL.init(fileURLWithPath: filePath)
-             let fileDirectoryURL = filePathURL.deletingLastPathComponent()
-             webView.loadFileURL(filePathURL, allowingReadAccessTo: fileDirectoryURL)
-             } else { */
-            do {
-                // load html string - baseURL needs to be set for local files to load correctly
-                let html = try String(contentsOfFile: filePath, encoding: .utf8)
-                webView.loadHTMLString(html, baseURL: Bundle.main.resourceURL?.appendingPathComponent("www"))
-                //    let js = "document.write('fsdafasdfsd');"
-                //    webView.evaluateJavaScript(js, completionHandler: nil)
-            } catch {
-                print("Error loading html")
+        switch UIDevice.current.userInterfaceIdiom {
+        case .phone:
+            if let filePath = Bundle.main.path(forResource:"index-iphone", ofType:"html", inDirectory: "www") {
+                
+                do {
+                    // load html string - baseURL needs to be set for local files to load correctly
+                    let html = try String(contentsOfFile: filePath, encoding: .utf8)
+                    webView.loadHTMLString(html, baseURL: Bundle.main.resourceURL?.appendingPathComponent("www"))
+                    
+                } catch {
+                    print("Error loading html")
+                }
+                //            }
             }
-            //            }
+        // It's an iPhone
+        case .pad:
+            if let filePath = Bundle.main.path(forResource:"index", ofType:"html", inDirectory: "www") {
+                
+                do {
+                    // load html string - baseURL needs to be set for local files to load correctly
+                    let html = try String(contentsOfFile: filePath, encoding: .utf8)
+                    webView.loadHTMLString(html, baseURL: Bundle.main.resourceURL?.appendingPathComponent("www"))
+                    
+                } catch {
+                    print("Error loading html")
+                }
+                //            }
+            }
+        // It's an iPad
+        case .unspecified: break
+            // Uh, oh! What could it be?
+        case .tv:
+            break
+        case .carPlay:
+            break
         }
+        
+
     }
     
     override func didReceiveMemoryWarning() {

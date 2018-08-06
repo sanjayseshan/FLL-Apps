@@ -7,7 +7,6 @@
 
 
 
-
   <style>
     .no-mobile {
   display: none !important;
@@ -95,8 +94,8 @@
 width = window.innerWidth
 height = window.innerHeight-100
 //944x530
-//    document.write('<div  id="wPaint" style="position:fixed;    width:80%; top:0px;height:auto%; background-color:#7a7a7a; margin:70px auto    20px auto;">');
-    document.write('<div  id="wPaint" style="position:fixed;    width:944px; height:530px; top:0px;height:auto%; background-color:#7a7a7a; margin:70px auto    20px auto;">');
+//    document.write('<div  id="wPaint" style="position:fixed;    width:80%; top:0px;height:auto%; background-color:#7a7a7a; margin:70px auto    10px auto;">');
+document.write('<div  id="wPaint" style="position:fixed;    width:100%;   top:0px;height:auto; background-color:#7a7a7a; margin:70px auto    10px auto;">');
 
   </script>
 <!-- height="100%" width="100%"-->
@@ -105,40 +104,40 @@ height = window.innerHeight-100
    height:auto;">
     <div id="holder" style="z-index: 1000000000000000000000">
 <div data-type="horizontal" data-role="controlgroup">
-  <button data-inline="true" class="button" onclick="$('#wPaint').wPaint('setStrokeStyle','yellow');$('#wPaint').wPaint('setLineWidth',3);" style="background-color: yellow; width: 20px; height: 20px;    
+  <button data-inline="true" class="button" onclick="$('#wPaint').wPaint('setStrokeStyle','yellow');$('#wPaint').wPaint('setLineWidth',3);" style="background-color: yellow; width: 10px; height: 10px;
    background-size: contain;  background-position: center; 
     background-repeat: no-repeat;"> </button>
 
-  <button data-inline="true" class="button" onclick="$('#wPaint').wPaint('setStrokeStyle','green');$('#wPaint').wPaint('setLineWidth',3);" style="background-color: green; width: 20px; height: 20px;   background-size: contain;  background-position: center; 
+  <button data-inline="true" class="button" onclick="$('#wPaint').wPaint('setStrokeStyle','green');$('#wPaint').wPaint('setLineWidth',3);" style="background-color: green; width: 10px; height: 10px;   background-size: contain;  background-position: center;
     background-repeat: no-repeat;"> </button>
 
-  <button class="button" onclick="$('#wPaint').wPaint('setStrokeStyle','red');$('#wPaint').wPaint('setLineWidth',3);" style="background-color: red; width: 20px; height: 20px;   background-size: contain;  background-position: center; 
+  <button class="button" onclick="$('#wPaint').wPaint('setStrokeStyle','red');$('#wPaint').wPaint('setLineWidth',3);" style="background-color: red; width: 10px; height: 10px;   background-size: contain;  background-position: center;
     background-repeat: no-repeat;"> </button>
-  <button class="button" onclick="$('#wPaint').wPaint('setStrokeStyle','blue');$('#wPaint').wPaint('setLineWidth',3);" style="background-color: blue; width: 20px; height: 20px;   background-size: contain;  background-position: center; 
+  <button class="button" onclick="$('#wPaint').wPaint('setStrokeStyle','blue');$('#wPaint').wPaint('setLineWidth',3);" style="background-color: blue; width: 10px; height: 10px;   background-size: contain;  background-position: center;
     background-repeat: no-repeat;"> </button>
-  <button class="button" onclick="$('#wPaint').wPaint('setStrokeStyle','orange');$('#wPaint').wPaint('setLineWidth',3);" style="background-color: orange; width: 20px; height: 20px;   background-size: contain;  background-position: center; 
+  <button class="button" onclick="$('#wPaint').wPaint('setStrokeStyle','orange');$('#wPaint').wPaint('setLineWidth',3);" style="background-color: orange; width: 10px; height: 10px;   background-size: contain;  background-position: center;
     background-repeat: no-repeat;"> </button>
-  <button class="button" onclick="$('#wPaint').wPaint('setStrokeStyle','brown');$('#wPaint').wPaint('setLineWidth',3);" style="background-color: brown; width: 20px; height: 20px;   background-size: contain;  background-position: center; 
+  <button class="button" onclick="$('#wPaint').wPaint('setStrokeStyle','brown');$('#wPaint').wPaint('setLineWidth',3);" style="background-color: brown; width: 10px; height: 10px;   background-size: contain;  background-position: center;
     background-repeat: no-repeat;"> </button>
-  <button class="button" onclick="$('#wPaint').wPaint('setStrokeStyle','black');$('#wPaint').wPaint('setLineWidth',3);" style="background-color: black; width: 20px; height: 20px;   background-size: contain;  background-position: center; 
+  <button class="button" onclick="$('#wPaint').wPaint('setStrokeStyle','black');$('#wPaint').wPaint('setLineWidth',3);" style="background-color: black; width: 10px; height: 10px;   background-size: contain;  background-position: center;
     background-repeat: no-repeat;"> </button>
-  <button class="button" onclick="$('#wPaint').wPaint('setStrokeStyle','white');$('#wPaint').wPaint('setLineWidth',3);" style="background-color: white; width: 20px; height: 20px;   background-size: contain;  background-position: center; 
+  <button class="button" onclick="$('#wPaint').wPaint('setStrokeStyle','white');$('#wPaint').wPaint('setLineWidth',3);" style="background-color: white; width: 10px; height: 10px;   background-size: contain;  background-position: center;
     background-repeat: no-repeat;"> </button>
-  <button class="button" onclick="$('#wPaint').wPaint('setMode','eraser');$('#wPaint').wPaint('setLineWidth',10);" style="background: url(eraser-icon-5.png); background-color: grey;width: 20px; height: 20px;   background-size: contain;  background-position: center; 
+  <button class="button" onclick="$('#wPaint').wPaint('setMode','eraser');$('#wPaint').wPaint('setLineWidth',10);" style="background: url(eraser-icon-5.png); background-color: grey;width: 10px; height: 10px;   background-size: contain;  background-position: center;
     background-repeat: no-repeat;"> </button>
-  <button class="button" onclick="$('#wPaint').wPaint('clear');" style="background: url(clear.png); background-color: grey;width: 20px; height: 20px;   background-size: contain;  background-position: center; 
+  <button class="button" onclick="$('#wPaint').wPaint('clear');" style="background: url(clear.png); background-color: grey;width: 10px; height: 10px;   background-size: contain;  background-position: center;
     background-repeat: no-repeat;"> </button>
-  <button class="button" onclick="$('#wPaint').wPaint('undo');" style="background: url(undo.png); background-color: grey;width: 20px; height: 20px;   background-size: contain;  background-position: center; 
+  <button class="button" onclick="$('#wPaint').wPaint('undo');" style="background: url(undo.png); background-color: grey;width: 10px; height: 10px;   background-size: contain;  background-position: center;
     background-repeat: no-repeat;"> </button>
-  <button class="button" onclick="$('#wPaint').wPaint('redo');" style="background: url(redo.png); background-color: grey;width: 20px; height: 20px;   background-size: contain;  background-position: center; 
+  <button class="button" onclick="$('#wPaint').wPaint('redo');" style="background: url(redo.png); background-color: grey;width: 10px; height: 10px;   background-size: contain;  background-position: center;
     background-repeat: no-repeat;"> </button>
-  <button class="button" onclick="$('#wPaint').wPaint('setMode','pencil'); $('#wPaint').wPaint('setLineWidth',3);" style="background: url(pencil.png); background-color: grey;width: 20px; height: 20px;   background-size: contain;  background-position: center; 
+  <button class="button" onclick="$('#wPaint').wPaint('setMode','pencil'); $('#wPaint').wPaint('setLineWidth',3);" style="background: url(pencil.png); background-color: grey;width: 10px; height: 10px;   background-size: contain;  background-position: center;
     background-repeat: no-repeat;"> </button>
-  <button class="button" onclick="$('#wPaint').wPaint('setMode','line'); $('#wPaint').wPaint('setLineWidth',3);" style="background: url(line.png); background-color: grey;width: 20px; height: 20px;   background-size: contain;  background-position: center; 
+  <button class="button" onclick="$('#wPaint').wPaint('setMode','line'); $('#wPaint').wPaint('setLineWidth',3);" style="background: url(line.png); background-color: grey;width: 10px; height: 10px;   background-size: contain;  background-position: center;
     background-repeat: no-repeat;"> </button>
-  <button class="button" onclick="$('#wPaint').wPaint('setMode','rectangle'); $('#wPaint').wPaint('setLineWidth',3);$('#wPaint').wPaint('setFillStyle','transparent');" style="background: url(rectangle.png); background-color: grey;width: 20px; height: 20px;   background-size: contain;  background-position: center; 
+  <button class="button" onclick="$('#wPaint').wPaint('setMode','rectangle'); $('#wPaint').wPaint('setLineWidth',3);$('#wPaint').wPaint('setFillStyle','transparent');" style="background: url(rectangle.png); background-color: grey;width: 10px; height: 10px;   background-size: contain;  background-position: center;
     background-repeat: no-repeat;"> </button>
-  <button class="button" onclick="$('#wPaint').wPaint('setMode','text'); $('#wPaint').wPaint('setFontSize','25');$('#wPaint').wPaint('setFillStyle','red');" style="background: url(text.png); background-color: grey;width: 20px; height: 20px;   background-size: contain;  background-position: center; 
+  <button class="button" onclick="$('#wPaint').wPaint('setMode','text'); $('#wPaint').wPaint('setFontSize','25');$('#wPaint').wPaint('setFillStyle','red');" style="background: url(text.png); background-color: grey;width: 10px; height: 10px;   background-size: contain;  background-position: center;
     background-repeat: no-repeat;"> </button>
 </div>
     </div>
@@ -194,8 +193,9 @@ document.getElementById('fileInput').click() ">Import Save File to Local Storage
 
 <button data-inline="true" class="no-mobile" onclick="exporter(); setTimeout(function(){hello();document.getElementById('sampurl').href = image;document.getElementById('sampurl').click()},500)">Export Drawing as PNG</button>
 <input onchange="" style=" position: fixed;    bottom: -10000;   left: -100000; }, 30);" type="file" id="fileInput"><br>
-Drawplan Scoring System Version 4.0.1 Beta<br>
-Drawplan Into Orbit Verison 0.0.1 Beta
+<!--Drawplan Sketching System Version 4.0.1--><br>
+Drawplan Into Orbit Revision 1.0 (iPad)<br>
+Copyright (c) 2018 Seshan Brothers
 </div>
 </div>
 </div>

@@ -54,6 +54,18 @@
 		929E9FD820EBD75800F157CA /* FLL Into Orbit ScorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FLL Into Orbit ScorerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		929E9FDC20EBD75800F157CA /* FLL_Into_Orbit_ScorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLL_Into_Orbit_ScorerUITests.swift; sourceTree = "<group>"; };
 		929E9FDE20EBD75800F157CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92DEB58F2118F69C009BACAD /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		92DEB5902118F69C009BACAD /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		92DEB5912118F69C009BACAD /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		92DEB5922118F6AC009BACAD /* el-GR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "el-GR"; path = "el-GR.lproj/Main.strings"; sourceTree = "<group>"; };
+		92DEB5932118F6AC009BACAD /* el-GR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "el-GR"; path = "el-GR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		92DEB5942118F6AC009BACAD /* el-GR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "el-GR"; path = "el-GR.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		92DEB5952118F713009BACAD /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		92DEB5962118F714009BACAD /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		92DEB5972118F714009BACAD /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		92DEB5982118F71F009BACAD /* tr-TR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "tr-TR"; path = "tr-TR.lproj/Main.strings"; sourceTree = "<group>"; };
+		92DEB5992118F71F009BACAD /* tr-TR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "tr-TR"; path = "tr-TR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		92DEB59A2118F71F009BACAD /* tr-TR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "tr-TR"; path = "tr-TR.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +233,10 @@
 				en,
 				Base,
 				es,
+				de,
+				"el-GR",
+				"pt-BR",
+				"tr-TR",
 			);
 			mainGroup = 929E9FB020EBD75800F157CA;
 			productRefGroup = 929E9FBA20EBD75800F157CA /* Products */;
@@ -310,6 +326,10 @@
 			children = (
 				921713BE20ED5C8500D00E81 /* en */,
 				921713C020ED5CBB00D00E81 /* es */,
+				92DEB5912118F69C009BACAD /* de */,
+				92DEB5942118F6AC009BACAD /* el-GR */,
+				92DEB5972118F714009BACAD /* pt-BR */,
+				92DEB59A2118F71F009BACAD /* tr-TR */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -319,6 +339,10 @@
 			children = (
 				929E9FC120EBD75800F157CA /* Base */,
 				9224AF9320ED170800AE137A /* es */,
+				92DEB58F2118F69C009BACAD /* de */,
+				92DEB5922118F6AC009BACAD /* el-GR */,
+				92DEB5952118F713009BACAD /* pt-BR */,
+				92DEB5982118F71F009BACAD /* tr-TR */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -328,6 +352,10 @@
 			children = (
 				929E9FC620EBD75800F157CA /* Base */,
 				9224AF9420ED170800AE137A /* es */,
+				92DEB5902118F69C009BACAD /* de */,
+				92DEB5932118F6AC009BACAD /* el-GR */,
+				92DEB5962118F714009BACAD /* pt-BR */,
+				92DEB5992118F71F009BACAD /* tr-TR */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

@@ -10,11 +10,11 @@
 		922AB1B320EEC1620014D4AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922AB1B220EEC1620014D4AE /* AppDelegate.swift */; };
 		922AB1B520EEC1620014D4AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922AB1B420EEC1620014D4AE /* ViewController.swift */; };
 		922AB1B820EEC1620014D4AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 922AB1B620EEC1620014D4AE /* Main.storyboard */; };
-		922AB1BA20EEC1630014D4AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 922AB1B920EEC1630014D4AE /* Assets.xcassets */; };
 		922AB1BD20EEC1630014D4AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 922AB1BB20EEC1630014D4AE /* LaunchScreen.storyboard */; };
 		922AB1C820EEC1630014D4AE /* FLL_Into_Orbit_Sketch_PlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922AB1C720EEC1630014D4AE /* FLL_Into_Orbit_Sketch_PlannerTests.swift */; };
 		922AB1D320EEC1630014D4AE /* FLL_Into_Orbit_Sketch_PlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922AB1D220EEC1630014D4AE /* FLL_Into_Orbit_Sketch_PlannerUITests.swift */; };
 		92689EA920EFC23900F1EBA2 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 92689EA820EFC23900F1EBA2 /* www */; };
+		92C91B3E21065FA700E1B290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C91B3D21065FA700E1B290 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 		922AB1B220EEC1620014D4AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		922AB1B420EEC1620014D4AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		922AB1B720EEC1620014D4AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		922AB1B920EEC1630014D4AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		922AB1BC20EEC1630014D4AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		922AB1BE20EEC1630014D4AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		922AB1C320EEC1630014D4AE /* FLL Into Orbit Sketch PlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FLL Into Orbit Sketch PlannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +48,7 @@
 		922AB1D220EEC1630014D4AE /* FLL_Into_Orbit_Sketch_PlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLL_Into_Orbit_Sketch_PlannerUITests.swift; sourceTree = "<group>"; };
 		922AB1D420EEC1630014D4AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92689EA820EFC23900F1EBA2 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		92C91B3D21065FA700E1B290 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +103,9 @@
 				922AB1B220EEC1620014D4AE /* AppDelegate.swift */,
 				922AB1B420EEC1620014D4AE /* ViewController.swift */,
 				922AB1B620EEC1620014D4AE /* Main.storyboard */,
-				922AB1B920EEC1630014D4AE /* Assets.xcassets */,
 				922AB1BB20EEC1630014D4AE /* LaunchScreen.storyboard */,
 				922AB1BE20EEC1630014D4AE /* Info.plist */,
+				92C91B3D21065FA700E1B290 /* Assets.xcassets */,
 			);
 			path = "FLL Into Orbit Sketch Planner";
 			sourceTree = "<group>";
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 922AB1AA20EEC1620014D4AE /* Build configuration list for PBXProject "FLL Into Orbit Sketch Planner" */;
+			buildConfigurationList = 922AB1AA20EEC1620014D4AE /* Build configuration list for PBXProject "FLL INTO ORBIT Sketch Planner" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -234,7 +234,7 @@
 			files = (
 				92689EA920EFC23900F1EBA2 /* www in Resources */,
 				922AB1BD20EEC1630014D4AE /* LaunchScreen.storyboard in Resources */,
-				922AB1BA20EEC1630014D4AE /* Assets.xcassets in Resources */,
+				92C91B3E21065FA700E1B290 /* Assets.xcassets in Resources */,
 				922AB1B820EEC1620014D4AE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,7 +483,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLL Into Orbit Sketch Planner.app/FLL Into Orbit Sketch Planner";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLL INTO ORBIT Sketch Planner.temp_caseinsensitive_rename.app/FLL INTO ORBIT Sketch Planner.temp_caseinsensitive_rename";
 			};
 			name = Debug;
 		};
@@ -504,7 +504,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLL Into Orbit Sketch Planner.app/FLL Into Orbit Sketch Planner";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLL INTO ORBIT Sketch Planner.temp_caseinsensitive_rename.app/FLL INTO ORBIT Sketch Planner.temp_caseinsensitive_rename";
 			};
 			name = Release;
 		};
@@ -551,7 +551,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		922AB1AA20EEC1620014D4AE /* Build configuration list for PBXProject "FLL Into Orbit Sketch Planner" */ = {
+		922AB1AA20EEC1620014D4AE /* Build configuration list for PBXProject "FLL INTO ORBIT Sketch Planner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				922AB1D520EEC1630014D4AE /* Debug */,
