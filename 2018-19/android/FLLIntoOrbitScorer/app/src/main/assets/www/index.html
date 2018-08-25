@@ -205,156 +205,7 @@ langs=['en:United States:English','es:Spain:Español','pt:Brazil:Portugues','de:
 
           <form id="missions">
             <div id="missionlist">
-              <script>
-
-                missionDict = {
-                    spacetravel1: "M01a",
-                    spacetravel2: "M01b",
-                    spacetravel3: "M01c",
-
-		            solar1: "M02a",
-                    solar2: "M02b",
-
-		            '3D1': "M03a",
-                    '3D2': "M03b",
-
-		            crater: "M04",
-
-		            extraction1: "M05a",
-                    extraction2: "M05b",
-                    extraction3: "M05c",
-                    extraction4: "M05d",
-
-		            space1: "M06a",
-                    space2: "M06b",
-                    space3: "M06c",
-
-                    walk: "M07",
-
-                    aerobic1: "M08a",
-                    aerobic2: "M08b",
-                    aerobic3: "M08c",
-
-                    strength: "M09",
-
-                    food: "M10",
-
-                    escape: "M11",
-
-                    satellite: "M12",
-
-                    observatory1: "M13a",
-                    observatory2: "M13b",
-                    observatory3: "M13c",
-
-                    meteoroid1: "M14a",
-                    meteoroid2: "M14b",
-
-                    lander1: "M15a",
-                    lander2: "M15b",
-                    lander3: "M15c",
-
-                    penalty: "P01"
-                  
-                }
-
-		
-              starttable('M01', M01 , 'M01.png' , ['spacetravel1','spacetravel2','spacetravel3'], 0)
-              createbutton("spacetravel1", 22, M01a)
-              createbutton("spacetravel2", 14, M01b)
-              createbutton("spacetravel3", 10, M01c)
-              endtable()
-
-              starttable('M02',M02,'M02.png', ['solar1','solar2'], 0)
-              createbutton("solar1", 22 , M02a)
-              createbutton("solar2", 18 , M02b)
-              endtable()
-
-              starttable('M03', M03,'M03.png', ['3D1','3D2'], 0) //1 = Note Present
-              createbutton("3D1", 22 ,M03a)
-              createbutton("3D2", 18 , M03b)
-              createbuttonconflict('3D1','3D2','')
-              //	    createcomment('Note: 2x4 brick must be ejected by the placement of a Regolith Core Sample into the 3D Printer.')
-              endtable()
-
-              starttable('M04', M04,'M04.png', ['crater'], 0)
-              createbutton("crater", 20 ,M04a)
-              endtable()
-
-              starttable('M05', M05, 'M05.png' , ['extraction1','extraction2','extraction3','extraction4'], 0)
-              createbutton("extraction1", 16 ,M05a)
-              createbutton("extraction2", 12 ,M05b)
-              createbutton("extraction3", 10 ,M05c)
-              createbutton("extraction4", 8 ,M05d)
-              createbuttonconflict('extraction2','extraction3','')
-              createbuttonenables("extraction1","extraction2")
-              createbuttonenables("extraction1","extraction3")
-              createbuttonenables("extraction1","extraction4")
-              endtable()
-
-              starttable('M06',M06, 'M06.png', ['space1','space2','space3'], 0)
-              createbutton("space1", 16,M06a)
-              createbutton("space2", 16,M06b)
-              createbutton("space3", 14,M06c)
-              endtable()
-
-
-              starttable('M07',M07, 'M07.png' , ['walk'], 0)
-              create3button("walk", 18, 22,M07a)
-              endtable()
-
-              starttable('M08',M08, 'M08.png', ['aerobic1', 'aerobic2','aerobic3'], 0)
-              createbutton("aerobic1", 22 ,M08a)
-              createbutton("aerobic2", 20 ,M08b)
-              createbutton("aerobic3", 18 ,M08c)
-              createbuttonconflict('aerobic2','aerobic3','')
-              createbuttonconflict('aerobic1','aerobic2','')
-              createbuttonconflict('aerobic1','aerobic3','')
-              endtable()
-
-              starttable('M09',M09, 'M09.png' , ['strength'], 0)
-              createbutton("strength", 16 ,M09a)
-              endtable()
-
-              starttable('M10',M10, 'M10.png' , ['food'], 0)
-              createbutton("food", 16 ,M10a)
-              endtable()
-
-              starttable('M11',M11, 'M11.png' , ['escape'], 0)
-              createbutton("escape", 24,M11a)
-              endtable()
-
-              starttable('M12',M12, 'M12.png', ['satellite'], 0)
-              createrange("satellite", 8 , 0, 3, 0,M12a,'')
-              endtable()
-
-              starttable('M13',M13, 'M13.png', ['observatory1', 'observatory2','observatory3'], 0)
-              createbutton("observatory1", 20 ,M13a)
-              createbutton("observatory2", 18 ,M13b)
-              createbutton("observatory3", 16 ,M13c)
-              createbuttonconflict('observatory1','observatory2','')
-              createbuttonconflict('observatory2','observatory3','')
-              createbuttonconflict('observatory1','observatory3','')
-              endtable()
-
-              starttable('M14',M14, 'M14.png', ['meteoroid1','meteoroid2'], 0)
-              createrange("meteoroid1", 12 , 0, 2, 0,M14a,'')
-              createrange("meteoroid2", 8 , 0, 2, 0,M14b,'')
-              endtable()
-
-              starttable('M15',M15, 'M15.png', ['lander1','lander2','lander3'], 0)
-              createbutton("lander1", 22 ,M15a)
-              createbutton("lander2", 20 , M15b)
-              createbutton("lander3", 16 ,M15c)
-              createbuttonconflict('lander1','lander2','')
-              createbuttonconflict('lander2','lander3','')
-              createbuttonconflict('lander1','lander3','')
-              endtable()
-
-              starttable('P01',P01, 'penalty.png', ['penalty'], 0)
-              createrange("penalty", -3 , 0, 6, 0,P01a,'')
-              endtable()
-              </script>
+              <script src="missions.js"></script>
             </div>
 
             <br>
@@ -590,8 +441,8 @@ langs=['en:United States:English','es:Spain:Español','pt:Brazil:Portugues','de:
 
 <div style="padding-left: 10px; ">
   <br>
-  <text id="revisionText">INTO ORBIT Scorer Revision</text> 1.7 Android
-  <!-- Scorer v3.3.0 -->
+  <text id="revisionText">INTO ORBIT Scorer Revision</text> 2.1 Android
+  <!-- Scorer v3.3.3 -->
   <br>
   <br><text id="copyrightText">Copyright (c) 2018 Seshan Brothers</text><br>
   <br>
