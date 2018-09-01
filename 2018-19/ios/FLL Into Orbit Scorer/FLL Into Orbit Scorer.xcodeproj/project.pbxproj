@@ -42,6 +42,9 @@
 		9224AF9420ED170800AE137A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		9224AF9920ED18AE00AE137A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		922AB1A420EE66F80014D4AE /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		922BEC332131C36F00C66679 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Main.strings; sourceTree = "<group>"; };
+		922BEC342131C36F00C66679 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		922BEC352131C36F00C66679 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		929E9FB920EBD75800F157CA /* FLL Into Orbit Scorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FLL Into Orbit Scorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		929E9FBC20EBD75800F157CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		929E9FBE20EBD75800F157CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -237,6 +240,7 @@
 				"el-GR",
 				"pt-BR",
 				"tr-TR",
+				ro,
 			);
 			mainGroup = 929E9FB020EBD75800F157CA;
 			productRefGroup = 929E9FBA20EBD75800F157CA /* Products */;
@@ -330,6 +334,7 @@
 				92DEB5942118F6AC009BACAD /* el-GR */,
 				92DEB5972118F714009BACAD /* pt-BR */,
 				92DEB59A2118F71F009BACAD /* tr-TR */,
+				922BEC352131C36F00C66679 /* ro */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -343,6 +348,7 @@
 				92DEB5922118F6AC009BACAD /* el-GR */,
 				92DEB5952118F713009BACAD /* pt-BR */,
 				92DEB5982118F71F009BACAD /* tr-TR */,
+				922BEC332131C36F00C66679 /* ro */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -356,6 +362,7 @@
 				92DEB5932118F6AC009BACAD /* el-GR */,
 				92DEB5962118F714009BACAD /* pt-BR */,
 				92DEB5992118F71F009BACAD /* tr-TR */,
+				922BEC342131C36F00C66679 /* ro */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

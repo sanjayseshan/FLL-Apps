@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  FLL Into Orbit Scorer
+
+  Created by Sanjay Seshan on 7/4/18.
+  Copyright © 2018 ev3lessons. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "Calculator de scor INTO ORBIT";
+
+"CFBundleName" = "Calculator de scor INTO ORBIT";
