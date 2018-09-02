@@ -1,5 +1,5 @@
 
-
+// Default Language (English/en)
 
 yes = "Yes"
 no = "No"
@@ -52,6 +52,9 @@ systemText = "Saving System: "
 
 timerText = "Timer:"
 stopwatchText = "Stopwatch:"
+
+idText = "Google Sheet ID: "
+undefinedText = "undefined"
 
 revisionText = "INTO ORBIT Scorer Revision "
 copyrightText = "Copyright (c) 2018-19 Seshan Brothers"
@@ -129,6 +132,8 @@ translatorCredit = ""
 
 if (language == "pt" || language == "pt-br") {
     
+    undefinedText = "Indefinido"
+    idText = "ID da Planilha Google"
     yes = "Sim"
     no = "Não"
     partly = "Parcialmente"
@@ -384,24 +389,130 @@ if (language == "pt" || language == "pt-br") {
     
     yes = "Ja"
     no = "Nee"
-    pointsText = "Punten"
-    resetText = "Resetten"
     partly = "Gedeeltelijk"
     completely = "Volledig"
-    
-    var monthNames = ["", "Januari", "Februari", "Maart", "April", "Mei", "Juni", "Juli", "Augustus", "September", "Oktober", "November" , "December"];
-    improvementText = "verbetering"
+    resetText = "Reset"
     saveText = "Opslaan"
-    savescoreText = "Score opslaan"
-    loadsaveText = "Load Save"
-    deletesaveText = "Delete Save"
-    importsaveText = "Import Save"
-    exportsaveText = "Export Save"
+    savescoreText="Sla score op"
+    loadsaveText="Laad score:"
+    deletesaveText="Verwijder scores"
+    importsaveText="Importeer scores"
+    exportsaveText="Exporteer scores"
+    signin = "Aanmelden met"
+    signout = "Uitloggen"
+    GoogleCreate = "Nieuwe spreadsheet maken"
+    GoogleOpen = "Google spreadsheet openen"
+    created = "Gemaakt"
+    savedto = "Opgeslagen in"
+    teamText = "Team"
+    roundText = "Ronde"
+    dateText = "Datum/tijd"
+    totalText = "Totaal aantal punten"
+    savedText = "Opgeslagen"
+    loadedText = "Geladen"
+    googleSaveText = "Google Sheets (standaard)"
+    localSaveText = "Lokale browseropslag (oud)"
+    isIE = "Google-opslagsysteem is niet compatibel met Microsoft Internet Explorer. Je kunt naar een andere browser overschakelen of doorgaan met het oude opslagsysteem (klik hierboven)"
+    systemText = "Opslagsysteem: "
+    
+    googleIntro = "Je kunt je scores bewaren in een Google spreadsheet. Dit helpt je om de voortgang gedurende het seizoen bij te houden. Zie instructies onderaan de pagina."
+    pastSaves = "Opgeslagen scores"
+    instructions = "Instructies"
+    instructionsA = " De belangrijkste stappen om het opslagsysteem te gebruiken zijn:"
+    instructionsB = '1. Meld je aan met je Google account. Je kunt de waarschuwing "Deze app is niet geverifieerd" krijgen. Indien dit het geval is, klik op "Geavanceerd" en vervolgens op "Ga naar FLL Scorer(onveilig)"'
+    instructionsC = '2. Indien je nog geen spreadsheet hebt gemaakt – klik op "Nieuwe spreadsheet maken"'
+    instructionsD = '3. Indien je al een spreadsheet hebt gemaakt, moet je ervoor zorgen dat je het Google Sheet ID hebt ingevoerd (niet "undefined"). Indien je de spreadsheet op meerdere apparaten wilt gebruiken, moet je dit ID handmatig invoeren.'
+    instructionsE = '4. Elke keer als je een score wilt opslaan, klik je op "Sla score op " - dit zal de spreadsheet bijwerken met de huidige score en datum '
+    instructionsF = '5. Indien je je spreadsheet wilt bekijken en bewerken, klik je op "Google Spreadsheet openen". Indien je het Google-spreadsheet-ID nodig hebt, vind je deze in de URL van de geopende spreadsheet.'
+    instructionsG = '6. Je kunt ook een specifieke oude score ophalen in de scorer door het opslagnummer in te voeren met de "+" en "-" knoppen en dan te klikken op de "Laad score:" knop '
+    
+    
+    var monthNames = ["","januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "october", "november", "december"];
+    improvementText = "Verbetering"
     scorerText = "Scorer"
     timersText = "Timers"
-    savesText = "Saves"
+    savesText = "Opgeslagen scores"
     startText = "Start"
     stopText = "Stop"
+    pointsText = "Punten"
+    
+    timerText = "Timer:"
+    stopwatchText = "Stopwatch:"
+    
+    revisionText = "INTO ORBIT Scorer Revision "
+    copyrightText = "Copyright (c) 2018-19 Seshan Brothers"
+    
+    idText = "Google Sheet ID: "
+    undefinedText = "undefined"
+    
+    title = "INTO ORBIT Scorer"
+    
+    M01="Ruimtereis"
+    M01a="Is het voertuigtransport voorbij de eerste spoorverbinding gerold? "
+    M01b="Is het voorraadtransport voorbij de eerste spoorverbinding gerold?  "
+    M01c="Is het bemanningstransport voorbij de eerste spoorverbinding gerold? "
+    
+    M02="Zonnepaneel wijzer"
+    M02a="Staan beide zonnepanelen richting hetzelfde veld? "
+    M02b="Staat jullie zonnepaneel gericht naar het andere veld? "
+    
+    
+    M03="3D printen"
+    M03a="Is de 2x4 steen uitgeworpen en volledig in het noordoostelijke planetengebied?"
+    M03b="IIs de 2x4 steen uitgeworpen en niet volledig in het noordoostelijke planetengebied?"
+    
+    M04="Krater oversteek"
+    M04a="Hebben alle gewicht dragende toepassingen van de overstekende uitrusting de krater van oost naar west overgestoken, en volledig voorbij de afgevlakte poort?"
+    
+    M05="Extractie"
+    M05a="Raken alle vier de kernmonsters de as die hen vasthoud in het kerngebied model niet meer aan?"
+    M05b="Raakt het gas kernmonster de mat en is het volledig in de landingsdoelcirkel?"
+    M05c="Is het gas kernmonster volledig in de basis?"
+    M05d="Is het water kernmonster geplaatst zodat het alleen wordt ondersteund door de voedsel groeikamer?"
+    
+    M06="Ruimtestation modules"
+    M06a="Is de kegelmodule  <b>volledig</b> in de basis?"
+    M06b="Is de buismodule geplaatst in de westzijde van de leefgebied hub?"
+    M06c="Is de dockmodule verplaatst/geplaatst in de oostzijde van de leefgebied hub?"
+    
+    M07="Ruimtewandeling noodgeval"
+    M07a="Is Gerhard <b>gedeeltelijk </b> of <b>volledig</b> geplaatst in de luchtsluiskamer van de leefgebied hub?"
+    
+    M08="Aerobic oefening"
+    M08a="IIs de wijzerpunt volledig in oranje, of bedekt deze gedeeltelijk een van de oranje grenslijnen?"
+    M08b="Is de wijzerpunt volledig in wit?"
+    M08c="Is de wijzerpunt volledig in grijs, of bedekt deze gedeeltelijk een van de grijze grenslijnen?"
+    
+    M09="Krachtoefening"
+    M09a="Is de krachtstaaf opgetild zodat het 4e gaatje van de tandstrip tenminste gedeeltelijk zichtbaar is?"
+    
+    M10="Voedselproductie"
+    M10a="Zijn de kleuren van de voedsel groeikamer gedraaid zodat het grijze gewicht achter groen is GEVALLEN, maar vóór beige, door de duwstaaf te bewegen?"
+    
+    M11="Ontsnappingssnelheid"
+    M11a="Is het ruimtevaartuig zo snel en hoog gegaan zodat het omhoog blijft, door te drukken/slaan op het stootkussen?"
+    
+    M12="Satellietbanen"
+    M12a="Voor iedere satelliet, is een willekeurig deel van de satelliet op of boven het gebied tussen de twee lijnen van de buitenste baan?"
+    
+    M13="Observatorium"
+    M13a="Is de wijzerpunt volledig in oranje, of bedekt deze gedeeltelijk een van de oranje grenslijnen?"
+    M13b="Is de wijzerpunt volledig in wit?"
+    M13c="Is de wijzerpunt volledig in grijs, of bedekt deze gedeeltelijk een van de grijze grenslijnen?"
+    
+    M14="Meteorietafbuiging"
+    M14a="Hoeveel meteorieten bevinden zich in het middelste gedeelte?"
+    M14b="Hoeveel meteorieten bevinden zich in de zijdelen?"
+    
+    M15="Landingsmodule"
+    M15a="De landingsmodule is intact, raakt de mat en is <b>volledig</b> in de doelcirkel?"
+    M15b="De landingsmodule is intact, raakt de mat en is <b>volledig</b> in het noordoostelijke planetengebied.?"
+    M15c="Zijn beide delen van de landingsmodule <b>volledig</b> in de basis?"
+    
+    P01="Strafpunten"
+    P01a="Hoeveel keer is de robot onderbroken?"
+    
+    translatorCredit = ""
     
 } else if (language == "es") {
     yes = "Sí"
@@ -882,9 +993,139 @@ if (language == "pt" || language == "pt-br") {
     
     translatorCredit = " Uygulamanın Türkçe çevirisi www.robotum.net kurucusu, Yücel Tekin tarafından yapılmıştır."
     
+} else if (language == "ro") {
+    yes = "Da"
+    no = "Nu"
+    partly = "Parțial"
+    completely = "Complet"
+    resetText = "Resetați"
+    saveText = "Salvați"
+    savescoreText="Salvați scorul"
+    loadsaveText="Încărcați o salvare:"
+    deletesaveText="Ștergeți salvările"
+    importsaveText="Importați o salvare"
+    exportsaveText="Exportați o salvare"
+    signin = "Conectați-vă cu"
+    signout = "Deconectați-vă din"
+    GoogleCreate = "Creați o foaie de calcul nouă"
+    GoogleOpen = "Deschideți foaia de calcul Google"
+    created = "Creat"
+    savedto = "Salvat în"
+    teamText = "Echipa"
+    roundText = "Runda"
+    dateText = "Data/Ora"
+    totalText = "Total puncte"
+    savedText = "Salvat"
+    loadedText = "Încărcat"
+    googleSaveText = "Foi de calcul Google (implicit)"
+    localSaveText = "Stocare locală în browser (mod vechi)"
+    isIE = "Sistemul Google de salvare este incompatibil cu Microsoft Internet Explorer. Puteți trece la un alt browser sau puteți continua utilizând sistemul de salvare vechi (selectați opțiunea mai sus)"
+    systemText = "Sistem de salvare: "
+    
+    googleIntro = "Puteți salva scorurile într-o foaie de calcul Google. Acest lucru vă va ajuta să urmăriți evoluția pe parcursul sezonului. Consultați instrucțiunile din partea de jos a paginii."
+    pastSaves = "Salvări anterioare"
+    instructions = "Instrucțiuni"
+    instructionsA = "Pașii principali pentru utilizarea sistemului de salvare sunt:"
+    instructionsB = '1. Conectați-vă la contul dvs. Google. Este posibil să primiți o avertizare "Această aplicație nu este verificată". Dacă da, faceți clic pe "Avansat " și apoi pe "Mergeți la Calculator scor FLL (nesigur)"'
+    instructionsC = '2. Dacă nu ați creat o foaie de calcul în trecut - dați clic pe "Creați o foaie nouă"'
+    instructionsD = '3. Dacă ați creat o foaie de calcul în trecut, asigurați-vă că ID-ul foii de calcul Google este completat și nu rămâne "nedefinit". Dacă doriți să partajați o foaie de calcul între dispozitive, trebuie să introduceți manual acest ID.'
+    instructionsE = '4. De fiecare dată când doriți să salvați un scor, faceți clic pe "Salvați scorul" - astfel foaia de calcul va fi actualizată cu scorul și data curentă'
+    instructionsF = '5. Dacă doriți să inspectați foaia de calcul și să o editați, faceți clic pe "Deschideți foaia de calcul Google". Dacă aveți vreodată nevoie de ID-ul foii de calcul Google – acesta se află în adresa URL a foii de calcul atunci când o deschideți.'
+    instructionsG = '6. Puteți, de asemenea, să încărcați un anumit scor anterior în calculator de scor prin introducerea numărului salvării folosind butoanele "+" și "-" și apoi prin apăsarea butonului "Încărcați o salvare:" '
+    
+    
+    var monthNames = ["","ianuarie", "februarie", "martie", "aprilie", "mai", "iunie", "iulie", "august", "septembrie", "octombrie", "noiembrie", "decembrie"];
+    improvementText = " Îmbunătățire"
+    scorerText = "Calculator de scor"
+    timersText = "Cronometre"
+    savesText = "Salvări"
+    startText = "Start"
+    stopText = "Stop"
+    pointsText = "Puncte"
+    
+    timerText = "Temporizator:"
+    stopwatchText = " Cronometru:"
+    
+    revisionText = "Calculator de scor INTO ORBIT. Revizia "
+    copyrightText = "Copyright (c) 2018-19 Seshan Brothers"
+    
+    idText = "ID foaie de calcul Google: "
+    undefinedText = "nedefinit"
+    
+    
+    title = "Calculator de scor INTO ORBIT"
+    
+    M01="Călătoria în spațiu"
+    M01a="Încărcătura cu vehicul a trecut de prima conexiune a căii de rulare?"
+    M01b="Încărcătura cu provizii a trecut de prima conexiune a căii de rulare?"
+    M01c="Încărcătura cu echipaj a trecut de prima conexiune a căii de rulare?"
+    
+    M02="Rețeaua de panouri solare"
+    M02a="Ambele panouri solare sunt înclinate spre același teren?"
+    M02b="Propriul panou solar este înclinat spre terenul celeilalte echipe?"
+    
+    M03="Tipărirea 3D"
+    M03a="Este cărămida 2x4 scoasă și complet în zona țintă de pe planeta nord-estică?"
+    M03b="Este cărămida 2x4 scoasă, dar nu complet în zona țintă de pe planeta nord-estică?"
+    
+    M04="Traversarea craterului "
+    M04a="Au trecut toate elementele de susținere a greutății echipamentului de traversare, de la est la vest, <b>complet</b> dincolo de poarta culcată?"
+    
+    M05="Extracția"
+    M05a="Toate cele patru mostre nu mai ating axul care le-a ținut în modelul ”Extracție resurse”?"
+    M05b="Mostra de gaz atinge planșa și este complet în zona țintă a modulului lunar?"
+    M05c="Mostra de gaz este complet în bază?"
+    M05d="Mostra de apă este plasată astfel încât să fie susținută doar de modelul serei?"
+    
+    M06="Modulele stației spațiale"
+    M06a="Modulul conic este <b>complet</b> în bază?"
+    M06b="Modulul tubular este introdus în portul de pe partea vestică a habitatului central?"
+    M06c="Modulul de andocare este transferat/inserat în portul estic al habitatului central?"
+    
+    M07="Urgență la ieșirea în spațiu"
+    M07a="Astronautul Gerhard este introdus <b>parțial</b> sau <b>complet</b> în camera de etanșare (sas) a habitatului central?"
+    
+    M08="Exercițiile aerobice"
+    M08a="Acul indicator este complet pe portocaliu sau parțial acoperind oricare dintre marginile zonei portocalii?"
+    M08b="Acul indicator este complet pe alb?"
+    M08c="Acul indicator este complet pe gri sau parțial acoperind oricare dintre marginile zonei gri?"
+    
+    M09="Exercițiile de forță"
+    M09a="Bara de forță este ridicată astfel încât a patra gaură a cremalierei este cel puțin parțial vizibilă?"
+    
+    M10="Producția de mâncare"
+    M10a="Culorile serei au fost învârtite astfel încât greutatea gri este CĂZUTĂ după verde, dar înainte de maro, doar prin acționarea barei de împingere?"
+    
+    M11="Viteza de evadare"
+    M11a="Nava spațială s-a deplasat suficient de rapid și mult pentru a rămâne sus, doar prin apăsarea/lovirea rampei de lansare?"
+    
+    M12="Orbitele sateliților"
+    M12a="Pentru fiecare satelit, oricare partea este pe sau deasupra zonei dintre cele două linii ale orbitei exterioare?"
+    
+    M13="Observatorul"
+    M13a="Acul indicator este complet pe portocaliu sau parțial acoperind oricare dintre marginile zonei portocalii?"
+    M13b=" Acul indicator este complet pe alb?"
+    M13c=" Acul indicator este complet pe gri sau parțial acoperind oricare dintre marginile zonei gri?"
+    
+    M14="Devierea meteoriților"
+    M14a="Câți meteoriți sunt în secțiunea centrală?"
+    M14b="Câți meteoriți sunt în secțiunile laterale?"
+    
+    M15="Aselenizarea modulului lunar"
+    M15a="Modulul lunar este intact, atinge planșa și <b>complet</b> în <b>zona țintă</b>?"
+    M15b="Modulul lunar este intact, atinge planșa și <b> complet </b> în <b> zona planetei nord-estice </b>?"
+    M15c="Sunt ambele părți ale modulului lunar <b>complet</b> în <b>bază</b>?"
+    
+    P01="Penalizările pentru întreruperi"
+    P01a="De câte ori a fost întrerupt robotul?"
+    
+    translatorCredit = "Traducerea și adaptarea în limba română realizată de Asociația pentru educație STEM creativă (CRESTEM). Copyright (c) 2018. www.crestem.org"
+    
+    
 }
 
 
 
 
 improvement= improvementText
+
