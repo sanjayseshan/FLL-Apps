@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6808B8C622E5493200F21B4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6808B8C522E5493200F21B4F /* AppDelegate.swift */; };
+		6808B8C822E5493200F21B4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6808B8C722E5493200F21B4F /* ViewController.swift */; };
+		6808B8CB22E5493200F21B4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6808B8C922E5493200F21B4F /* Main.storyboard */; };
+		6808B8CD22E5493500F21B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6808B8CC22E5493500F21B4F /* Assets.xcassets */; };
+		6808B8D022E5493500F21B4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6808B8CE22E5493500F21B4F /* LaunchScreen.storyboard */; };
+		6808B8DB22E5493500F21B4F /* FLL_CITY_SHAPER_ScorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6808B8DA22E5493500F21B4F /* FLL_CITY_SHAPER_ScorerTests.swift */; };
+		6808B8E622E5493500F21B4F /* FLL_CITY_SHAPER_ScorerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6808B8E522E5493500F21B4F /* FLL_CITY_SHAPER_ScorerUITests.swift */; };
+		6808B8F422E5499F00F21B4F /* www in Resources */ = {isa = PBXBuildFile; fileRef = 6808B8F322E5499F00F21B4F /* www */; };
+		6808B8F722E549C100F21B4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6808B8F922E549C100F21B4F /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6808B8D722E5493500F21B4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6808B8BA22E5493200F21B4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6808B8C122E5493200F21B4F;
+			remoteInfo = "FLL CITY SHAPER Scorer";
+		};
+		6808B8E222E5493500F21B4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6808B8BA22E5493200F21B4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6808B8C122E5493200F21B4F;
+			remoteInfo = "FLL CITY SHAPER Scorer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6808B8C222E5493200F21B4F /* FLL CITY SHAPER Scorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FLL CITY SHAPER Scorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6808B8C522E5493200F21B4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6808B8C722E5493200F21B4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6808B8CA22E5493200F21B4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6808B8CC22E5493500F21B4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6808B8CF22E5493500F21B4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6808B8D122E5493500F21B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6808B8D622E5493500F21B4F /* FLL CITY SHAPER ScorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FLL CITY SHAPER ScorerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6808B8DA22E5493500F21B4F /* FLL_CITY_SHAPER_ScorerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLL_CITY_SHAPER_ScorerTests.swift; sourceTree = "<group>"; };
+		6808B8DC22E5493500F21B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6808B8E122E5493500F21B4F /* FLL CITY SHAPER ScorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FLL CITY SHAPER ScorerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6808B8E522E5493500F21B4F /* FLL_CITY_SHAPER_ScorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLL_CITY_SHAPER_ScorerUITests.swift; sourceTree = "<group>"; };
+		6808B8E722E5493500F21B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6808B8F322E5499F00F21B4F /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		6808B8F822E549C100F21B4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6808B8FA22E549D000F21B4F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6808B8BF22E5493200F21B4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6808B8D322E5493500F21B4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6808B8DE22E5493500F21B4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6808B8B922E5493200F21B4F = {
+			isa = PBXGroup;
+			children = (
+				6808B8C422E5493200F21B4F /* FLL CITY SHAPER Scorer */,
+				6808B8D922E5493500F21B4F /* FLL CITY SHAPER ScorerTests */,
+				6808B8E422E5493500F21B4F /* FLL CITY SHAPER ScorerUITests */,
+				6808B8C322E5493200F21B4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6808B8C322E5493200F21B4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6808B8C222E5493200F21B4F /* FLL CITY SHAPER Scorer.app */,
+				6808B8D622E5493500F21B4F /* FLL CITY SHAPER ScorerTests.xctest */,
+				6808B8E122E5493500F21B4F /* FLL CITY SHAPER ScorerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6808B8C422E5493200F21B4F /* FLL CITY SHAPER Scorer */ = {
+			isa = PBXGroup;
+			children = (
+				6808B8F922E549C100F21B4F /* InfoPlist.strings */,
+				6808B8F322E5499F00F21B4F /* www */,
+				6808B8C522E5493200F21B4F /* AppDelegate.swift */,
+				6808B8C722E5493200F21B4F /* ViewController.swift */,
+				6808B8C922E5493200F21B4F /* Main.storyboard */,
+				6808B8CC22E5493500F21B4F /* Assets.xcassets */,
+				6808B8CE22E5493500F21B4F /* LaunchScreen.storyboard */,
+				6808B8D122E5493500F21B4F /* Info.plist */,
+			);
+			path = "FLL CITY SHAPER Scorer";
+			sourceTree = "<group>";
+		};
+		6808B8D922E5493500F21B4F /* FLL CITY SHAPER ScorerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6808B8DA22E5493500F21B4F /* FLL_CITY_SHAPER_ScorerTests.swift */,
+				6808B8DC22E5493500F21B4F /* Info.plist */,
+			);
+			path = "FLL CITY SHAPER ScorerTests";
+			sourceTree = "<group>";
+		};
+		6808B8E422E5493500F21B4F /* FLL CITY SHAPER ScorerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6808B8E522E5493500F21B4F /* FLL_CITY_SHAPER_ScorerUITests.swift */,
+				6808B8E722E5493500F21B4F /* Info.plist */,
+			);
+			path = "FLL CITY SHAPER ScorerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6808B8C122E5493200F21B4F /* FLL CITY SHAPER Scorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6808B8EA22E5493500F21B4F /* Build configuration list for PBXNativeTarget "FLL CITY SHAPER Scorer" */;
+			buildPhases = (
+				6808B8BE22E5493200F21B4F /* Sources */,
+				6808B8BF22E5493200F21B4F /* Frameworks */,
+				6808B8C022E5493200F21B4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FLL CITY SHAPER Scorer";
+			productName = "FLL CITY SHAPER Scorer";
+			productReference = 6808B8C222E5493200F21B4F /* FLL CITY SHAPER Scorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6808B8D522E5493500F21B4F /* FLL CITY SHAPER ScorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6808B8ED22E5493500F21B4F /* Build configuration list for PBXNativeTarget "FLL CITY SHAPER ScorerTests" */;
+			buildPhases = (
+				6808B8D222E5493500F21B4F /* Sources */,
+				6808B8D322E5493500F21B4F /* Frameworks */,
+				6808B8D422E5493500F21B4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6808B8D822E5493500F21B4F /* PBXTargetDependency */,
+			);
+			name = "FLL CITY SHAPER ScorerTests";
+			productName = "FLL CITY SHAPER ScorerTests";
+			productReference = 6808B8D622E5493500F21B4F /* FLL CITY SHAPER ScorerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6808B8E022E5493500F21B4F /* FLL CITY SHAPER ScorerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6808B8F022E5493500F21B4F /* Build configuration list for PBXNativeTarget "FLL CITY SHAPER ScorerUITests" */;
+			buildPhases = (
+				6808B8DD22E5493500F21B4F /* Sources */,
+				6808B8DE22E5493500F21B4F /* Frameworks */,
+				6808B8DF22E5493500F21B4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6808B8E322E5493500F21B4F /* PBXTargetDependency */,
+			);
+			name = "FLL CITY SHAPER ScorerUITests";
+			productName = "FLL CITY SHAPER ScorerUITests";
+			productReference = 6808B8E122E5493500F21B4F /* FLL CITY SHAPER ScorerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6808B8BA22E5493200F21B4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = ev3lessons;
+				TargetAttributes = {
+					6808B8C122E5493200F21B4F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					6808B8D522E5493500F21B4F = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 6808B8C122E5493200F21B4F;
+					};
+					6808B8E022E5493500F21B4F = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 6808B8C122E5493200F21B4F;
+					};
+				};
+			};
+			buildConfigurationList = 6808B8BD22E5493200F21B4F /* Build configuration list for PBXProject "FLL CITY SHAPER Scorer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+			);
+			mainGroup = 6808B8B922E5493200F21B4F;
+			productRefGroup = 6808B8C322E5493200F21B4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6808B8C122E5493200F21B4F /* FLL CITY SHAPER Scorer */,
+				6808B8D522E5493500F21B4F /* FLL CITY SHAPER ScorerTests */,
+				6808B8E022E5493500F21B4F /* FLL CITY SHAPER ScorerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6808B8C022E5493200F21B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6808B8F422E5499F00F21B4F /* www in Resources */,
+				6808B8D022E5493500F21B4F /* LaunchScreen.storyboard in Resources */,
+				6808B8CD22E5493500F21B4F /* Assets.xcassets in Resources */,
+				6808B8CB22E5493200F21B4F /* Main.storyboard in Resources */,
+				6808B8F722E549C100F21B4F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6808B8D422E5493500F21B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6808B8DF22E5493500F21B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6808B8BE22E5493200F21B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6808B8C822E5493200F21B4F /* ViewController.swift in Sources */,
+				6808B8C622E5493200F21B4F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6808B8D222E5493500F21B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6808B8DB22E5493500F21B4F /* FLL_CITY_SHAPER_ScorerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6808B8DD22E5493500F21B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6808B8E622E5493500F21B4F /* FLL_CITY_SHAPER_ScorerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6808B8D822E5493500F21B4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6808B8C122E5493200F21B4F /* FLL CITY SHAPER Scorer */;
+			targetProxy = 6808B8D722E5493500F21B4F /* PBXContainerItemProxy */;
+		};
+		6808B8E322E5493500F21B4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6808B8C122E5493200F21B4F /* FLL CITY SHAPER Scorer */;
+			targetProxy = 6808B8E222E5493500F21B4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6808B8C922E5493200F21B4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6808B8CA22E5493200F21B4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6808B8CE22E5493500F21B4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6808B8CF22E5493500F21B4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6808B8F922E549C100F21B4F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6808B8F822E549C100F21B4F /* en */,
+				6808B8FA22E549D000F21B4F /* es */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6808B8E822E5493500F21B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6808B8E922E5493500F21B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6808B8EB22E5493500F21B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YNNP28TXVG;
+				INFOPLIST_FILE = "FLL CITY SHAPER Scorer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.FLL-CITY-SHAPER-Scorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6808B8EC22E5493500F21B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YNNP28TXVG;
+				INFOPLIST_FILE = "FLL CITY SHAPER Scorer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.FLL-CITY-SHAPER-Scorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6808B8EE22E5493500F21B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YNNP28TXVG;
+				INFOPLIST_FILE = "FLL CITY SHAPER ScorerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.FLL-CITY-SHAPER-ScorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLL CITY SHAPER Scorer.app/FLL CITY SHAPER Scorer";
+			};
+			name = Debug;
+		};
+		6808B8EF22E5493500F21B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YNNP28TXVG;
+				INFOPLIST_FILE = "FLL CITY SHAPER ScorerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.FLL-CITY-SHAPER-ScorerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLL CITY SHAPER Scorer.app/FLL CITY SHAPER Scorer";
+			};
+			name = Release;
+		};
+		6808B8F122E5493500F21B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YNNP28TXVG;
+				INFOPLIST_FILE = "FLL CITY SHAPER ScorerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.FLL-CITY-SHAPER-ScorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FLL CITY SHAPER Scorer";
+			};
+			name = Debug;
+		};
+		6808B8F222E5493500F21B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YNNP28TXVG;
+				INFOPLIST_FILE = "FLL CITY SHAPER ScorerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ev3lessons.FLL-CITY-SHAPER-ScorerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FLL CITY SHAPER Scorer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6808B8BD22E5493200F21B4F /* Build configuration list for PBXProject "FLL CITY SHAPER Scorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6808B8E822E5493500F21B4F /* Debug */,
+				6808B8E922E5493500F21B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6808B8EA22E5493500F21B4F /* Build configuration list for PBXNativeTarget "FLL CITY SHAPER Scorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6808B8EB22E5493500F21B4F /* Debug */,
+				6808B8EC22E5493500F21B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6808B8ED22E5493500F21B4F /* Build configuration list for PBXNativeTarget "FLL CITY SHAPER ScorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6808B8EE22E5493500F21B4F /* Debug */,
+				6808B8EF22E5493500F21B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6808B8F022E5493500F21B4F /* Build configuration list for PBXNativeTarget "FLL CITY SHAPER ScorerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6808B8F122E5493500F21B4F /* Debug */,
+				6808B8F222E5493500F21B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6808B8BA22E5493200F21B4F /* Project object */;
+}

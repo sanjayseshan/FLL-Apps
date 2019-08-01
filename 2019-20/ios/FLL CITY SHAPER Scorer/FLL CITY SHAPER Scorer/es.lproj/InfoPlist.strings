@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  FLL CITY SHAPER Scorer
+
+  Created by Sanjay Seshan	 on 7/21/19.
+  Copyright © 2019 ev3lessons.com. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "FLL Marcador CITY SHAPER";
+
+"CFBundleName" = "FLL Marcador CITY SHAPER";
