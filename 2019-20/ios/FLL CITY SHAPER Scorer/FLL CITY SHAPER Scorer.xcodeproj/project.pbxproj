@@ -51,7 +51,11 @@
 		6808B8E722E5493500F21B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6808B8F322E5499F00F21B4F /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		6808B8F822E549C100F21B4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6808B8FA22E549D000F21B4F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6872851222F90B7700CC9885 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6872851322F90BB900CC9885 /* el-GR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "el-GR"; path = "el-GR.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		6872851422F90BC100CC9885 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		6872851522F90BD400CC9885 /* nl-NL */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "nl-NL"; path = "nl-NL.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		6872851622F90BEF00CC9885 /* de-DE */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "de-DE"; path = "de-DE.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +223,10 @@
 				en,
 				Base,
 				es,
+				"el-GR",
+				"pt-BR",
+				"nl-NL",
+				"de-DE",
 			);
 			mainGroup = 6808B8B922E5493200F21B4F;
 			productRefGroup = 6808B8C322E5493200F21B4F /* Products */;
@@ -323,7 +331,11 @@
 			isa = PBXVariantGroup;
 			children = (
 				6808B8F822E549C100F21B4F /* en */,
-				6808B8FA22E549D000F21B4F /* es */,
+				6872851222F90B7700CC9885 /* es */,
+				6872851322F90BB900CC9885 /* el-GR */,
+				6872851422F90BC100CC9885 /* pt-BR */,
+				6872851522F90BD400CC9885 /* nl-NL */,
+				6872851622F90BEF00CC9885 /* de-DE */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
