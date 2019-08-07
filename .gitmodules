@@ -1,3 +1,4 @@
 [submodule "2019-20/scorer"]
 	path = 2019-20/scorer
-	url = https://github.com/ev3lessons/scorer-2019
+	url = https://github.com/ev3lessons/scorer-2019.git
+	branch = master
