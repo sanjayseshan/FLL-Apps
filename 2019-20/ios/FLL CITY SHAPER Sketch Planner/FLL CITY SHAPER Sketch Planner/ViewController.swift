@@ -24,8 +24,25 @@ class MyWebView : WKWebView {
 class ViewController: UIViewController {
     @IBOutlet weak var webView: MyWebView!
     
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .landscapeLeft
+    }
+    
+    override var shouldAutorotate: Bool {
+        return true
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+/*        let value = UIInterfaceOrientation.landscapeLeft.rawValue
+        UIDevice.current.setValue(value, forKey: "orientation")
+        UINavigationController.attemptRotationToDeviceOrientation()
+*/
+        let value = UIInterfaceOrientation.landscapeLeft.rawValue
+        UIDevice.current.setValue(value, forKey: "orientation")
+        
+
         
         let bounds = UIScreen.main.bounds
         
