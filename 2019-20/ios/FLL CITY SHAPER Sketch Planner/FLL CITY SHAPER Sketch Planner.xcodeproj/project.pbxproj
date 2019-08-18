@@ -15,6 +15,7 @@
 		9204B58E2304D29200725503 /* FLL_CITY_SHAPER_Sketch_PlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9204B58D2304D29200725503 /* FLL_CITY_SHAPER_Sketch_PlannerTests.swift */; };
 		9204B5992304D29300725503 /* FLL_CITY_SHAPER_Sketch_PlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9204B5982304D29300725503 /* FLL_CITY_SHAPER_Sketch_PlannerUITests.swift */; };
 		9204B5A72304D6DA00725503 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 9204B5A62304D6DA00725503 /* www */; };
+		92CA6B582308E67800AAFB7E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92CA6B572308E67800AAFB7E /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9204B5982304D29300725503 /* FLL_CITY_SHAPER_Sketch_PlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLL_CITY_SHAPER_Sketch_PlannerUITests.swift; sourceTree = "<group>"; };
 		9204B59A2304D29300725503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9204B5A62304D6DA00725503 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		92CA6B572308E67800AAFB7E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		9204B56C2304D29100725503 = {
 			isa = PBXGroup;
 			children = (
+				92CA6B572308E67800AAFB7E /* Default-568h@2x.png */,
 				9204B5772304D29100725503 /* FLL CITY SHAPER Sketch Planner */,
 				9204B58C2304D29200725503 /* FLL CITY SHAPER Sketch PlannerTests */,
 				9204B5972304D29300725503 /* FLL CITY SHAPER Sketch PlannerUITests */,
@@ -235,6 +238,7 @@
 				9204B5A72304D6DA00725503 /* www in Resources */,
 				9204B5832304D29200725503 /* LaunchScreen.storyboard in Resources */,
 				9204B5802304D29200725503 /* Assets.xcassets in Resources */,
+				92CA6B582308E67800AAFB7E /* Default-568h@2x.png in Resources */,
 				9204B57E2304D29100725503 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

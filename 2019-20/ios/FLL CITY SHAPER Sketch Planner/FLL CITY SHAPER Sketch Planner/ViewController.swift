@@ -21,19 +21,30 @@ class MyWebView : WKWebView {
     }
 }
 
-class ViewController: UIViewController {
-    @IBOutlet weak var webView: MyWebView!
+class ViewController: UIViewController, WKUIDelegate {
     
+//    @IBOutlet weak var webView: MyWebView!
+    var webView: WKWebView!
+
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         return .landscapeLeft
     }
     
     override var shouldAutorotate: Bool {
-        return true
+        return false
     }
-
+    
+    override func loadView() {
+        let webConfiguration = WKWebViewConfiguration()
+        webView = WKWebView(frame: .zero, configuration: webConfiguration)
+        webView.uiDelegate = self
+        view = webView
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+
         
 /*        let value = UIInterfaceOrientation.landscapeLeft.rawValue
         UIDevice.current.setValue(value, forKey: "orientation")
@@ -53,7 +64,7 @@ class ViewController: UIViewController {
         switch UIDevice.current.userInterfaceIdiom {
         case .phone:
             //if let filePath = Bundle.main.path(forResource:"index-iphone", ofType:"html", inDirectory: "www") {
-            if let filePath = Bundle.main.path(forResource:"index", ofType:"html", inDirectory: "www") {
+            if let filePath = Bundle.main.path(forResource:"index-iphone", ofType:"html", inDirectory: "www") {
 
                 do {
                     // load html string - baseURL needs to be set for local files to load correctly
@@ -107,17 +118,13 @@ class ViewController: UIViewController {
             }
         }
     }
-    func webView(_ webView: WKWebView, runJavaScriptAlertPanelWithMessage message: String, initiatedByFrame frame: WKFrameInfo,
-                 completionHandler: @escaping () -> Void) {
-        
-        let alertController = UIAlertController(title: nil, message: message, preferredStyle: .actionSheet)
-        alertController.addAction(UIAlertAction(title: "OK", style: .default, handler: { (action) in
-            completionHandler()
-        }))
-        
-        present(alertController, animated: true, completion: nil)
-    }
     
+    func webView(_ webView: WKWebView, runJavaScriptAlertPanelWithMessage message: String, initiatedByFrame frame: WKFrameInfo, completionHandler: @escaping () -> Void) {
+        let ac = UIAlertController(title: "Hey, listen!", message: message, preferredStyle: .alert)
+        ac.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        present(ac, animated: true)
+        completionHandler()
+    }
     
     func webView(_ webView: WKWebView, runJavaScriptConfirmPanelWithMessage message: String, initiatedByFrame frame: WKFrameInfo,
                  completionHandler: @escaping (Bool) -> Void) {
@@ -135,11 +142,11 @@ class ViewController: UIViewController {
         present(alertController, animated: true, completion: nil)
     }
     
-    
+   
     func webView(_ webView: WKWebView, runJavaScriptTextInputPanelWithPrompt prompt: String, defaultText: String?, initiatedByFrame frame: WKFrameInfo,
                  completionHandler: @escaping (String?) -> Void) {
         
-        let alertController = UIAlertController(title: nil, message: prompt, preferredStyle: .actionSheet)
+     let alertController = UIAlertController(title: "Alert:", message: prompt, preferredStyle: .actionSheet)
         
         alertController.addTextField { (textField) in
             textField.text = defaultText
@@ -162,12 +169,13 @@ class ViewController: UIViewController {
 }
 
 
-
 extension ViewController : WKNavigationDelegate {
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         print("didFinish navigation:");
     }
 }
+
+
 
 
 
