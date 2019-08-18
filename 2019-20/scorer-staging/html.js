@@ -1,5 +1,5 @@
-// Modular HTML buttons 3.4.0 Dynamic
-/
+// Modular HTML buttons 3.4.0 Dynamic Content Replacer
+
 all_mission = []
 
 function createbutton(mission,points,description){

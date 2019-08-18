@@ -191,7 +191,10 @@
           </script>
 
           <td style="width:50%; font-size:24px; text-align:center">
-            <b id='title'>JavaScript is either disabled or not supported in your browser. Please enable to use this site.</b>
+            <b id='title'>JavaScript is either disabled or not
+            supported in your browser. Please enable to use this
+            site. Compatible browsers: MSIE, Chrome, Firefox, Edge,
+            and others.</b>
           </td>
           <td style="width:25%; font-size:12px; text-align:right">
             <img alt="FLL..." style="border:1px solid #021a40;"
@@ -621,6 +624,8 @@
 
       document.getElementById('title').innerHTML = title
       document.getElementById('resetTxt').value = resetText
+      $('#resetTxt').button('refresh');
+
       document.getElementById('pointsTxt').innerHTML = pointsText
       document.getElementById('pointsTxt2').innerHTML = pointsText + ": "
 
@@ -734,6 +739,9 @@
 	    document.getElementById(name).innerHTML = missionNumbering
 	  }
       }
+
+      displaysaves()
+      drawBasic()
 
 
   }

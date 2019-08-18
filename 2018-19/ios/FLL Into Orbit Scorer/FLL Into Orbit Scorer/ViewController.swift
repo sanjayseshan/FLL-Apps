@@ -23,7 +23,7 @@ class MyWebView : WKWebView {
 
 class ViewController: UIViewController {
     @IBOutlet weak var webView: MyWebView!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         webView.customUserAgent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1.2 Safari/605.1.15"

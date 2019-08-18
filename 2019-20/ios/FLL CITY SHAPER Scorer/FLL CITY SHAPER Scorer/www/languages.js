@@ -1,5 +1,5 @@
 // Universal
-version = "1.5 - 05/08/2019"
+version = "1.7 - 14/08/2019"
 
 // Default Language (English/en)
 
@@ -670,29 +670,29 @@ if (language == "pt" || language == "pt-br") {
     instructionsB = '1. Lépj be a Google fiókodba. Lehet, hogy kapsz egy "Ez az app nem megbízható" figyelmeztetést. Ebben az esetben nyomj a "Haladó beállítások"-ra majd menj az  "FLL Scorer (nem biztonságos)" elemhez'
     instructionsC = '2. Ha még nem hoztál létre Google Spreadsheet-et akkor nyomj a "Új Google Spreadsheet létrehozása"-ra'
     instructionsD = '3. Ha a múltban már létrehoztál egyet, legyél biztos abban, hogy a Google Sheet ID mező ki van töltve és nem "meghatározatlan". Ha meg akarsz osztani Google Spreadsheet-et eszközök között, ezt az ID-t manuálisan kell begépelned.'
-instructionsE = '4. Bármikor, amikor el akarsz menteni pontszámot, nyomj a "Pontok mentése" gombra – ez fríssíti a Google Spreadsheet-et a ponttal és a dátummal ellátva.'
-instructionsF = '5. Ha szeretnéd megnézni, vagy szerkeszteni a Spreadsheet-et, nyomj rá a "Google Spreadsheet megnyitása" gombra. Ha szükséged van a Google Spreadsheet ID-ra, ezt a megnyitott Google Spreadsheet URL-ben találod meg.'
-instructionsG = '6. Vissza tudsz hozni egy előző mentést azzal, ha kiválasztod a mentés számát a "+" és "-" gombokkal, majd a "Mentés betöltése:" gombra kattintasz.'
+    instructionsE = '4. Bármikor, amikor el akarsz menteni pontszámot, nyomj a "Pontok mentése" gombra – ez fríssíti a Google Spreadsheet-et a ponttal és a dátummal ellátva.'
+    instructionsF = '5. Ha szeretnéd megnézni, vagy szerkeszteni a Spreadsheet-et, nyomj rá a "Google Spreadsheet megnyitása" gombra. Ha szükséged van a Google Spreadsheet ID-ra, ezt a megnyitott Google Spreadsheet URL-ben találod meg.'
+    instructionsG = '6. Vissza tudsz hozni egy előző mentést azzal, ha kiválasztod a mentés számát a "+" és "-" gombokkal, majd a "Mentés betöltése:" gombra kattintasz.'
 
 
-var monthNames = ["","Január", "Február", "Március", "Április", "Május", "Június", "Július", "Augusztus", "Szeptember", "Október", "November", "December"];
-improvementText = "Javítás"
-scorerText = "Pontozó"
-timersText = "Időmérők"
-savesText = "Mentések"
-startText = "Start"
-stopText = "Stop"
-pointsText = "Pontok"
+    var monthNames = ["","Január", "Február", "Március", "Április", "Május", "Június", "Július", "Augusztus", "Szeptember", "Október", "November", "December"];
+    improvementText = "Javítás"
+    scorerText = "Pontozó"
+    timersText = "Időmérők"
+    savesText = "Mentések"
+    startText = "Start"
+    stopText = "Stop"
+    pointsText = "Pontok"
 
-timerText = "Visszaszámláló:"
-stopwatchText = "Stopper:"
-
-
-idText = "Google Sheet ID: "
-undefinedText = "meghatározatlan"
+    timerText = "Visszaszámláló:"
+    stopwatchText = "Stopper:"
 
 
-translatorCredit = "Az appot magyarra fordította: a Tövis&ASAP csapat."
+    idText = "Google Sheet ID: "
+    undefinedText = "meghatározatlan"
+
+
+    translatorCredit = "Az appot magyarra fordította: a Tövis&ASAP csapat."
 
 
 
@@ -760,15 +760,15 @@ translatorCredit = "Az appot magyarra fordította: a Tövis&ASAP csapat."
 
     A00="Πλεονέκτημα"
     A00a="Όλος ο Εξοπλισμός χωράει στην Μικρή Περιοχή"
-    A00b="5 Πόντοι για τις αποστολές 1-13 και ακόμα 5 για την αποστολή M02."
+    A00b="5 Πόντοι για τις αποστολές 1-13 και ακόμα 5 πόντοι για την Αποστολή 2."
 
-    M01="Elevated Places"
+    M01="Υπερυψωμένα Σημεία"
     M01a="Το ρομπότ <b>υποστηρίζεται</b> από την γέφυρα"
-    M01b="Πόσες σημαίες είναι υψωμένες σε οποιαδήποτε απόσταση, αποκλειστικά από το ρομπότ"
+    M01b="Πόσες σημαίες είναι υψωμένες σε οποιαδήποτε απόσταση, αποκλειστικά από το ρομπότ;"
 
     M02="Γερανός"
     M02a="Το μπλέ διαμέρισμα του γερανού είναι ξεκάθαρα κατεβασμένο από το σημείο οδηγό"
-    M02b="Είναι το μπλέ διαμέρισμα του γερανού είναι <b> ανεξάρτητο </b> και <b>υποστηρίζεται</b> από ένα άλλο μπλέ διαμέρισμα."
+    M02b="Είναι το μπλέ διαμέρισμα του γερανού <b> ανεξάρτητο </b> και <b>υποστηρίζεται</b> από ένα άλλο μπλέ διαμέρισμα;"
     M02c="Tο πρώτο επίπεδο είναι μέσα στον κύκλο."
 
     M03=" Drone Επιθεώρησης"
@@ -782,39 +782,39 @@ translatorCredit = "Az appot magyarra fordította: a Tövis&ASAP csapat."
     M05b=" Πόσα Διαμερίσματα είναι <b>Ανεξάρτητα</b> και <b>υποστηρίζονται</b> από τα Μικρά Κλαδιά του δέντρου;"
 
     M06="Μποτιλάρισμα"
-    M06a=" Είναι ο δρόμος είναι σηκωμένος, <b>Ανεξάρτητο</b> και <b>υποστηρίζεται</b> μόνο από τους μεντεσέδες του;"
+    M06a=" Είναι ο δρόμος με την κυκλοφοριακή συμφόρηση είναι σηκωμένος, <b>Ανεξάρτητος</b> και <b>υποστηρίζεται</b> μόνο από τους μεντεσέδες του;"
 
     M07="Κούνια"
     M07a="Είναι η κούνια ελεύθερη;"
 
     M08="Ανελκυστήρας Αυτοκινήτων"
-    M08a="Είναι όλα τα τμήματα του ανελκυστήρα <b>Ανεξάρτητα</b> και <b>υποστηρίζονται</b> μόνο από τους μεντεσέδες με το μπλέ αμαξί είναι κάτω;"
-    M08b=" Είναι όλα τα τμήματα του ανελκυστήρα <b>Ανεξάρτητα</b> και <b>υποστηρίζονται</b> μόνο από τους μεντεσέδες σε θέση ισορροπίας"
+    M08a="Είναι όλα τα τμήματα του ανελκυστήρα <b>Ανεξάρτητα</b> και <b>υποστηρίζονται</b> μόνο από τους μεντεσέδες με και το μπλέ όχημα είναι κάτω;"
+    M08b=" Είναι όλα τα τμήματα του ανελκυστήρα <b>Ανεξάρτητα</b> και <b>υποστηρίζονται</b> μόνο από τους μεντεσέδες σε θέση ισορροπίας;"
 
     M09="Παράγοντας Ασφαλείας"
     M09a=" Πόσοι μπλέ δοκοί έχουν κατέβει έστω μέχρι την μέση;"
     M09b="Το κτήριο δοκιμών είναι <b>Ανεξάρτητο</b> και <b>υποστηρίζεται</b> μόνο από τις μπλέ δοκούς"
 
     M10="Ατσάλινα Θεμέλια"
-    M10a=" Είναι τα ατσάλινα θεμέλια <b>Ανεξάρτητο</b> και η κατασκευή <b>υποστηρίζεται</b> μόνο από την βάση της;"
+    M10a=" Είναι τα ατσάλινα θεμέλια <b>Ανεξάρτητα</b> και η κατασκευή <b>υποστηρίζεται</b> μόνο από την βάση της;"
 
 
     M11="Καινοτόμος Αρχιτεκτονική"
     M11a="Είναι η κατασκευή <b>εντελώς</b> μέσα σε οποιοδήποτε Κύκλο;"
     M11b=" Είναι η κατασκευή <b>μερικώς</b> μέσα σε οποιοδήποτε Κύκλο;"
-    M11c=" Είναι η κατασκευή είναι μεγαλύτερη από ένα μπλέ διαμέρισμα και κατασλευασμένη μόνο από λευκά LEGO bricks του Bag 10; "
+    M11c=" Η κατασκευή πρέπει να είναι μεγαλύτερη από ένα μπλέ διαμέρισμα και κατασκευασμένη μόνο από λευκά LEGO bricks του Bag 10; "
 
     M12="Σχεδίασε και χτίσε"
-    M12a=" Πόσοι κύκλοι έχουν τουλάχιστον ένα διαμέρισμα με αντίστοιχο χρώμα το οπόιο ακουμπά πάνω στο χαλί και είναι <b> εντελώς </b> μέσα και ακουμπούν το χαλί;" 
+    M12a=" Πόσοι κύκλοι έχουν τουλάχιστον ένα διαμέρισμα με αντίστοιχο χρώμα το οποίο ακουμπά πάνω στο χαλί και είναι <b> εντελώς </b> μέσα στον κύκλο;" 
     M12b=" Υπάρχουν <b>Ανεξάρτητες</b> δομές τουλάχιστον <b>μερικώς</b> μέσα σε οποιοδήποτε κύκλο; Ποιο είναι το άθροισμα του ύψους τους σε διαμερίσματα;" 
-    M12c=" Ο μπλε κύκλος δεν είναι μέρος της αποστολής 12. Μια δόμη είναι ένα ή περισσότερα διαμερίσματα που το επίπεδο 1 ακουμπά ίσιο στο χαλί και οποιοδήποτε άλλο επίπεδο ακουμπά το αποκάτω επίπεδο."
+    M12c="Ο μπλε κύκλος δεν είναι μέρος της αποστολής 12. Μια δόμη είναι ένα ή περισσότερα διαμερίσματα που το επίπεδο 1 ακουμπά ίσιο στο χαλί και οποιοδήποτε άλλο επίπεδο ακουμπά το αποκάτω επίπεδο."
 
     M13="Ανανάθμιση της βιωσιμότητας"
-    M13a="Πόσες αναβαθμίσεις βιωσιμότητας (ηλιακοί συλλέκτες, κήπος οροφής, μόνωση) είναι <b>Ανεξάρτητες</b> και <b>Υποστηρίζονται</b> μόνο από μία δομή και είναι τουλάχιστον μερικώς μέσα σε οποιδήποτε κύκλο;"
+    M13a="Πόσες αναβαθμίσεις βιωσιμότητας (ηλιακοί συλλέκτες, κήπος οροφής, μόνωση) είναι <b>Ανεξάρτητες</b> και <b>Υποστηρίζονται</b> μόνο από μία δομή και είναι τουλάχιστον μερικώς μέσα σε οποιοδήποτε κύκλο;"
 
     M14="Ακρίβεια"
     M14a=" Πόσες μάρκες ακρίβειας έχουν απομείνει στην πίστα;"
-
+    
 } else if (language == "fr") {
     yes = "Oui"
     no = "Non"
@@ -985,61 +985,246 @@ translatorCredit = "Az appot magyarra fordította: a Tövis&ASAP csapat."
 
 
 } else if (language == "it") {
-yes = "Si"
-no = "No"
-partly = "Parzialmente"
-completely = "Completamente"
-resetText = "Resetta"
-saveText = "Salva"
-savescoreText="Salva il Punteggio"
-loadsaveText="Carica i salvataggi:"
-deletesaveText="Elimina i salvataggi"
-importsaveText="Importa i salvataggi "
-exportsaveText="Esporta i salvataggi "
-signin = "Accedi con"
-signout = "Esci"
-GoogleCreate = " Crea un nuovo Foglio Google "
-GoogleOpen = "Apri un Foglio Google"
-created = "Creato"
-savedto = "Salvato in"
-teamText = "Squadra"
-roundText = "Round"
-dateText = "Data/Ora"
-totalText = "Punteggio Totale"
-savedText = "Salvato"
-loadedText = "Caricato"
-googleSaveText = "Salva su Fogli Google (Default)"
-localSaveText = "Salva su Browser Locale (Legacy)"
-isIE = " Il sistema di salvataggio di Google non è compatibile con Microsoft Internet Explorer. Puoi passare a un altro browser o continuare utilizzando il sistema di salvataggio legacy (fai clic qui sopra)"
-systemText = "Modalità di salvataggio: "
+    translatorCredit = "Tradotto in italiano da Giuseppe Comis"
 
-googleIntro = "Puoi salvare il tuo punteggio in un Foglio Google. Questo ti aiuterà a tenere traccia dei tuoi progressi durante la stagione. Segui le istruzioni in fondo alla pagina."
-pastSaves = "Salvataggi precedenti"
-instructions = "Istruzioni"
-instructionsA = "I passaggi-chiave per usare la modalità di salvataggio sono:"
-instructionsB = '1. Accedere al tuo account Google. Potresti ricevere il messaggio “Questa app non è verificata”. Se accade ciò, clicca su “Avanzate” e "Vai ad FLL Scorer (unsafe)"'
-instructionsC = '2. Se non hai ancora creato un foglio precedentemente, clicca su "Crea un Nuovo Foglio"'
-instructionsD = '3. Se hai precedentemente creato un foglio, assicurati che il campo ID foglio Google sia compilato e non "indefinito". Infatti, se vorrai condividere un Foglio fra apparecchi diversi, come un PC diverso o un tablet, dovrai inserire manualmente questo ID'
-instructionsE = '4. Tutte le volte che vuoi salvare un punteggio, clicca su “Salva Punteggio” - questo aggiornerà il foglio con il punteggio e la data corrente '
-instructionsF = '5. Se vuoi consultare il tuo Foglio e modificarlo, clicca su "Apri Google Fogli". Se ti serve conoscere l`ID del Foglio Google, puoi leggerlo nell`URL del Foglio quando lo apri'
-instructionsG = '6. Puoi anche recuperare uno specifico punteggio passato nel segnapunti, inserendo il numero di salvataggio con il con i pulsanti "+" e "-" e quindi facendo clic sul pulsante "Carica Salva:'
+    yes = "Si"
+    no = "No"
+    partly = "Parzialmente"
+    completely = "Completamente"
+    resetText = "Reset"
+    saveText = "Salva"
+    savescoreText="Salva Punteggio"
+    loadsaveText="Carica Punteggio:"
+    deletesaveText="Cancella i punteggi salvati"
+    importsaveText="Importa File Salvato"
+    exportsaveText="Esporta File"
+    signin = "Accedi con"
+    signout = "Esci"
+    GoogleCreate = "Crea un nuovo Foglio Google"
+    GoogleOpen = "Apri un Foglio Google"
+    created = "Creato"
+    savedto = "Salvato in"
+    teamText = "Squadra"
+    roundText = "Round"
+    dateText = "Data/Ora"
+    totalText = " Punteggio Totale"
+    savedText = "Salvato"
+    loadedText = "Caricato"
+    googleSaveText = "Fogli Google(Default)"
+    localSaveText = "Salva in Locale (Legacy)"
+    isIE = "Il sistema di salvataggio di Google non è compatibile con Microsoft Internet Explorer. Puoi passare a un altro browser o continuare utilizzando il sistema di salvataggio legacy (fai clic sopra)"
 
-var monthNames = ["","Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"];
-improvementText = "Miglioramento"
-scorerText = "Segnapunti"
-timersText = "Timer"
-savesText = "Salvataggi"
-startText = "Start"
-stopText = "Stop"
-pointsText = "Punti"
+    googleIntro = "Puoi salvare i tuoi punteggi su un foglio di lavoro Google. Questo ti aiuta a tenere traccia dei progressi nel corso della stagione. Vedi le istruzioni in fondo alla pagina."
+    pastSaves = "Salvataggi Precedenti"
+    instructions = "Istruzioni"
+    instructionsA = "I passaggi chiave per l'utilizzo del sistema di salvataggio sono:"
+    instructionsB = '1. Accedi al tuo account Google. È possibile che venga visualizzato un avviso "Questa app non è verificata". In tal caso, fai clic su "Avanzate" e poi "Vai a FLL Scorer (non sicuro)" '
+    instructionsC = '2. Se non hai creato precedentemente alcun foglio di lavoro, fai clic su "Crea nuovo foglio di lavoro"'
+    instructionsD = '3. Se precedentemente hai creato un foglio di lavoro, assicurati che il campo ID del Foglio di Google sia compilato e non "indefinito". Se desideri condividere un foglio di calcolo tra dispositivi, devi inserire questo ID manualmente.'
+    instructionsE = '4. Ogni volta che vuoi salvare un punteggio, fai click su "Salva Punteggio" – questo aggiornerà il Foglio Google con l’attuale punteggio e data'
+    instructionsF = '5. Se desideri controllare il foglio di lavoro e modificarlo, fai clic su "Apri foglio di lavoro Google ". Se dovessi avere bisogno dell`ID foglio di Google, si trova nell`URL del foglio di lavoro quando lo apri.'
+    instructionsG = '6. Puoi anche recuperare uno specifico punteggio precedente nel segnapunti inserendo il numero di salvataggio con i pulsanti "+" e "-" e facendo clic sul pulsante "Carica salvataggio:" '
 
-timerText = "Timer:"
-stopwatchText = " Cronometro:"
+    var monthNames = ["","Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"];
+    improvementText = "Miglioramento"
+    scorerText = "Segnapunti"
+    timersText = "Timer"
+    savesText = "Salvataggi"
+    startText = "Start"
+    stopText = "Stop"
+    pointsText = "Punti"
 
-idText = "Google Sheet ID: "
-undefinedText = "indefinito"
+    systemText = "Sistema di salvataggio:"
 
-translatorCredit = "Traduzione in italiano di Giuseppe Comis"
+    timerText = "Timer:"
+    stopwatchText = "Cronometro:"
+
+    idText = "Google Sheet ID: "
+    undefinedText = "Indefinito"
+
+    revisionText = "CITY SHAPER Scorer Version "
+    copyrightText = "Copyright (c) 2019 Seshan Brothers"
+
+    title = "CITY SHAPER Scorer"
+
+    A00="Punti aggiuntivi"
+    A00a="Il robot e l'attrezzatura del team si adattano all'area di ispezione piccola?"
+    A00b="5 punti aggiunti a ciascuna missione 1-13 e altri 5 a M02."
+
+    M01="Luoghi Elevati"
+    M01a="Il Robot è <b>Sostenuto</b> dal Ponte?"
+    M01b="Quante bandiere sono chiaramente sollevate a qualsiasi altezza, solo dal robot?"
+
+    M02="Gru"
+    M02a="L'unità blu agganciata è chiaramente abbassata a qualsiasi distanza dal foro guida?"
+    M02b="L'unità blu agganciata è <b>Indipendente</b> e <b>Sostenuta</b> da un’altra Unità Blu?"
+    M02c="Il Livello 1 è Completamente nel Cerchio Blu?"
+
+    M03="Drone d’Ispezione"
+    M03a="Il Drone d’Ispezione è <b>Sostenuto</b> dall’assale (A) sul ponte?"
+
+    M04="Design per la fauna selvatica"
+    M04a="Il Pipistrello è <b>Sostenuto</b> dal ramo marrone (B) sull’Albero?"
+
+    M05="Casa sull'albero"
+    M05a="Quante Unità sono <b>Indipendenti</b> e <b>Sostenute</b> dai rami grandi dell'albero?"
+    M05b=" Quante Unità sono <b>Indipendenti</b> e <b>Sostenute</b> dai rami piccoli dell’albero?"
+
+    M06="Ingorgo stradale"
+    M06a="L’ingorgo stradale è stato sollevato, la sua parte mobile è <b>Indipendente</b> e <b>Sostenuta</b> solo dai suoi cardini?"
+
+    M07="Altalena"
+    M07a="L'altalena è stata rilasciata?"
+
+    M08="Ascensore"
+    M08a="Le parti mobili dell’Ascensore sono <b>Indipendenti</b> e <b>Sostenute</b> solo dai loro cardini con la Cabina Blu in basso?"
+    M08b=" Le parti mobili dell’Ascensore sono <b>Indipendenti</b> e <b>Sostenute</b> solo dai loro cardini in posizione bilanciata?"
+
+    M09="Fattore sicurezza"
+    M09a="Quanti pilastri sono stati tolti almeno per metà?"
+    M09b=" L'edificio di prova deve essere <b>Indipendente</b> e <b>Sostenuto</b> solo dai pilastri blu"
+
+    M10="Costruzione in acciaio"
+    M10a="La Struttura in Acciaio è in posizione verticale, ed è <b>Indipendente</b> e <b>Sostenuta</b> solo dai suoi cardini?"
+    
+    M11="Architettura Innovativa"
+    M11a="La Struttura è <b>Completamente</b> in un cerchio qualsiasi?"
+    M11b="La Struttura è <b>Parzialmente</b> in un cerchio qualsiasi?"
+    M11c="La struttura deve essere progettata dalla squadra e chiaramente più grande di un'unità di costruzione blu. Deve essere costruita con i mattoncini LEGO in possesso della squadra nella busta 10."
+
+    M12="Progetta e costruisci"
+    M12a="Quanti cerchi hanno almeno una corrispondenza fra i colori delle unità <b>Completamente</b> Dentro, e poggiate sul Tappeto?"
+    M12b="Se ci sono Stack <b>Indipendenti</b> almeno <b>Parzialmente</b> in qualunque cerchio, qual è la somma di tutte le loro altezze?"
+    M12c="Il cerchio Blu non è una parte della Missione 12. Uno Stack è una o più Unità di Costruzione col primo livello che tocca il Tappeto, e tutti gli altri livelli che toccano il livello sottostante ad essi."
+
+    M13="Miglioramenti alla Sostenibilità"
+    M13a="Quanti Miglioramenti (pannelli solari, giardini pensili, isolamenti) sono <b>Indipendenti</b> e <b>Sostenuti</b> su uno Stack che si trovi almeno in parte in un Cerchio qualsiasi?"
+
+    M14="Precisione"
+    M14a="Quanti Gettoni di Precisione sono rimasti sul campo?"
+    
+} else if (language == "eu") {
+
+    translatorCredit = "Euskaratuta Anartz San Juan-engatik Edurobotic FIRST LEGO League-en taldekidea"
+
+    yes = "Bai"
+    no = "Ez"
+    partly = "Partzialki"
+    completely = "Guztiz"
+    resetText = "Berrabiarazi"
+    saveText = "Gorde"
+    savescoreText="Puntuaketa Gorde"
+    loadsaveText="Puntuaketa Kargatu:"
+    deletesaveText="Ezabatu Gordetakoak"
+    importsaveText="Inportatu Gordetakoa"
+    exportsaveText="Exportatu gordetakoa"
+    signin = "Sartu honekin"
+    signout = "Deskonektatu hemendik"
+    GoogleCreate = "Sortu Kalkulu orri berri bat"
+    GoogleOpen = "Zabaldu Google kalkulu orri bat"
+    created = "Sortuta"
+    savedto = "Gordeta nola"
+    teamText = "Taldea"
+    roundText = "Erronda"
+    dateText = "Data/Ordua"
+    totalText = "Emaitza totala"
+    savedText = "Gordeta"
+    loadedText = "Kargatuta"
+    googleSaveText = "Googleren orriak (Lehenespenez)"
+    localSaveText = "Nabigatzaile Lokaleko Almazenamendua (Heredatua)"
+    isIE = " Googleren gordetze sistema ez da bateragarria Internet Explorerrekin. Nabigatzailez aldatu dezakezu edo heredatutako gordetze sistema erabiltzen jarrai dezakezu (klikatu goian)"
+
+    googleIntro = "Zure puntuazioak Google-ren kalkulu horri batean gorde ditzakezu. Honek denboraldi osoan zehar egin dituzun aurrerapenak gordetzen lagundu zaitzake. Ikusi argibideak orriaren behealdean."
+    pastSaves = "Lehendik gordeta"
+    instructions = "Argibideak"
+    instructionsA = "Gordetze sistema erabiltzeko pausoak hauek dira:"
+    instructionsB = '1. Hasi saioa zure Google kontuarekin. Beharbada "Aplikazio hau ez dago egiaztatua oharra jaso dezakezu. Hori gertatzen bada, klikatu "Aurreratua" eta orduan "FLL Zenbatzailera joan (ez segurua)"'
+    instructionsC = '2. Lehenagotik ez baduzu kalkulu orri bat sortu klikatu "Sortu Kalkulu Orri Berria"'
+    instructionsD = '3. Lehenagotik kalkulu orri bat sortu baduzu, ziurtatu zaitez kalkulu orriko ID eremua beteta dagoela eta ez "mugagabea". Orria beste gailu batzuekin partekatu nahi baduzu, identifikazio hori eskuz idatzi behar duzu.'
+    instructionsE = '4. Puntuaketa bat gorde nahi duzun bakoitzean, klikatu "Gorde Puntuaketa" honek kalkulu orriak gaurkotuko ditu puntuazio eta data berriarekin.'
+    instructionsF = '5. Zure kalkulu orria ikuskatu eta editatu nahi baduzu, sakatu "Zabaldu Google-ren Kalkulu Orriak". Uneren batean kalkulu orriaren ID-a behar baduzu, zure kalkulu orriaren URL-an aurkitu dezakezu.'
+    instructionsG = '6. Aintzinako puntuazio jakin bat ere berreskuratu dezakezu zenbatzailean "+" eta "-" botoiekin gordetze zenbakia ipiniz eta gero "Kargatu Gordetakoa:" sakatuz'
+
+    var monthNames = ["","Urtarrila", "Otsaila", "Martxoa", "Apirila", "Maiatza", "Ekaina", "Uztaila", "Abuztua",
+		      "Iraila", "Urria", "Azaroa", "Abendua"];
+    improvementText = "Hobespena"
+    scorerText = "Zenbatzailea"
+    timersText = "Kronometroa"
+    savesText = "Gordetakoak"
+    startText = "Hasi"
+    stopText = "Gelditu"
+    pointsText = "Puntuak"
+
+    systemText = "Gordetze sistema: "
+
+    timerText = "Denbora zenbatzailea:"
+    stopwatchText = "Kronografoa:"
+
+    idText = "Google Orriaren ID-a: "
+    undefinedText = "zehaztugabea "
+
+    revisionText = "Zenbatzaile errebisioa CITY SHAPER"
+    copyrightText = "Copyright (c) 2019 Seshan Brothers"
+
+    title = "CITY SHAPER Zenbatzailea"
+
+    missionNumbering = "M" // i.e. honela erakusten da: M01, M02, etc. ("Mission"-en lehenengo hizkia zure hizkuntzan)
+
+    A00="Abantaila"
+    A00a="Ekipamendua inspekzio zona txikian sartzen da?"
+    A00b="5 puntu gehitzen dira 1-13 misioetara eta 5 gehiago M02era."
+
+    M01="Pieza Garaiak"
+    M01a="Ba al dago errobota zubiarengatik <b>Eutsita</b>?"
+    M01b="Zenbat bandera daude nabarmen altxatuta bakarrik errobotari esker?"
+
+    M02="Garabia"
+    M02a="Ba al dago zintzilikatuta dagoen modulu urdina nabarmen jaitsita edozein distantziara garabiaren zulotik?"
+    M02b="Ba al dago zintzilikatuta dagoen modulu urdina <b>Independientea</b> eta beste modulu urdin batengatik <b>Eutsita</b>?"
+    M02c="Ba al dago lehenengo maila guztiz zirkulu urdinaren barruan?"
+
+    M03="Ikuskatzeko Drone-a"
+    M03a="Ba al dago ikuskatzeko drone-a (A) ardatzagatik <b>Eutsita</b> zubian?"
+
+    M04="Faunarako Diseinua"
+    M04a="Ba al dago saguzarra (B) adarrarengatik <b>Eutsita</b> zuhaitzean?"
+
+    M05="Zuhaitzeko Etxea"
+    M05a="Zenbat modulu dira <b>Independiente</b> eta Zuhaitzaren Adar Handiengatik <b>Eutsita</b> daude?"
+    M05b="Zenbat modulu dira <b>Independiente</b> eta Zuhaitzaren Adar Txikiengatik <b>Eutsita</b> daude?"
+
+    M06="Trafiko Trabatzea"
+    M06a="Ba al dago Trafiko Trabatzea altxatuta eta bere parte mugikorra <b>Independientea</b> da eta bakarrik bere bandengatik <b>Eutsita</b>?"
+
+    M07="Kulunka"
+    M07a="Askatuta al dago kulunka?"
+
+    M08="Karga-jasogailua"
+    M08a="Ba al daude karga-jasogailuaren parte mugikorrak   <b>Independiente</b> eta bakarrik bere bandengatik <b>Eutsita</b> eta Kotxe Urdinaren posizioan daude behean?"
+    M08b="Ba al daude karga-jasogailuaren parte mugikorrak <b>Independiente</b> eta bakarrik bere bandengatik <b>Eutsita</b> eta Orekatze posizioan daude?"
+
+    M09="Segurtasun Eragilea"
+    M09a="Zenbat laza bidetik kendu dira gutxienez bide erdirarte?"
+    M09b="Eraikin pilotua <b>Independientea</b> da eta laza urdinengatik bakarrik <b>Eutsita</b> dago"
+
+    M10="Altzairu eraikuntza"
+    M10a="Ba al dago altzairuzko egitura altxatuta eta <b>Independientea</b> da eta bere bandengatik <b>Eutsita</b> dago?"
+
+    M11="Arkitektura Berriztatzailea"
+    M11a="Egitura borobil baten barruan <b>Guztiz</b> sartuta dago?"
+    M11b="Egitura borobil baten barruan <b>Partzialki</b> sartuta dago?"
+    M11c="Egitura taldeak diseinatutakoa izan behar da eta modulu urdin bat baino handiagoa izan behar da. Hamargarren poltsako LEGO piezekin egindakoa izan behar da."
+
+    M12="Diseinua eta Eraikuntza"
+    M12a="Zenbat zirkuluk dute gutxienez modulu bat zeinen koloreak zirkuluarekin bat egiten duten eta <b>Guztiz</b> barruan daude eta tapetearekin kontaktu planoan?"
+    M12b="Baldin eta multzo <b>Independienteak</b> badaude gutxienez <b>Partzialki</b> edozein zirkuluren barruan, zein da haien guztien altueraren batuketaren emaitza?"
+    M12c="Zirkulu urdina ez da hamabigarren misioaren parte. Multzo bat da noiz modulu batek edo gehiagok zeinen lehenengo mailak tapetea ukitzen duen era plano batean eta edozein goreneko maila lehenengo mailaren gainean era plano batean daudenean"
+
+    M13="Iraunkortasun Gaurkotzea"
+    M13a="Zenbat gaurkotze (eguzki panelak, sabai berdeak, isolatzeak) daude <b>Independiente</b> eta edozein zirkuluren barruan (gutxienez partzialki) dagoen multzo batengatik <b>Eutsita</b>?"
+
+    M14="Zehaztasuna"
+    M14a="Zenbat zehaztasun lekuko daude joko lurrazalean?"
 }
 
 

@@ -3,7 +3,7 @@
 // JS code to save and load saves to/from localStorage or a variable
 // Legacy opt-in code --> replaced with the Google Sheets API
 
-// Kept for compatibility with IE and iOS and Android webView
+// Kept for compatibility with IE and iOS/Android (WK)webView
 
 //Init vars
 n = 0;

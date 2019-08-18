@@ -49,7 +49,7 @@ function languageInit() {
     instructionsF = '5. If you wish to inspect your spreadsheet and edit it, click on "Open Google Spreadsheet". If you ever need the Google Sheet ID - it is in the URL of your spreadsheet when you open it.'
     instructionsG = '6. You can also retrieve a specific past score into the scorer by entering the save number with the "+" and "-" buttons and then clicking the "Load Save:" button'
 
-    var monthNames = ["","January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    monthNames = ["","January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     improvementText = "Improvement"
     scorerText = "Scorer"
     timersText = "Timers"
@@ -174,7 +174,7 @@ function languageInit() {
 	instructionsF = '5. Se você desejar inspecionar sua planilha e editá-la, clique em "Abrir Planilha do Google". Se você precisar do ID da planilha do Google, ela estará na URL da sua planilha quando você a abrir.'
 	instructionsG = '6. Você também pode recuperar uma pontuação passada específica no marcador, entrando com o número de salvamento com os botões "+" e "-" e, em seguida, clicando no botão "Carregar Pontuação:"'
 
-	var monthNames = ["","Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+	monthNames = ["","Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
 	improvementText = "Evolução"
 	scorerText = "Marcador"
 	timersText = "Temporizadores"
@@ -295,7 +295,7 @@ function languageInit() {
 	instructionsF = '5. Um Dein Spreadsheet zo öffnen und zu editieren, klicke auf “Google Spreadsheet öffnen”. Die Google Sheet ID ist Teil der URL des geöffneten Spreadsheets.'
 	instructionsG = '6. Du kannst bestimmte Punktzahlen auch laden, indem du die ID der Punktzahl mit den “+” und “-“ Buttons einstellst und dann auf “Punktzahl laden” klickst.'
 
-	var monthNames = ["","Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"];
+	monthNames = ["","Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"];
 	improvementText = "Verbesserung"
 	scorerText = "Punkterechner"
 	timersText = "Zeitnehmer"
@@ -416,7 +416,7 @@ function languageInit() {
 	instructionsF = '5. Indien je de spreadsheet wilt bekijken en bewerken, klik je op "Google Spreadsheet openen". Indien je het Google-spreadsheet-ID nodig hebt, vind je deze in de URL van de geopende spreadsheet.'
 	instructionsG = '6. Je kunt ook een specifieke oude score ophalen in de scorer door het opslagnummer in te voeren met de "+" en "-" knoppen en dan te klikken op de "Score laden:" knop'
 
-	var monthNames = ["","januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"];
+	monthNames = ["","januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"];
 	improvementText = "Verbetering"
 	scorerText = "Scorer"
 	timersText = "Timers"
@@ -535,7 +535,7 @@ function languageInit() {
 	instructionsF = '5. Si desea inspeccionar su hoja de cálculo y editarla, haga clic en "Abrir hoja de cálculo de Google". Si alguna vez necesita el ID de la hoja de Google, se encuentra en la URL de su hoja de cálculo cuando la abra.'
 	instructionsG = '6. También puede recuperar una puntuación anterior específica en el marcador al introducir el número de guardado con los botones "+" y "-" y luego hacer clic en el botón "Cargar guardada:"'
 
-	var monthNames = ["","Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+	monthNames = ["","Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
 	improvementText = "Mejora"
 	scorerText = "Marcador"
 	timersText = "Temporizadores"
@@ -624,7 +624,7 @@ function languageInit() {
 	resetText = "Reset"
 	partly = "Čiastočne"
 	completely = "Celkom"
-	var monthNames = ["", "január", "február", "marec", "apríl", "máj", "jún", "júl", "august", "september" , "December"];
+	monthNames = ["", "január", "február", "marec", "apríl", "máj", "jún", "júl", "august", "september" , "December"];
 	improvementText = "Improvement"
 	saveText = "Uložiť"
 	savescoreText = "Uložiť skóre"
@@ -681,7 +681,7 @@ function languageInit() {
 	instructionsG = '6. Vissza tudsz hozni egy előző mentést azzal, ha kiválasztod a mentés számát a "+" és "-" gombokkal, majd a "Mentés betöltése:" gombra kattintasz.'
 
 
-	var monthNames = ["","Január", "Február", "Március", "Április", "Május", "Június", "Július", "Augusztus", "Szeptember", "Október", "November", "December"];
+	monthNames = ["","Január", "Február", "Március", "Április", "Május", "Június", "Július", "Augusztus", "Szeptember", "Október", "November", "December"];
 	improvementText = "Javítás"
 	scorerText = "Pontozó"
 	timersText = "Időmérők"
@@ -744,7 +744,7 @@ function languageInit() {
 	instructionsF = '5. Εάν θέλετε να επεξεργαστείτε ή να δείτε το λογιστικό φύλλο, πατήστε "Άνοιγμα Φύλλων Google". Εάν χρειαστείτε το ID σας. - βρίσκεται στο URL του λογιστικού φύλλου σας όταν το ανοίγεται.'
 	instructionsG = '6. Μπορείτε να ανακτήσετε/να εισάγεται την παλιά σας βαθμολογία στο scorer εισάγοντας τον αριθμό αποθήκευσης με τα κουμπιά "+" και "-" and και μετά να πατήσετε το κουμπί "Ανάκτηση Αποθηκευμένης Βαθμολογίας:" '
 
-	var monthNames = ["Μήνας","Ιανουάριος", "Φεβρουάριος", "Μάρτιος", "Απρίλιος", "Μάιος", "Ιούνιος", "Ιούλιος", "Αύγουστος", "Σεπτέμβριος", "Οκτώβριος", "Νοέμβριος", "Δεκέμβριος"];
+	monthNames = ["Μήνας","Ιανουάριος", "Φεβρουάριος", "Μάρτιος", "Απρίλιος", "Μάιος", "Ιούνιος", "Ιούλιος", "Αύγουστος", "Σεπτέμβριος", "Οκτώβριος", "Νοέμβριος", "Δεκέμβριος"];
 	improvementText = "Πρόοδος"
 	scorerText = "Καταγραφή Βαθμολογίας"
 	timersText = "Χρονόμετρα"
@@ -762,7 +762,7 @@ function languageInit() {
 	revisionText = "CITY SHAPER Scorer Έκδοση "
 	copyrightText = "Copyright (c) 2019 Seshan Brothers"
 
-	title = "CITY SHAPER Scorer"
+	title = "CITY SHAPER Βαθμολογία"
 
 	A00="Πλεονέκτημα"
 	A00a="Όλος ο Εξοπλισμός χωράει στην Μικρή Περιοχή"
@@ -829,7 +829,7 @@ function languageInit() {
 	pointsText = "Points"
 	resetText = "Redémarrer"
 
-	var monthNames = ["", "Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre" , "Décembre"];
+	monthNames = ["", "Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre" , "Décembre"];
 	improvementText = "Amélioration"
 	saveText = "Enregistrer"
 	savescoreText = "Enregistrer le score"
@@ -854,7 +854,7 @@ function languageInit() {
 	resetText = "אפס"
 
 
-	var monthNames = [ "", "ינואר", "פברואר", "מרץ", "אפריל", "מאי", "יוני", "יולי", "אוגוסט", "ספטמבר", "אוקטובר", "נובמבר" , "דצמבר"];
+	monthNames = [ "", "ינואר", "פברואר", "מרץ", "אפריל", "מאי", "יוני", "יולי", "אוגוסט", "ספטמבר", "אוקטובר", "נובמבר" , "דצמבר"];
 	improvementText = "שיפור"
 	saveText = "שמור"
 	savescoreText = "שמור ציון"
@@ -912,7 +912,7 @@ function languageInit() {
 	instructionsG = '6. Ayrıca "+" ve "-" tuşlarına basarak kaydetme numarasını girip "Load Save:" (Kaydet): butonuna basarak belirli bir skoru skorerde alabilirsiniz.'
 
 
-	var monthNames = ["","Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"];
+	monthNames = ["","Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"];
 	improvementText = "Gelişme"
 	scorerText = "Puanlayıcı"
 	timersText = "Zaman Ölçümü"
@@ -970,7 +970,7 @@ function languageInit() {
 	instructionsG = '6. Puteți, de asemenea, să încărcați un anumit scor anterior în calculator de scor prin introducerea numărului salvării folosind butoanele "+" și "-" și apoi prin apăsarea butonului "Încărcați o salvare:" '
 
 
-	var monthNames = ["","ianuarie", "februarie", "martie", "aprilie", "mai", "iunie", "iulie", "august", "septembrie", "octombrie", "noiembrie", "decembrie"];
+	monthNames = ["","ianuarie", "februarie", "martie", "aprilie", "mai", "iunie", "iulie", "august", "septembrie", "octombrie", "noiembrie", "decembrie"];
 	improvementText = " Îmbunătățire"
 	scorerText = "Calculator de scor"
 	timersText = "Cronometre"
@@ -1031,7 +1031,7 @@ function languageInit() {
 	instructionsF = '5. Se desideri controllare il foglio di lavoro e modificarlo, fai clic su "Apri foglio di lavoro Google ". Se dovessi avere bisogno dell`ID foglio di Google, si trova nell`URL del foglio di lavoro quando lo apri.'
 	instructionsG = '6. Puoi anche recuperare uno specifico punteggio precedente nel segnapunti inserendo il numero di salvataggio con i pulsanti "+" e "-" e facendo clic sul pulsante "Carica salvataggio:" '
 
-	var monthNames = ["","Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"];
+	monthNames = ["","Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"];
 	improvementText = "Miglioramento"
 	scorerText = "Segnapunti"
 	timersText = "Timer"
@@ -1151,7 +1151,7 @@ function languageInit() {
 	instructionsF = '5. Zure kalkulu orria ikuskatu eta editatu nahi baduzu, sakatu "Zabaldu Google-ren Kalkulu Orriak". Uneren batean kalkulu orriaren ID-a behar baduzu, zure kalkulu orriaren URL-an aurkitu dezakezu.'
 	instructionsG = '6. Aintzinako puntuazio jakin bat ere berreskuratu dezakezu zenbatzailean "+" eta "-" botoiekin gordetze zenbakia ipiniz eta gero "Kargatu Gordetakoa:" sakatuz'
 
-	var monthNames = ["","Urtarrila", "Otsaila", "Martxoa", "Apirila", "Maiatza", "Ekaina", "Uztaila", "Abuztua",
+	monthNames = ["","Urtarrila", "Otsaila", "Martxoa", "Apirila", "Maiatza", "Ekaina", "Uztaila", "Abuztua",
 			  "Iraila", "Urria", "Azaroa", "Abendua"];
 	improvementText = "Hobespena"
 	scorerText = "Zenbatzailea"

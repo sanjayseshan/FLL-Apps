@@ -120,7 +120,7 @@ class ViewController: UIViewController, WKUIDelegate {
     }
     
     func webView(_ webView: WKWebView, runJavaScriptAlertPanelWithMessage message: String, initiatedByFrame frame: WKFrameInfo, completionHandler: @escaping () -> Void) {
-        let ac = UIAlertController(title: "Hey, listen!", message: message, preferredStyle: .alert)
+        let ac = UIAlertController(title: "Alert: ", message: message, preferredStyle: .alert)
         ac.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
         present(ac, animated: true)
         completionHandler()
