@@ -1,3 +1,9 @@
+// This is where all the missions are defined for the season. Ideally, each season, you only have to edit this file, but there are some small areas that need to be changed elsewhere.
+// This uses html.js to draw all the missions to the screen.
+// Mission loader v2.0 Dynamic Content Replacer
+
+
+
 // Defines a blank save for reset
 
 blanksave = "elevated1|0,elevated2|0,crane1|0,crane2|0,crane3|0,inspection1|0,wildlife1|0,treehouse1|0,treehouse2|0,traffic1|0,swing1|0,elevator1|0,elevator2|0,safety1|0,steel1|0,innovative1|0,innovative2|0,design1|1,design2|1,sustainability1|0,advantage1|0,precision1|6"
@@ -7,7 +13,7 @@ google_headers = [
       "Total Points","Date/Time", "Round #", "Team #", "M01a", "M01b", "M02a", "M02b", "M02c", "M03", "M04", "M05a", "M05b", "M06", "M07", "M08a", "M08b", "M09", "M10", "M11a", "M11b", "M12a", "M12b", "M13", "A00", "M14"
     ]
 
-// Override function in scoring system
+// Override function in scoring system during the checking for button conflicts
 specialCasesComplete = 0
 function specialCasesCheck(mission) {
     if (specialCasesComplete != 1){
@@ -79,6 +85,7 @@ function specialCasesCheck(mission) {
     }
 }
 
+// Override function when calculating points for each mission
 function specialCasesRecalc(mission) {
     if (specialCasesComplete != 1){
 	specialCasesComplete = 1

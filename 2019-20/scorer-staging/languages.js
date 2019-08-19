@@ -1,3 +1,8 @@
+// This is where all the translations go for every language
+// Language switcher v2.0 Dynamic Content Replacer
+
+// For forwards compatibility with older versions of the scorer, just add "languageInit()" at the end of this file.
+
 // Universal
 versionText = "1.7 - 18/08/2019"
 
@@ -34,8 +39,8 @@ function languageInit() {
     totalText = "Total Points"
     savedText = "Saved"
     loadedText = "Loaded"
-    googleSaveText = "Google Sheets (Default)"
-    localSaveText = "Local Browser Storage (Legacy)"
+    googleSaveText = "Google Sheets (Testing)"
+    localSaveText = "Local Browser Storage (Default)"
     isIE = "Google saving system is incompatible with Microsoft Internet Explorer. You can either switch to another browser or continue by using the legacy saving system (click above)"
 
     googleIntro = "You can save your scores to a Google Spreadsheet. This helps you keep track of progress over the season. See instructions at the bottom of the page."
@@ -1239,3 +1244,4 @@ function languageInit() {
     improvement= improvementText
 }
 
+languageInit()
