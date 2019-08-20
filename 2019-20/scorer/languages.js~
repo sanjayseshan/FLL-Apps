@@ -1,5 +1,9 @@
+// Universal
+version = "1.7 - 14/08/2019"
 
 // Default Language (English/en)
+
+translatorCredit = ""
 
 yes = "Yes"
 no = "No"
@@ -32,12 +36,12 @@ googleIntro = "You can save your scores to a Google Spreadsheet. This helps you 
 pastSaves = "Past Saves"
 instructions = "Instructions"
 instructionsA = "The key steps to using the save system are:"
-instructionsB = '1. Sign in to your Google account. You may get a "This app isn`t verified" warning. If so, click on "Advanced" and then "Go to FLL Scorer (unsafe)"'
+instructionsB = '1. Sign in to your Google account. You may get a "This app is not verified" warning. If so, click on "Advanced" and then "Go to FLL Scorer (unsafe)"'
 instructionsC = '2. If you have not created a spreadsheet in the past - click "Create New Spreadsheet"'
 instructionsD = '3. If you have created a spreadsheet in the past, make sure that the Google Sheet ID field is filled and not "undefined". If you wish to share a spreadsheet between devices, you need to enter this ID manually.'
 instructionsE = '4. Any time you want to save a score, click "Save Score" - this will update the spreadsheet with the current score and date'
 instructionsF = '5. If you wish to inspect your spreadsheet and edit it, click on "Open Google Spreadsheet". If you ever need the Google Sheet ID - it is in the URL of your spreadsheet when you open it.'
-instructionsG = '6. You can also retreive a specific past score into the scorer by entering the save number with the "+" and "-" buttons and then clicking the "Load Save:" button'
+instructionsG = '6. You can also retrieve a specific past score into the scorer by entering the save number with the "+" and "-" buttons and then clicking the "Load Save:" button'
 
 var monthNames = ["","January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 improvementText = "Improvement"
@@ -56,80 +60,76 @@ stopwatchText = "Stopwatch:"
 idText = "Google Sheet ID: "
 undefinedText = "undefined"
 
-revisionText = "CITY SHAPER Scorer Revision "
+revisionText = "CITY SHAPER Scorer Version "
 copyrightText = "Copyright (c) 2019 Seshan Brothers"
 
 title = "CITY SHAPER Scorer"
 
-M01="Elevated Places"
-M01a="If the robot is supported by the Bridge"
-M01b="How many flags are clearly raised any distance, only by the robot"
-
-M02="Crane"
-M02a="Hooked Blue Unit is clearly lowered any distance from the Guide Hole"
-M02b="Hooked Blue Unit is independent and supported by another Blue Unit"
-M02c="Level 1 is Completely in the Blue Circle"
-
-M03="Inspection Drone"
-M03a="If the Inspection Drone is supported by the axel (A) on the bridge"
-
-M04="Design For Wildlife"
-M04a="Is the Bat supported by branch (B) on the Tree?"
-
-M05="Treehouse"
-M05a="If a Unit is supported by the Tree's Large Branches"
-M05b="If a Unit is supported by the Tree's Small Branches"
-
-M06="Traffic Jam"
-M06a="If the Traffic Jam is lifted"
-
-M07="Swing"
-M07a="If the Swing is released"
-
-M08="Elevator"
-M08a="If the Elevator`s moving parts are in the Blue Car Down position"
-M08b="If the Elevator`s moving parts are in the Balanced position"
-
-M09="Safety Factor"
-M09a="How many beams have been knocked at least half way."
-M09b="The Test Building must be supported by only the blue beams"
-
-M10="Steel Construction"
-M10a="If the Steel Structure is standing"
-
-M11="Innovative Architecture"
-M11a="If the structure is <b>completely</b> in any Circle"
-M11b="If the structure is <b>partly</b> in any Circle"
-M11c="Structure must be team designed and clearly bigger than a Blue Building Unit. Must be built from your white LEGO bricks"
-
-M12="Design & Build"
-M12a="LOCATION - If there are any Circles with at least one color-matching Unit Completely In, and Flat Down on the Mat"
-M12b="HEIGHT - If there are Independent Stacks at least partly in any Circles, add all of their heights together"
-
-M13="Sustainability Upgrades"
-M13a="If an Upgrade (solar panels, roof garden, insulation) is Supported on a Stack which is at least partly in any Circle"
-
-M14="Meteoroid Deflection"
-M14a="How many meteoroids are in the Center Section?"
-M14b="How many meteoroids are in the Side Sections?"
+missionNumbering = "M" // i.e. display as M01, M02, etc. (first letter of the word "Mission" in your language)
 
 A00="Advantage"
-A00a="If your Robot fits in the Small Inspection Area"
-M15b="Is the Lander intact, touching the Mat, and <b>completely</b> in the <b>Northeast Planet Area</b>?"
-M15c="Are both parts of the Lander <b>completely</b> in <b>Base</b>?"
+A00a="Does the team's Equipment fit in the Small Inspection Area?"
+A00b="5 Points added to each Mission 1-13 and an additional 5 to M02."
 
-P01="Penalty"
-P01a="How many times was the robot interrupted?"
+M01="Elevated Places"
+M01a="Is the Robot <b>Supported</b> by the Bridge?"
+M01b="How many Flags are clearly raised any distance, only by the Robot"
 
-translatorCredit = ""
+M02="Crane"
+M02a="Is Hooked Blue Unit clearly lowered any distance from the Guide Hole?"
+M02b="Is Hooked Blue Unit <b>Independent</b> and <b>Supported</b> by another Blue Unit?"
+M02c="Is Level 1 Completely in the Blue Circle?"
+
+M03="Inspection Drone"
+M03a="Is the Inspection Drone <b>Supported</b> by the axle (A) on the Bridge?"
+
+M04="Design For Wildlife"
+M04a="Is the Bat <b>Supported</b> by the brown branch (B) on the Tree?"
+
+M05="Treehouse"
+M05a="How many Units are <b>Independent</b> and <b>Supported</b> by the Tree's Large Branches?"
+M05b="How many Units are <b>Independent</b> and <b>Supported</b> by the Tree's Small Branches?"
+
+M06="Traffic Jam"
+M06a="Is the Traffic Jam lifted, its moving part is <b>Independent</b> and <b>Supported</b> only by its hinges?"
+
+M07="Swing"
+M07a="Is the Swing released?"
+
+M08="Elevator"
+M08a="Are the Elevator`s moving parts <b>Independent</b> and <b>Supported</b> only by its hinges in the Blue Car Down position?"
+M08b="Are the Elevator`s moving parts <b>Independent</b> and <b>Supported</b> only by its hinges in the Balanced position?"
+
+M09="Safety Factor"
+M09a="How many beams have been knocked out at least half way?"
+M09b="The Test Building must be <b>Independent</b> and <b>Supported</b> only by the blue beams"
+
+M10="Steel Construction"
+M10a="Is the Steel Structure standing, and is <b>Independent</b> and <b>Supported</b> only by its hinges?"
+
+M11="Innovative Architecture"
+M11a="Is the structure <b>Completely</b> in any Circle?"
+M11b="Is the structure <b>partly</b> in any Circle?"
+M11c="Structure must be team designed and clearly bigger than a Blue Building Unit. Must be built from the team's LEGO bricks in bag 10."
+
+M12="Design & Build"
+M12a="How many Circles have at least one color-matching Unit <b>Completely</b> In, and Flat Down on the Mat?"
+M12b="If there are <b>Independent</b> Stacks at least <b>partly</b> in any Circles, what is the sum of all of their heights?"
+M12c="The Blue Circle is not Part of Mission 12. A Stack is one or more Building Units with Level 1 touching Flat Down on the Mat, and any higher levels touching Flat Down on the level below"
+
+M13="Sustainability Upgrades"
+M13a="How many Upgrades (solar panels, roof garden, insulation) are <b>Independent</b> and <b>Supported</b> on a Stack which is at least partly in any Circle?"
+
+M14="Precision"
+M14a="How many Precision Tokens are left on the field?"
+
 
 
 
 
 if (language == "pt" || language == "pt-br") {
-
-    undefinedText = "Indefinido"
-    idText = "ID da Planilha Google"
+    translatorCredit = "Traduzido para Português (Brasil) por Anderson Harayashiki Moreira"
+    
     yes = "Sim"
     no = "Não"
     partly = "Parcialmente"
@@ -144,7 +144,7 @@ if (language == "pt" || language == "pt-br") {
     signin = "Entrar como"
     signout = "Sair"
     GoogleCreate = "Criar Nova Planilha"
-    GoogleOpen = "Abrir Planilha do Google "
+    GoogleOpen = "Abrir Planilha do Google"
     created = "Criado"
     savedto = "Salvo em"
     teamText = "Time"
@@ -154,21 +154,19 @@ if (language == "pt" || language == "pt-br") {
     savedText = "Salvo"
     loadedText = "Carregado"
     googleSaveText = "Planilha Google (Padrão)"
-    localSaveText = " Armazenamento do Navegador Local (Legacy)"
-    isIE = "O armazenamento no sistema Google é incompatível com o Microsoft Internet Explorer. Você pode escolher outro navegador ou continuar utilizando o Sistema de salvamento Legacy (clique acima)"
-    systemText = "Sistema de Salvamento: "
-    
-    googleIntro = " Você pode salvar suas pontuações em uma planilha do Google. Isso ajuda você a acompanhar o progresso durante a temporada. Veja as instruções na parte inferior da página."
-    pastSaves = "Pontuações Anteriores"
+    localSaveText = "Armazenamento do Navegador Local(Legacy)"
+    isIE = " O armazenamento no sistema Google é incompatível com o Microsoft Internet Explorer. Você pode escolher outro navegador ou continuar utilizando o Sistema de salvamento Legacy (clique acima)"
+
+    googleIntro = "Você pode salvar suas pontuações em uma planilha do Google. Isso ajuda você a acompanhar o progresso durante a temporada. Veja as instruções na parte inferior da página."
+    pastSaves = " Pontuações Anteriores"
     instructions = "Instruções"
-    instructionsA = " Os principais passos para usar o sistema de salvamento são:"
+    instructionsA = "Os principais passos para usar o sistema de salvamento são:"
     instructionsB = '1. Faça login na sua conta do Google. Você pode receber um aviso "Este app não foi verificado". Se assim for, clique em "Avançado" e depois "Acessar flltutorials.com (não seguro)"'
     instructionsC = '2. Se você não criou uma planilha no passado - clique em "Criar Nova Planilha"'
     instructionsD = '3. Se você criou uma planilha no passado, verifique se o campo ID da planilha do Google está preenchido e não "undefined". Se você deseja compartilhar uma planilha entre dispositivos, é necessário inserir esse ID manualmente.'
     instructionsE = '4. Sempre que quiser salvar uma pontuação, clique em "Salvar Pontuação". Isso atualizará a planilha com a pontuação e data atuais.'
     instructionsF = '5. Se você desejar inspecionar sua planilha e editá-la, clique em "Abrir Planilha do Google". Se você precisar do ID da planilha do Google, ela estará na URL da sua planilha quando você a abrir.'
-    instructionsG = '6. Você também pode recuperar uma pontuação passada específica no marcador, entrando com o número de salvamento com os botões "+" e "-" e, em seguida, clicando no botão "Carregar Pontuação:" '
-
+    instructionsG = '6. Você também pode recuperar uma pontuação passada específica no marcador, entrando com o número de salvamento com os botões "+" e "-" e, em seguida, clicando no botão "Carregar Pontuação:"'
 
     var monthNames = ["","Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
     improvementText = "Evolução"
@@ -179,221 +177,212 @@ if (language == "pt" || language == "pt-br") {
     stopText = "Parar"
     pointsText = "Pontos"
 
+    systemText = "Sistema de Salvamento: "
+
     timerText = "Temporizador:"
-    stopwatchText = " Cronômetro:"
+    stopwatchText = "Cronômetro:"
 
-    revisionText = "Marcador INTO ORBIT Revisão "
-    copyrightText = "Direitos (c) 2018-19 Seshan Brothers"
+    idText = "ID Planilha Google: "
+    undefinedText = "indefinido"
 
-    title = "Marcador INTO ORBIT"
+    revisionText = "Marcador CITY SHAPER Versão "
+    copyrightText = "Copyright (c) 2019 Seshan Brothers"
 
-    M01="Viagem Espacial"
-    M01a="A Carga de Veículo passou pela Primeira Conexão do Trilho?"
-    M01b="A Carga de Suprimentos passou pela Primeira Conexão do Trilho?"
-    M01c="A Carga de Tripulação passou pela Primeira Conexão do Trilho?"
+    title = "Marcador CITY SHAPER"
 
-    M02="Matriz de Painel Solar"
-    M02a="Ambos os Painéis Solares estão Voltados para a mesma Arena"
-    M02b="O seu Painel Solar está Voltado para a Arena da outra Equipe?"
+    A00="Vantagem"
+    A00a="O equipamento do time cabe na Área de Inspeção Pequena?"
+    A00b="5 pontos adicionados a cada missão de 1 a 13 e um adicional de 5 para a M02."
 
-    M03="Impressão 3D"
-    M03a="Bloco 2x4 ejetado e <b>completamente dentro da Área Nordeste do Planeta</b>?"
-    M03b="Bloco 2x4 <b>ejetado e sem estar completamente</b> dentro da Área Nordeste do Planeta?"
+    M01="Lugares elevados"
+    M01a="O Robô está <b>Apoiado</b> sobre a ponte?"
+    M01b="Quantas Bandeiras estão claramente levantadas a qualquer altura, somente pelo Robô"
 
-    M04="Travessia da Cratera"
-    M04a="Todas as partes do equipamento atravessaram a cratera entre as torres vindo <b>de leste para oeste e passando completamente pelo Portão achatado</b>?"
+    M02="Guindaste"
+    M02a="O módulo Azul está claramente em uma posição mais baixa que a posição inicial?"
+    M02b="O módulo Azul está <b>Independente</b> e <b>Apoiado</b> sobre outro módulo Azul?"
+    M02c="O modulo de baixo está completamente dentro do círculo azul?"
 
-    M05="Extração"
-    M05a=" Todas as quatro Amostras de Testemunhos de Sondagem não estão mais tocando o eixo dentro do Modelo onde estavam?"
-    M05b=" A Amostra de Gás está <b>tocando o tapete completamente dentro do Círculo Alvo do Módulo de Aterrisagem</b>?"
-    M05c="A Amostra de Gás está <b>completamente dentro da Base</b>?"
-    M05d="A Amostra de Água está <b>apoiada apenas pela Câmara de Produção de Alimento</b>?"
+    M03="Drone de inspeção"
+    M03a="O Drone de Inspeção está <b>Apoiado</b> sobre o eixo (A) na Ponte?"
 
-    M06="Módulos da Estação Espacial"
-    M06a="O Módulo Cone está <b>completamente dentro da Base</b>?"
-    M06b="O Módulo Tubo está inserido <b>na abertura do lado oeste do Complexo Habitacional</b>?"
-    M06c="O Módulo de Acoplamento foi transferido/inserido <b>na abertura do lado leste do Complexo Habitacional</b>?"
+    M04="Design para os animais"
+    M04a="O morcego está <b>Apoiado</b> pelo galho (B) da Árvore?"
 
-    M07="Emergência de Caminhada Espacial"
-    M07a="Gerhard está <b>parcialmente</b> ou <b>completamente</b> na Câmara de Vácuo do Complexo Habitacional?"
+    M05="Casa na árvore"
+    M05a="Quantos módulos estão <b>Independentes</b> e <b>Apoiados</b> pelos Galhos Grandes da Árvore?"
+    M05b="Quantos módulos estão <b>Independentes</b> e <b>Apoiados</b> pelos Galhos Pequenos da Árvore?"
 
-    M08="Exercício Aeróbico"
-    M08a="A ponta do Ponteiro está <b>completamente no laranja, ou cobrindo parcialmente qualquer uma das bordas que delimitam o laranja</b>?"
-    M08b="A ponta do Ponteiro está <b>completamente no branco</b>?"
-    M08c=" A ponta do Ponteiro está <b>completamente no cinza, ou cobrindo parcialmente qualquer uma das bordas que delimitam o cinza</b>?"
+    M06="Engarrafamento"
+    M06a="O Engarrafamento está levantado, e sua parte móvel está <b>Independente</b> e <b>Apoiada</b> apenas pela própria articulação da estrutura?"
 
-    M09="Exercício de Força"
-    M09a=" A Barra de Força está levantada, <b>de modo que o quarto orifício da barra dentada (cremalheira) fique pelo menos parcialmente visível?</b>"
+    M07="Balanço"
+    M07a="O Balanço está solto?"
 
-    M10="Produção de Alimentos"
-    M10a=" As cores da Câmara de Produção de Alimentos foram giradas de modo que <b>o peso cinza CAIA após o verde, mas antes do marrom-claro, movendo a Barra de Pressão</b>?"
+    M08="Elevador"
+    M08a="As partes móveis do Elevador estão <b>Independentes</b> e <b>Apoiadas</b> apenas pela própria articulação da estrutura com o carro azul para baixo?"
+    M08b=" As partes móveis do Elevador estão <b>Independentes</b> e <b>Apoiadas</b> apenas pela própria articulação da estrutura em equilíbrio?"
 
-    M11="Velocidade de Escape"
-    M11a=" A nave espacial foi movida rápida o suficiente para <b>permanecer na parte de cima</b>?"
+    M09="Fator de Segurança"
+    M09a="Quantas vigas azuis foram derrubadas?"
+    M09b="O Edifício Teste está <b>Independente</b> e <b>Apoiado</b> somente pelas vigas azuis?"
 
-    M12="Órbitas de Satélites"
-    M12a="Para cada um dos satélites, qualquer parte está <b>sobre ou acima da área entre as duas linhas da Órbita Externa</b>?"
+    M10="Construção em Aço"
+    M10a="A Estrutura em Aço está em pé e <b>Independente</b> e <b>Apoiada</b> somente pela própria articulação da estrutura?"
 
-    M13="Observatório"
-    M13a=" A ponta do Ponteiro está <b>completamente no laranja, ou cobrindo parcialmente qualquer uma das bordas que delimitam o laranja</b>?"
-    M13b="A ponta do Ponteiro está <b>completamente no branco</b>?"
-    M13c="A ponta do Ponteiro está <b>completamente no cinza, ou cobrindo parcialmente qualquer uma das bordas que delimitam o cinza</b>?"
+    M11="Arquitetura Inovadora"
+    M11a="A estrutura está <b>Completamente</b> dentro de algum Círculo?"
+    M11b=" A estrutura está <b>Parcialmente</b> em algum Círculo?"
+    M11c="A estrutura criada pela equipe, deve ser claramente maior que o Módulo de Construção Azul e construída usando apenas blocos LEGO brancos."
 
-    M14="Deflexão do Meteoroide"
-    M14a="Quantos meteoroides estão na Porção Central?"
-    M14b="Quantos meteoroides estão na Porção Lateral?"
+    M12="Planeje & Construa"
+    M12a="Quantos Círculos possuem ao menos um modulo da mesma cor <b>Completamente</b> Dentro, e Tocando o Tapete?"
+    M12b="Se existirem Pilhas <b>Independentes</b> que estejam pelo menos <b>Parcialmente</b> dentro de qualquer Círculo, qual a soma de todas as alturas juntas?"
+    M12c=" O Círculo Azul não é Parte da Missão 12. Uma Pilha corresponde a um ou mais Módulos de Construção, o nível 1 deve estar completamente dentro e tocando o Tapete. Os níveis superiores também devem estar tocando no nível inferior completamente)."
 
-    M15="Módulo de Aterrissagem"
-    M15a="O Módulo de Aterrissagem está <b>intacto, tocando o Tapete e completamente dentro do seu Círculo Alvo</b>?"
-    M15b="O Módulo de Aterrissagem está <b>intacto, tocando o Tapete e completamente dentro da área Nordeste do Planeta</b>?"
-    M15c="<b>Ambas as partes do Módulo de Aterrissagem</b> estão <b>completamente na Base</b>?"
+    M13="Melhorias de Sustentabilidade"
+    M13a="Quantas melhorias (painéis solares, jardim no teto, isolamento) estão <b>Independente</b> e <b>Apoiadas</b> sobre uma Pilha que está pelo menos parcialmente dentro de qualquer Círculo?"
 
-    P01="Penalidades de Interrupção"
-    P01a="Quantas vezes o robô foi interrompido?"
+    M14="Precisão"
+    M14a="Quantos discos de precisão foram deixados no campo?"
 
-    translatorCredit = "Traduzido para o Português (Brasil) por Anderson Harayashiki Moreira"
-
-
+    
 
 } else if (language == "de") {
+    translatorCredit = "Übersetzung von Tim Waibel (Team Cassapeia)"
+
     yes = "Ja"
     no = "Nein"
     partly = "Teilweise"
-    completely = "Komplett"
+    completely = "Vollständig"
     resetText = "Zurücksetzen"
     saveText = "Speichern"
-    savescoreText="Score Speichern"
-    loadsaveText="Gespeicherten Score laden:"
-    deletesaveText="Gespeicherte Scores löschen"
-    importsaveText="Gespeicherten Score importieren"
-    exportsaveText="Gespeicherten Score exportieren"
+    savescoreText="Punktzahl speichern"
+    loadsaveText="Punktzahl laden:"
+    deletesaveText="Gespeicherte Punktzahlen laden"
+    importsaveText="Datei importieren"
+    exportsaveText="Datei exportieren"
     signin = "Anmelden mit"
-    signout = "Abmelden von"
-    GoogleCreate = "Neues Spreadsheet erstellen"
+    signout = "Abmelden aus"
+    GoogleCreate = "Neues Google Spreadsheet erstellen "
     GoogleOpen = "Google Spreadsheet öffnen"
     created = "Erstellt"
-    savedto = "Gespeichert nach"
+    savedto = "Gespeichert unter"
     teamText = "Team"
     roundText = "Runde"
     dateText = "Datum/Uhrzeit"
-    totalText = "Gesamt Punkte"
+    totalText = "Gesamtpunktzahl"
     savedText = "Gespeichert"
     loadedText = "Geladen"
     googleSaveText = "Google Sheets (Standard)"
-    localSaveText = "Lokaler Speicher des Browsers"
-    isIE = "Das System zum Abspeichern der Daten mit Google ist nicht kompatibel mit dem Internet Explorer. Sie können einen anderen Browser erwenden oder die Daten lokal speichern (siehe oben)"
+    localSaveText = "Festplatte"
+    isIE = "In Google speichern funktioniert nicht im Internet Explorer. Du kannst entweder einen anderen Browser benutzen oder auf der Festplatte speichern (siehe oben)."
 
-    googleIntro = "Soe können die Scores in ein Google Spreadsheet speichern. Das erleichtert das Verfolgen der Scores im Verlauf der Saison. Die Anleitung hierzu befindet sich am Ende der Seite."
-    pastSaves = "Abgespeicherte Scores"
+    googleIntro = "Du kannst deine Punktzahlen in einem Google Spreadsheet speichern. Das hilft Dir, deinen Fortschritt während der Saison zu verfolgen. Für eine Anleitung an das Ende der Seite scrollen."
+    pastSaves = "Gespeicherte Punktzahlen"
     instructions = "Anleitung"
-    instructionsA = "Die wichtigsten Schritte, um das Speichersystem zu nutzen:"
-    instructionsB = '1. Melden Sie sich mit Ihrem Google Account an. Evtl. erscheint eine Warnung, dass diese App nicht verifiziert ist. Falls dies geschieht, klicken sie auf "Erweitert" und "Zu FLL Scorer fortfahren (unsicher)"'
-    instructionsC = '2. Wenn Sie noch kein Spreadsheet angelegt haben, klicken Sie auf "Neues Spreadsheet erstellen"'
-    instructionsD = '3. Wenn Sie schon ein Spreadsheet angelegt haben, stellen Sie sicher, dass sie die Google Sheet ID eingetragen haben (und nicht "Undefined"). Wenn Sie das Spreadsheet auf mehreren Geräten benutzen möchten, müssen Sie diese ID manuell eintragen.'
-    instructionsE = '4. Wenn Sie einen Score speichern möchten, klicken Sie "Score Speichern" - dadurch werden Score und das aktuelle Datum in das Spradsheet eingetragen'
-    instructionsF = '5. Wenn Sie ihr Spreadsheet ansehen und bearbeiten möchten, klicken Sie auf "Google Spreadsheet öffnen". Sollten Sie die Google Sheet ID benötigen, finden Sie diese in der URL ihres geöffneten Spreadsheets.'
-    instructionsG = '6. Sie können einen beliebigen alten Score wieder im Scorer anzeigen lassen, indem Sie die Speichernummer des Scores und die "+" und "-" sowie den "Gespeicherten Score laden" Button benutzen.'
-
+    instructionsA = "Die Hauptschritte beim Speichern und Laden von Punktzahlen sind:"
+    instructionsB = '1. Melde Dich in Deinem Google-Account an. Evtl. Erhältst Du eine Warnung “diese App ist nicht verifiziert”. Falls das der Fall ist, klicke auf “Erweitert” und fahre dann “Fortfahren (unsicher)”.'
+    instructionsC = '2. Falls Du noch kein Spreadsheet erstellt hast, klicke auf “Neues Spreadsheet erstellen”.'
+    instructionsD = '3. Falls Du schon ein Spreadsheet erstellt hast, überprüfe, dass das Feld für die Google Sheet ID ausgefüllt ist und nicht “undefiniert”. Falls Du das Spreadsheet auf verschiedenen Geräten verwenden möchtest, must Du diese ID manuell eingeben.'
+    instructionsE = '4. Um eine Punktzahl zu speichern, klicke auf “Punktzahl speichern”. Dies wird die aktuelle Punktzahl und das aktuelle Datum in das Spreadsheet eintragen.'
+    instructionsF = '5. Um Dein Spreadsheet zo öffnen und zu editieren, klicke auf “Google Spreadsheet öffnen”. Die Google Sheet ID ist Teil der URL des geöffneten Spreadsheets.'
+    instructionsG = '6. Du kannst bestimmte Punktzahlen auch laden, indem du die ID der Punktzahl mit den “+” und “-“ Buttons einstellst und dann auf “Punktzahl laden” klickst.'
 
     var monthNames = ["","Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"];
     improvementText = "Verbesserung"
     scorerText = "Punkterechner"
-    timersText = "Timer"
-    savesText = "Gespeicherte Scores"
+    timersText = "Zeitnehmer"
+    savesText = "Punktzahlen"
     startText = "Start"
     stopText = "Stop"
     pointsText = "Punkte"
 
-    systemText = "System speichern: "
-    
+    systemText = "Speicherort: "
+
     timerText = "Timer:"
     stopwatchText = "Stoppuhr:"
 
-    copyrightText = "Urheberrechte © 2018-19 Seshan Brothers"
+    idText = "Google Sheet ID: "
+    undefinedText = "undefiniert"
 
-    revisionText = "INTO ORBIT Scorer Revision "
+    revisionText = "CITY SHAPER Punkterechner Version "
+    copyrightText = "Copyright (c) 2019 Seshan Brothers"
+
+    title = "CITY SHAPER Punkterechner"
+
+    missionNumbering = "A"
     
-    title = "INTO ORBIT Punkterechner"
+    A00="Bonus"
+    A00a="Passt das komplette Material des Teams in die kleine Inspektionszone?"
+    A00b="5 Zusatzpunkte für jede (teilweise) gelöste Aufgabe 1-13 und nochmal 5 Punkte für Aufgabe 2."
 
-    M01="Raumfahrt"
-    M01a="Ist die Fahrzeug-Ladung die Raumfahrt-Rampe heruntergerollt (über die erste Schienenverbindung hinaus)?"
-    M01b="Ist die Versorgungs-Ladung die Raumfahrt-Rampe heruntergerollt (über die erste Schienenverbindung hinaus)?"
-    M01c="Ist die Mannschafts-Ladung die Raumfahrt-Rampe heruntergerollt (über die erste Schienenverbindung hinaus)?"
+    M01="Brücke"
+    M01a="<b>Trägt</b> die Brücke den Roboter?"
+    M01b="Wie viele Flaggen sind eindeutig – nur durch den Roboter – beliebig weit gehisst?"
 
-    M02="Solarpanel ausrichten"
-    M02a="Sind beide Solarpanels  in die selbe Richtung abgewinkelt?"
-    M02b="Ist euer Solarpanel in Richtung des Spielfelds des anderen Teams abgewinkelt?"
+    M02="Kran"
+    M02a="Ist die hängende blaue Wohneinheit eindeutig und beliebig weit weg von der grauen Seilführung an der Kranspitze abgesenkt?"
+    M02b=" Ist die hängende blaue Wohneinheit <b>eigenständig</b> und wird von einer anderen blauen Wohneinheit <b>getragen</b>?"
+    M02c="Ist die untere Wohneinheit vollständig im blauen Kreis?"
 
-    M03="3D-Druck"
-    M03a="Ist der 2x4-Stein ausgeworfen und befindet sich komplett im nordöstlichen Planetengebiet?"
-    M03b="Ist der 2x4-Stein ausgeworfen und befindet sich <b> nicht </b> komplett im nordöstlichen Planetengebiet?"
+    M03="Inspektionsdrohne"
+    M03a="Wird die Inspektionsdrohne von der Achse (A) an der Brücke <b>getragen</b>?"
 
-    M04="Krater-Überquerung"
-    M04a="Haben alle tragenden Teile des überquerenden Geräts das Kratermodell vollständig und <b>komplett</b> zwischen den Türmen überquert?"
+    M04="Lebensraum für Tiere"
+    M04a="Wird die Fledermaus vom Ast (B) des Baums <b>getragen</b>?"
 
-    M05="Ressourcengewinnung"
-    M05a="Wurden alle vier Kernproben bewegt, sodass sie nicht mehr die Achse berühren, auf der sie in der Kernlagerstätte steckten?"
-    M05b="Berührt die Gaskernprobe die Spielfeldmatte vollständig im Zielgebiet des Landegeräts?"
-    M05c="Befindet sich die Gaskernprobe vollständig in der Base?"
-    M05d="Berührt die Wasserkernprobe ausschließlich das Gewächshaus?"
+    M05="Baumhaus"
+    M05a="Wie viele Wohneinheiten sind <b>eigenständig</b> und werden von den großen Ästen des Baums <b>getragen</b>?"
+    M05b=" Wie viele Wohneinheiten sind <b>Eigenständig</b> und werden von den kleinen Ästen des Baums <b>getragen</b>?"
 
-    M06="Module der Raumstation"
-    M06a="Befindet sich das Kegelmodul <b>vollständig</b> in der Base?"
-    M06b="Steckt das Röhrenmodul im Anschluss auf der Westseite des Wohnmoduls?"
-    M06c="Wurde das Dockmodul in den Anschluss auf der Ostseite des Wohnmoduls verlagert?"
+    M06="Stau"
+    M06a="Ist der Stau angehoben, wobei der bewegliche Teil <b>eigenständig</b> ist und nur von seinen Scharnieren <b>getragen</b> wird?"
 
-    M07="Notfall beim Weltraumspaziergang"
-    M07a="Befindest sich Gerhard (der Astronaut) <b>teilweise</b> oder <b>vollständig</b> in der Luftschleuse des Wohnmoduls?"
+    M07="Schaukel"
+    M07a="Ist die Schaukel ausgeklinkt?"
 
-    M08="Aerobicübung"
-    M08a="Befindet sich die Zeigerspitze vollständig auf Orange ooder teilweise auf den Rändern des orangenen Bereichts?"
-    M08b="Befindet sich die Zeigerspitze vollständig im weißen Bereich?"
-    M08c="Befindet sich die Zeigerspitze vollständig auf grau oder teilweise auf den Rändern des grauen Bereichs?"
+    M08="Aufzug"
+    M08a="Sind die beweglichen Teile des Aufzugs <b>eigenständig</b>, nur von ihren Scharnieren <b>getragen</b> und die blaue Kabine befindet sich unten?"
+    M08b=" Sind die beweglichen Teile des Aufzugs <b>eigenständig</b>, nur von ihren Scharnieren <b>getragen</b> und der Aufzug ist ausbalanciert?"
 
-    M09="Krafttraining"
-    M09a="Wurde die Hantelstange so angehoben, sodass das 4. Loch des Zahnstreifens zumindest teilweise sichtbar ist?"
+    M09="Testgebäude"
+    M09a="Wie viele Träger sind mindestens zur Hälfte herausgeschlagen?"
+    M09b="Das Testgemäude muss <b>eigenständig</b> sein und nur von den blauen Trägern <b>Getragen</b> warden."
 
-    M10="Lebensmittelproduktion"
-    M10a="Wurden die Farben im Gewächshaus mithilfe der Druckstange so bewegt, dass die graue Platte an der Rückseite nach Grün abgesenkt ist und noch nicht wieder Richtung Braun angehoben ist?"
+    M10="Stahlbau"
+    M10a="Steht die Stahlkonstruktion <b>eigenständig</b> und wird dabei nur von ihren Scharnieren <b>getragen</b>?"
 
-    M11="Fluchtgeschwindigkeit"
-    M11a="Ist das Raumschiff durch Druck/Schlag auf das Schlagfeld so schnell und so hoch geflogen, dass es oben bleibt?"
+    M11="Innovative Architektur"
+    M11a="Ist die Konstruktion <b>vollständig</b> in einem beliebigen Kreis?"
+    M11b="Ist die Konstruktion <b>teilweise</b> in einem beliebigen Kreis?"
+    M11c="Die Konstruktion muss von eurem Team gestaltet sein und eindeutig größer al seine blaue Wohneinheit sein. Sie darf nur aus den Legoteilen aus Beutel 10 bestehen. "
 
-    M12="Satellitenumlaufbahnen"
-    M12a="Befindet sich irgendein Teil des Satelliten auf oder über den Bereich zwischen deb beiden Linien der äußeren Umlaufbahn?"
+    M12="Entwerfen & Bauen"
+    M12a="In wie vielen Kreisen befindet sich mindestens eine farblich passende Wohneinheit <b>vollständig</b> und steht flach auf der Spielfeldmatte?"
+    M12b="Falls es <b>eigenständige</b> Stapel gibt, die sich mindestens <b>teilweise</b> in einem beliebigen Kreis befinden, was ist die Summe all ihrer Etagen?"
+    M12c="Der blaue Kreis ist nicht Teil von Aufgabe 12. Ein Stapel ist eine oder mehrere Wohneinheiten, deren unterste Etage flach auf der Spielfeldmatte liegt und jede höhere Etage liegt flach auf der darunterliegenden Etage."
 
-    M13="Observatorium"
-    M13a="Befindet sich die Zeigerspitze vollständig auf Orange oder teilweise auf den Rändern des orangefarbenen Bereichs?"
-    M13b="Befindet sich die Zeigerspitze vollständig auf Weiß?"
-    M13c="Befindet sich die Zeigerspitze vollständig auf Grau oder teilweise auf den Rändern des grauen Bereichs?"
+    M13="Nachhaltigkeit "
+    M13a="Wie viele Nachrüstungen (Solarmodule, Dachgarten, Isolierung) sind <b>eigenständig</b> und warden von einem Stapel <b>getragen</b>, der mindestens teilweise in einem beliebigen Kreis steht?"
 
-    M14="Meteoroit umlenken"
-    M14a="Wie viele Meteoriten berühren die Spielfeldmatte im mittleren Bereich des Meteoritenfängers?"
-    M14b="Wie viele Meteoriten berühren die Spielfeldmatte in einem der beiden seitlichen Bereiche des Meteoritenfängers?"
-
-    M15="Landegerät aufsetzen"
-    M15a="Ist das Landegerät intakt, berührt die Spielfeldmatte und befindet sich <b>vollständig</b> im <b>Zielgebiet</b>?"
-    M15b="Ist das Landegerät intakt, berührt die Spielfeldmatte und befindet sich <b>vollständig</b> im <b>nordöstlichen Planetenbereich</b>?"
-    M15c="Sind beide Teile des Landegeräts <b>vollständig</b> in der <b>Base</b>?"
-
-    P01="Strafpunkte"
-    P01a="Wie oft habt ihr den Roboter unterbrochen?"
-
-    translatorCredit = "Übersetzung von Tim@Cassapeia"
+    M14="Präzision"
+    M14a="Wie viele Präzisionsmarken befinden sich noch auf dem Spielfeld?"
 
 } else if (language == "nl") {
-    
+    translatorCredit = "Vertaald in het Nederlands door Irene Hulsen"
+
     yes = "Ja"
     no = "Nee"
-    partly = "Gedeeltelijk"
+    partly = "Gedeetelijk"
     completely = "Volledig"
     resetText = "Reset"
     saveText = "Opslaan"
-    savescoreText="Sla score op"
-    loadsaveText="Laad score:"
+    savescoreText="Score opslaan"
+    loadsaveText="Score laden:"
     deletesaveText="Verwijder scores"
-    importsaveText="Importeer scores"
-    exportsaveText="Exporteer scores"
+    importsaveText="Importeer bestand"
+    exportsaveText="Exporteer bestand"
     signin = "Aanmelden met"
     signout = "Uitloggen"
     GoogleCreate = "Nieuwe spreadsheet maken"
@@ -402,28 +391,26 @@ if (language == "pt" || language == "pt-br") {
     savedto = "Opgeslagen in"
     teamText = "Team"
     roundText = "Ronde"
-    dateText = "Datum/tijd"
+    dateText = "Datum/Tijd"
     totalText = "Totaal aantal punten"
     savedText = "Opgeslagen"
     loadedText = "Geladen"
-    googleSaveText = "Google Sheets (standaard)"
-    localSaveText = "Lokale browseropslag (oud)"
+    googleSaveText = "Google sheets (standaard)"
+    localSaveText = "Lokale browser opslag (oud)"
     isIE = "Google-opslagsysteem is niet compatibel met Microsoft Internet Explorer. Je kunt naar een andere browser overschakelen of doorgaan met het oude opslagsysteem (klik hierboven)"
-    systemText = "Opslagsysteem: "
 
-    googleIntro = "Je kunt je scores bewaren in een Google spreadsheet. Dit helpt je om de voortgang gedurende het seizoen bij te houden. Zie instructies onderaan de pagina."
+    googleIntro = "Je kunt je scores bewaren in een Google spreadsheet. Dit helpt je de voortgang gedurende het seizoen bij te houden. Zie instructies onderaan de pagina."
     pastSaves = "Opgeslagen scores"
     instructions = "Instructies"
     instructionsA = " De belangrijkste stappen om het opslagsysteem te gebruiken zijn:"
     instructionsB = '1. Meld je aan met je Google account. Je kunt de waarschuwing "Deze app is niet geverifieerd" krijgen. Indien dit het geval is, klik op "Geavanceerd" en vervolgens op "Ga naar FLL Scorer(onveilig)"'
-    instructionsC = '2. Indien je nog geen spreadsheet hebt gemaakt – klik op "Nieuwe spreadsheet maken"'
+    instructionsC = '2. Indien je nog geen spreadsheet hebt gemaakt – klik op "Nieuwe spreadsheet maken".'
     instructionsD = '3. Indien je al een spreadsheet hebt gemaakt, moet je ervoor zorgen dat je het Google Sheet ID hebt ingevoerd (niet "undefined"). Indien je de spreadsheet op meerdere apparaten wilt gebruiken, moet je dit ID handmatig invoeren.'
-    instructionsE = '4. Elke keer als je een score wilt opslaan, klik je op "Sla score op " - dit zal de spreadsheet bijwerken met de huidige score en datum '
-    instructionsF = '5. Indien je je spreadsheet wilt bekijken en bewerken, klik je op "Google Spreadsheet openen". Indien je het Google-spreadsheet-ID nodig hebt, vind je deze in de URL van de geopende spreadsheet.'
-    instructionsG = '6. Je kunt ook een specifieke oude score ophalen in de scorer door het opslagnummer in te voeren met de "+" en "-" knoppen en dan te klikken op de "Laad score:" knop '
+    instructionsE = '4. Elke keer als je een score wilt opslaan, klik je op "Score opslaan" - de spreadsheet wordt bijgewerkt met de huidige score en datum.'
+    instructionsF = '5. Indien je de spreadsheet wilt bekijken en bewerken, klik je op "Google Spreadsheet openen". Indien je het Google-spreadsheet-ID nodig hebt, vind je deze in de URL van de geopende spreadsheet.'
+    instructionsG = '6. Je kunt ook een specifieke oude score ophalen in de scorer door het opslagnummer in te voeren met de "+" en "-" knoppen en dan te klikken op de "Score laden:" knop'
 
-
-    var monthNames = ["","januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "october", "november", "december"];
+    var monthNames = ["","januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"];
     improvementText = "Verbetering"
     scorerText = "Scorer"
     timersText = "Timers"
@@ -432,85 +419,78 @@ if (language == "pt" || language == "pt-br") {
     stopText = "Stop"
     pointsText = "Punten"
 
+    systemText = "Opslag systeem: "
+
     timerText = "Timer:"
     stopwatchText = "Stopwatch:"
-
-    revisionText = "INTO ORBIT Scorer Revision "
-    copyrightText = "Copyright (c) 2018-19 Seshan Brothers"
 
     idText = "Google Sheet ID: "
     undefinedText = "undefined"
 
-    title = "INTO ORBIT Scorer"
+    revisionText = "CITY SHAPER Scorer Versie "
+    copyrightText = "Copyright (c) 2019 Seshan Brothers"
 
-    M01="Ruimtereis"
-    M01a="Is het voertuigtransport voorbij de eerste spoorverbinding gerold? "
-    M01b="Is het voorraadtransport voorbij de eerste spoorverbinding gerold?  "
-    M01c="Is het bemanningstransport voorbij de eerste spoorverbinding gerold? "
+    title = "CITY SHAPER Scorer"
 
-    M02="Zonnepaneel wijzer"
-    M02a="Staan beide zonnepanelen richting hetzelfde veld? "
-    M02b="Staat jullie zonnepaneel gericht naar het andere veld? "
+    A00="Voordeel"
+    A00a=" Past de uitrusting van het team in het kleine inspectiegebied?"
+    A00b="5 extra punten per voltooide missie(M01-M13), en nog eens 5 extra punten voor missie M02."
 
+    M01="Verhoogde plaatsen"
+    M01a=" Wordt de robot <b>ondersteund</b> door de brug?"
+    M01b="Hoeveel vlaggen zijn duidelijk op enige afstand opgeheven, alleen door de robot"
 
-    M03="3D printen"
-    M03a="Is de 2x4 steen uitgeworpen en volledig in het noordoostelijke planetengebied?"
-    M03b="IIs de 2x4 steen uitgeworpen en niet volledig in het noordoostelijke planetengebied?"
+    M02="Kraan"
+    M02a="Is de aangehaakte blauwe unit duidelijk verlaagd op enige afstand van het geleidegat?"
+    M02b="Is de aangehaakte blauwe unit <b>onafhankelijk</b> en  <b>ondersteund</b> door een andere blauwe unit?"
+    M02c="Is niveau 1 volledig in de blauwe cirkel?"
 
-    M04="Krater oversteek"
-    M04a="Hebben alle gewicht dragende toepassingen van de overstekende uitrusting de krater van oost naar west overgestoken, en volledig voorbij de afgevlakte poort?"
+    M03="Inspectiedrone"
+    M03a="Wordt de inspectiedrone <b>ondersteund</b> door de as (A) van de brug?"
 
-    M05="Extractie"
-    M05a="Raken alle vier de kernmonsters de as die hen vasthoud in het kerngebied model niet meer aan?"
-    M05b="Raakt het gas kernmonster de mat en is het volledig in de landingsdoelcirkel?"
-    M05c="Is het gas kernmonster volledig in de basis?"
-    M05d="Is het water kernmonster geplaatst zodat het alleen wordt ondersteund door de voedsel groeikamer?"
+    M04="Ontwerp voor dieren in het wild"
+    M04a="Wordt de vleermuis <b>ondersteund</b> door de bruine tak (B) aan de boom?"
 
-    M06="Ruimtestation modules"
-    M06a="Is de kegelmodule  <b>volledig</b> in de basis?"
-    M06b="Is de buismodule geplaatst in de westzijde van de leefgebied hub?"
-    M06c="Is de dockmodule verplaatst/geplaatst in de oostzijde van de leefgebied hub?"
+    M05="Boomhut"
+    M05a="Aantal units <b>onafhankelijk</b> en <b>ondersteund</b> door de grote takken van de boom?"
+    M05b=" Aantal units <b>onafhankelijk</b> en <b>ondersteund</b> door de kleine takken van de boom?"
 
-    M07="Ruimtewandeling noodgeval"
-    M07a="Is Gerhard <b>gedeeltelijk </b> of <b>volledig</b> geplaatst in de luchtsluiskamer van de leefgebied hub?"
+    M06="File"
+    M06a="Staat de file omhoog, is zijn bewegende deel <b>onafhankelijk</b> en alleen <b>ondersteund</b> door zijn scharnieren?"
 
-    M08="Aerobic oefening"
-    M08a="IIs de wijzerpunt volledig in oranje, of bedekt deze gedeeltelijk een van de oranje grenslijnen?"
-    M08b="Is de wijzerpunt volledig in wit?"
-    M08c="Is de wijzerpunt volledig in grijs, of bedekt deze gedeeltelijk een van de grijze grenslijnen?"
+    M07="Schommel"
+    M07a="Is de schommel vrijgegeven?"
 
-    M09="Krachtoefening"
-    M09a="Is de krachtstaaf opgetild zodat het 4e gaatje van de tandstrip tenminste gedeeltelijk zichtbaar is?"
+    M08="Lift"
+    M08a="De bewegende delen van de lift zijn <b>onafhankelijk</b> en alleen <b>ondersteund</b> door zijn scharnieren in de positie: blauwe wagen omlaag."
+    M08b="De bewegende delen van lift zijn <b>onafhankelijk</b> en alleen <b>ondersteund</b> door zijn scharnieren in de positie: in evenwicht."
 
-    M10="Voedselproductie"
-    M10a="Zijn de kleuren van de voedsel groeikamer gedraaid zodat het grijze gewicht achter groen is GEVALLEN, maar vóór beige, door de duwstaaf te bewegen?"
+    M09="Veiligheidsfactor"
+    M09a="Hoeveel balken zijn ten minste halverwege omgeduwd?"
+    M09b="Het testgebouw moet <b>onafhankelijk</b> zijn en alleen  <b>ondersteund</b> worden door de blauwe balken."
 
-    M11="Ontsnappingssnelheid"
-    M11a="Is het ruimtevaartuig zo snel en hoog gegaan zodat het omhoog blijft, door te drukken/slaan op het stootkussen?"
+    M10="Staalconstructie"
+    M10a="Staat de staalconstructie, <b>onafhankelijk</b> en alleen <b>ondersteund</b> door zijn scharnieren?"
 
-    M12="Satellietbanen"
-    M12a="Voor iedere satelliet, is een willekeurig deel van de satelliet op of boven het gebied tussen de twee lijnen van de buitenste baan?"
+    M11="Innovatieve architectuur"
+    M11a="Is de constructie <b>volledig</b> in een willekeurige cirkel?"
+    M11b="Is de constructie <b>gedeeltelijk</b> in een willekeurige cirkel?"
+    M11c="De constructie moet door het team zijn ontworpen, duidelijk groter zijn dan een blauwe unit en gebouwd zijn van de teams LEGO stenen uit zakje 10."
 
-    M13="Observatorium"
-    M13a="Is de wijzerpunt volledig in oranje, of bedekt deze gedeeltelijk een van de oranje grenslijnen?"
-    M13b="Is de wijzerpunt volledig in wit?"
-    M13c="Is de wijzerpunt volledig in grijs, of bedekt deze gedeeltelijk een van de grijze grenslijnen?"
+    M12="Ontwerp & bouw"
+    M12a=" In hoeveel cirkels bevindt zich ten minste één unit van dezelfde kleur, <b>volledig</b> in en vlak op de mat?"
+    M12b="Als er <b>onafhankelijke</b> stapels zijn die zich ten minste <b>gedeeltelijk</b> in een willekeurige cirkel bevinden, wat is dan de som van al hun hoogten?"
+    M12c="De blauwe cirkel maakt geen deel uit van missie 12. Een stapel is één of meer gebouwunits waarbij niveau 1 de mat vlak raakt, en hogere niveaus het onderliggende niveau vlak raken."
 
-    M14="Meteorietafbuiging"
-    M14a="Hoeveel meteorieten bevinden zich in het middelste gedeelte?"
-    M14b="Hoeveel meteorieten bevinden zich in de zijdelen?"
+    M13="Duurzaamheid upgrades"
+    M13a="Hoeveel upgrades (zonnepanelen, daktuin, isolatie) zijn <b>onafhankelijk</b> en <b>ondersteund</b> op een stapel welke zich ten minste gedeeltelijk in een willekeurige cirkel bevindt?"
 
-    M15="Landingsmodule"
-    M15a="De landingsmodule is intact, raakt de mat en is <b>volledig</b> in de doelcirkel?"
-    M15b="De landingsmodule is intact, raakt de mat en is <b>volledig</b> in het noordoostelijke planetengebied.?"
-    M15c="Zijn beide delen van de landingsmodule <b>volledig</b> in de basis?"
-
-    P01="Strafpunten"
-    P01a="Hoeveel keer is de robot onderbroken?"
-
-    translatorCredit = ""
+    M14="Precisie"
+    M14a="Hoeveel precisie tekens zijn er op het veld gebleven?"
 
 } else if (language == "es") {
+    translatorCredit = "Traducido al español por Antonio Zumaquero, entrenador, mentor y juez FLL en España"
+
     yes = "Sí"
     no = "No"
     partly = "Parcialmente"
@@ -519,11 +499,11 @@ if (language == "pt" || language == "pt-br") {
     saveText = "Guardar"
     savescoreText="Guardar Puntuación"
     loadsaveText="Cargar Puntuación:"
-    deletesaveText="Eliminar Guardadas"
-    importsaveText="Importar Guardada"
-    exportsaveText="Exportar Guardada"
-    signin = "Iniciar sesión con"
-    signout = "Desconectar de"
+    deletesaveText="Eliminar Puntuaciones Guardadas"
+    importsaveText="Importar Archivo"
+    exportsaveText="Exportar Archivo"
+    signin = "Iniciar sesión como"
+    signout = "Desconectarse de"
     GoogleCreate = "Crear Nueva Hoja de Cálculo"
     GoogleOpen = "Abrir Hoja de Cálculo de Google"
     created = "Creada"
@@ -534,22 +514,20 @@ if (language == "pt" || language == "pt-br") {
     totalText = "Puntuación Total"
     savedText = "Guardada"
     loadedText = "Cargada"
-    googleSaveText = "Hojas de Google (Por Defecto)"
+    googleSaveText = "Hojas de Google (Por defecto)"
     localSaveText = "Almacenamiento en Navegador Local (Heredado)"
-    isIE = " El sistema de guardado de Google no es compatible con Microsoft Internet Explorer. Puede cambiar a otro navegador o continuar usando el sistema de guardado heredado (haga clic arriba)"
-    systemText="Sistema de ahorro: "
-    
-    googleIntro = " Puede guardar sus puntuaciones en una hoja de cálculo de Google. Esto le ayuda a mantener un registro del progreso durante la temporada. Vea las instrucciones en la parte inferior de la página."
+    isIE = "El sistema de guardado de Google no es compatible con Microsoft Internet Explorer. Puede cambiar a otro navegador o continuar usando el sistema de guardado heredado (haga clic arriba)."
+
+    googleIntro = "Puede guardar sus puntuaciones en una hoja de cálculo de Google. Esto le ayuda a mantener un registro del progreso durante la temporada. Vea las instrucciones en la parte inferior de la página."
     pastSaves = "Anteriormente Guardadas"
     instructions = "Instrucciones"
-    instructionsA = " Los pasos clave para usar el sistema de guardado son:"
+    instructionsA = "Los pasos clave para usar el sistema de guardado son:"
     instructionsB = '1. Inicie sesión en su cuenta de Google. Puede recibir una advertencia de "Esta aplicación no está verificada". Si es así, haga clic en "Avanzado" y luego en "Ir a Marcador FLL (FLL Scorer) (inseguro)"'
     instructionsC = '2. Si no ha creado una hoja de cálculo anteriormente, haga clic en "Crear nueva hoja de cálculo"'
     instructionsD = '3. Si creó una hoja de cálculo anteriormente, asegúrese de que el campo ID de la hoja de Google esté completo y no esté "indefinido". Si desea compartir una hoja de cálculo entre dispositivos, debe introducir esta identificación manualmente.'
     instructionsE = '4. Cada vez que desee guardar una puntuación, haga clic en "Guardar puntuación"; esto actualizará la hoja de cálculo con la puntuación y la fecha actuales.'
     instructionsF = '5. Si desea inspeccionar su hoja de cálculo y editarla, haga clic en "Abrir hoja de cálculo de Google". Si alguna vez necesita el ID de la hoja de Google, se encuentra en la URL de su hoja de cálculo cuando la abra.'
     instructionsG = '6. También puede recuperar una puntuación anterior específica en el marcador al introducir el número de guardado con los botones "+" y "-" y luego hacer clic en el botón "Cargar guardada:"'
-
 
     var monthNames = ["","Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
     improvementText = "Mejora"
@@ -560,84 +538,78 @@ if (language == "pt" || language == "pt-br") {
     stopText = "Parar"
     pointsText = "Puntos"
 
-    timerText = "Minutero:"
-    stopwatchText = "Cronógrafo:"
+    systemText = "Sistema de Guardado: "
 
-    revisionText = "El revisión del Marcador INTO ORBIT"
-    copyrightText = "Derechos de autor 2018-19 Seshan Brothers"
+    timerText = "Temporizador:"
+    stopwatchText = "Parar Reloj:"
 
-    title = "Marcador INTO ORBIT"
+    idText = "ID de Hoja de Google: "
+    undefinedText = "indefinido"
 
-    M01="Viaje Espacial"
-    M01a="¿La carga de Vehículo rodó hasta rebasar claramente la Primera Conexión de Pista?"
-    M01b="¿La carga de Suministros rodó hasta rebasar claramente la Primera Conexión de Pista?"
-    M01c=" ¿La carga de Tripulación rodó hasta rebasar claramente la Primera Conexión de Pista?"
+    revisionText = "Marcador CITY SHAPER Versión "
+    copyrightText = "Copyright (c) 2019 Seshan Brothers"
 
-    M02="Sistema de Paneles Solares"
-    M02a="¿Ambos Paneles Solares están inclinados hacia el mismo terreno de juego?"
-    M02b="¿Vuestro Panel Solar está inclinado hacia el otro terreno de juego?"
+    title = "Marcador CITY SHAPER"
 
-    M03="Impresión 3D"
-    M03a="¿El ladrillo de 2x4 está expulsado y completamente dentro de la Zona del Planeta del Nordeste?"
-    M03b="¿El ladrillo de 2x4 está expulsado y <b>no</b> completamente dentro de la Zona del Planeta del Nordeste?"
+    A00="Beneficio"
+    A00a="¿El Equipamiento del equipo cabe en la Zona de Inspección Menor?"
+    A00b="5 puntos añadidos a cada Misión 1-13 y 5 adicionales a M02."
 
-    M04="Atravesando Cráteres"
-    M04a="¿Todos los elementos que soportan el peso del equipamiento que cruza cruzaron el cráter de este a oeste, rebasando <b>completamente</b> la valla bajada?"
+    M01="Pisos Elevados"
+    M01a="¿Está el Robot <b>Soportado</b> por el Puente?"
+    M01b=" ¿Cuántas Banderas están claramente levantadas a cualquier altura, solo debido al Robot? "
 
-    M05="Extracción"
-    M05a="¿Las cuatro Muestras Básicas han dejado de tocar el eje que las mantenía en el Modelo de Instalación Central?"
-    M05b="¿La Muestra Básica de Gas está tocando el tapete y completamente dentro del Círculo de Aterrizaje del Módulo?"
-    M05c="¿La Muestra Básica de Gas está completamente dentro de la Base?"
-    M05d="¿La Muestra Básica de Agua está únicamente aguantada por la Cámara de Crecimiento de Vegetales?"
+    M02="Grúa"
+    M02a="¿El Módulo Azul enganchado está claramente bajado a cualquier distancia desde el Agujero de la Guía?"
+    M02b="¿El Módulo Azul enganchado es <b>Independiente</b> y está <b>Soportado</b> por otro Módulo Azul?"
+    M02c="¿El Primer Nivel está Completamente Dentro del Círculo Azul?"
 
-    M06="Módulos de la Estación Espacial"
-    M06a="¿El Módulo Cónico está <b>completamente</b> dentro de la Base?"
-    M06b="¿El Módulo Tubular está insertado en la escotilla oeste del Núcleo de la Estación?"
-    M06c="¿El Módulo de Atraque está transferido/insertado en la escotilla este del Núcleo de la Estación?"
+    M03="Dron de Inspección"
+    M03a="¿Está el Dron de Inspección <b>Soportado</b> por el eje (A) del Puente?"
 
-    M07="Paseo Espacial de Emergencia"
-    M07a="¿Está Gerhard insertado <b>parcialmente</b> o <b>completamente</b> dentro de la Cámara Hermética del Núcleo de la Estación?"
+    M04="Diseño para la Vida Silvestre"
+    M04a="¿Está el Murciélago <b>Soportado</b> por la rama (B) del Árbol?"
 
-    M08="Ejercicio Aeróbico"
-    M08a="¿El puntero está completamente en naranja, o parcialmente cubriendo cualquier extremo naranja?"
-    M08b="¿El puntero está completamente en blanco?"
-    M08c="¿El puntero está completamente en gris, o parcialmente cubriendo cualquier extremo gris?"
+    M05="Casa en el Árbol"
+    M05a="¿Cuántos Módulos son <b>Independientes</b> y están <b>Soportados</b> por las Ramas Grandes del Árbol?"
+    M05b="¿Cuántos Módulos son <b>Independientes</b> y están <b>Soportados</b> por las Ramas Pequeñas del Árbol?"
 
-    M09="Ejercicio de Esfuerzo"
-    M09a="¿El cuarto agujero de la barra dentada es al menos parcialmente visible?"
+    M06="Atasco de Tráfico"
+    M06a="¿Está el Atasco de Tráfico levantado, su parte móvil es <b>Independiente</b> y está <b>Soportado</b> solo por sus bisagras?"
 
-    M10="Producción de Vegetales"
-    M10a="¿Los colores de la Cámara de Crecimiento de Vegetales están rotados de manera que el peso gris ESTÉ CAÍDO después del verde, pero antes del marrón, moviendo la Barra de Empuje?"
+    M07="Columpio"
+    M07a="¿Está el Columpio liberado?"
 
-    M11="Velocidad de Escape"
-    M11a="¿La nave ha alcanzado la velocidad y altura necesarias para que se mantenga arriba, presionando/golpeando el Panel de Impacto?"
+    M08="Montacargas"
+    M08a="¿Las partes móviles del Montacargas son <b>Independientes</b> y están <b>Soportadas</b> solo por sus bisagras y están en la posición Coche Azul abajo?"
+    M08b="¿Las partes móviles del Montacargas son <b>Independientes</b> y están <b>Soportadas</b> solo por sus bisagras y están en la posición Equilibrado?"
 
-    M12="Órbitas de Satélites"
-    M12a="¿Cada satélite, tiene alguna parte sobre o por encima del área que hay entre las dos líneas de la Órbita Externa?"
+    M09="Factor de Seguridad"
+    M09a="¿Cuántas vigas han sido apartadas al menos a medio camino?"
+    M09b="El Edificio Piloto tiene que ser <b>Independiente</b> y estar <b>Soportado</b> solo por las vigas azules"
 
-    M13="Observatorio"
-    M13a="¿El puntero está completamente en naranja, o cubre parcialmente cualquier extremo naranja?"
-    M13b="¿El puntero está completamente en blanco?"
-    M13c="¿El puntero está completamente en gris, o cubre parcialmente cualquier extremo gris?"
+    M10="Construcción de Acero"
+    M10a="¿Está la Estructura de Acero enhiesta, y es <b>Independiente</b> y está <b>Soportada</b> solo por sus bisagras?"
 
-    M14="Desvío de Meteoroides"
-    M14a="¿Cuántos meteoroides hay en la Sección Central?"
-    M14b="¿Cuántos meteoroides hay en cualquier Sección Lateral?"
+    M11="Arquitectura Innovadora"
+    M11a="¿Está la estructura <b>Completamente</b> dentro de cualquier Círculo?"
+    M11b="¿Está la estructura <b>Parcialmente</b> dentro de cualquier Círculo?"
+    M11c="La estructura debe ser diseñada por el equipo y claramente mayor que un Módulo Azul. Tiene que estar construida solo con las piezas LEGO de la bolsa 10."
 
-    M15="Aterrizaje del Módulo"
-    M15a="¿El Módulo de Aterrizaje está intacto, tocando el Tapete, y <b>completamente</b> dentro de la <b>Zona Circular del Módulo</b>?"
-    M15b="¿El Módulo de Aterrizaje está intacto, tocando el Tapete, y <b>completamente</b> dentro de la <b>Zona del Planeta del Nordeste</b>?"
-    M15c="¿Ambas partes del Módulo de Aterrizaje están <b>completamente</b> dentro de la <b>Base</b>?"
+    M12="Diseño y Construcción"
+    M12a="¿Cuántos Círculos tienen al menos un Módulo de color coincidente con el Círculo y están <b>Completamente</b> Dentro, y en Contacto Plano con el Tapete?"
+    M12b="Si hay Pilas <b>Independientes</b> al menos <b>Parcialmente</b> Dentro de cualquier Círculo, ¿cuál es la suma de todas sus alturas juntas?"
+    M12c="El Círculo Azul no es parte de la Misión 12. Una Pila es uno o más Módulos con el primer Nivel en Contacto Plano con el Tapete y cualquier Nivel superior en Contacto Plano con su Nivel inferior."
 
-    P01="Penalizaciones"
-    P01a="¿Cuántas veces se ha interrumpido el robot?"
+    M13="Mejoras en Sostenibilidad"
+    M13a="¿Cuántas Mejoras (paneles solares, techos verdes, aislamientos) son <b>Independientes</b> y están <b>Soportadas</b> solo por una Pila que se encuentra al menos Parcialmente Dentro de cualquier Círculo?"
 
-    translatorCredit = "Traducido al español por Antonio Zumaquero, entrenador y mentor FLL en España"
-
-    
+    M14="Precisión"
+    M14a="¿Cuántos Testigos de Precisión quedan en el Terreno de Juego?"
 
 
-    
+
+
 
 } else if (language == "sk") {
     yes = "Áno"
@@ -698,227 +670,151 @@ if (language == "pt" || language == "pt-br") {
     instructionsB = '1. Lépj be a Google fiókodba. Lehet, hogy kapsz egy "Ez az app nem megbízható" figyelmeztetést. Ebben az esetben nyomj a "Haladó beállítások"-ra majd menj az  "FLL Scorer (nem biztonságos)" elemhez'
     instructionsC = '2. Ha még nem hoztál létre Google Spreadsheet-et akkor nyomj a "Új Google Spreadsheet létrehozása"-ra'
     instructionsD = '3. Ha a múltban már létrehoztál egyet, legyél biztos abban, hogy a Google Sheet ID mező ki van töltve és nem "meghatározatlan". Ha meg akarsz osztani Google Spreadsheet-et eszközök között, ezt az ID-t manuálisan kell begépelned.'
-instructionsE = '4. Bármikor, amikor el akarsz menteni pontszámot, nyomj a "Pontok mentése" gombra – ez fríssíti a Google Spreadsheet-et a ponttal és a dátummal ellátva.'
-instructionsF = '5. Ha szeretnéd megnézni, vagy szerkeszteni a Spreadsheet-et, nyomj rá a "Google Spreadsheet megnyitása" gombra. Ha szükséged van a Google Spreadsheet ID-ra, ezt a megnyitott Google Spreadsheet URL-ben találod meg.'
-instructionsG = '6. Vissza tudsz hozni egy előző mentést azzal, ha kiválasztod a mentés számát a "+" és "-" gombokkal, majd a "Mentés betöltése:" gombra kattintasz.'
+    instructionsE = '4. Bármikor, amikor el akarsz menteni pontszámot, nyomj a "Pontok mentése" gombra – ez fríssíti a Google Spreadsheet-et a ponttal és a dátummal ellátva.'
+    instructionsF = '5. Ha szeretnéd megnézni, vagy szerkeszteni a Spreadsheet-et, nyomj rá a "Google Spreadsheet megnyitása" gombra. Ha szükséged van a Google Spreadsheet ID-ra, ezt a megnyitott Google Spreadsheet URL-ben találod meg.'
+    instructionsG = '6. Vissza tudsz hozni egy előző mentést azzal, ha kiválasztod a mentés számát a "+" és "-" gombokkal, majd a "Mentés betöltése:" gombra kattintasz.'
 
 
-var monthNames = ["","Január", "Február", "Március", "Április", "Május", "Június", "Július", "Augusztus", "Szeptember", "Október", "November", "December"];
-improvementText = "Javítás"
-scorerText = "Pontozó"
-timersText = "Időmérők"
-savesText = "Mentések"
-startText = "Start"
-stopText = "Stop"
-pointsText = "Pontok"
+    var monthNames = ["","Január", "Február", "Március", "Április", "Május", "Június", "Július", "Augusztus", "Szeptember", "Október", "November", "December"];
+    improvementText = "Javítás"
+    scorerText = "Pontozó"
+    timersText = "Időmérők"
+    savesText = "Mentések"
+    startText = "Start"
+    stopText = "Stop"
+    pointsText = "Pontok"
 
-timerText = "Visszaszámláló:"
-stopwatchText = "Stopper:"
+    timerText = "Visszaszámláló:"
+    stopwatchText = "Stopper:"
 
-revisionText = "INTO ORBIT Scorer verzió"
-copyrightText = "Copyright (c) 2018-19 Seshan Brothers"
 
-idText = "Google Sheet ID: "
-undefinedText = "meghatározatlan"
+    idText = "Google Sheet ID: "
+    undefinedText = "meghatározatlan"
 
-title = "INTO ORBIT Pontozó"
 
-M01="Űrutazás"
-M01a="Lecsúszott a betöltendő jármű az első útcsatlakozáson túlra?"
-M01b=" Lecsúszott a betöltendő utánpótlás az első útcsatlakozáson túlra?"
-M01c=" Lecsúszott a betöltendő legénység az első útcsatlakozáson túlra?"
-
-M02="Napelem "
-M02a="Mindkét napelem ugyanazon pálya felé néz?"
-M02b="A te napelemed az ellenfél térfele felé néz?"
-
-M03="3D Nyomtatás"
-M03a="A 2x4-es tégla előjött, és teljes terjedelmében az északkeleti bolygóterületen van?"
-M03b="A 2x4-es tégla előjött, de <b>nincs</b> teljes terjedelmében az északkeleti bolygóterületen?"
-
-M04="Kráterek keresztezése"
-M04a="A robot vagy az általa kiküldött eszköz <b>teljes egészében</b> áthaladt a kráter modellen?"
-
-M05="Kitermelés"
-M05a="Elmozdítottad mind a négy magmintát olyan módon, hogy ne érjenek a tengelyhez, amely a mintavételi helyen tartotta őket?"
-M05b="Letetted a gáz magmintát olyan módon, hogy az hozzáér a játékmezőhöz és teljes egészében a leszálló egység célkörében helyezkedik el?"
-M05c="Letetted a gáz magmintát olyan módon, hogy az teljes egészében a bázison helyezkedik el?"
-M05d="Letetted a víz magmintát olyan módon, hogy azt csak az élelmiszer-termesztő kamra tartja?"
-
-M06="Űrállomás modulok"
-M06a="Az orr modul <b>teljesen</b> a bázisban van?"
-M06b="Behelyezte az henger modult teljes egészében a lakóegység keleti oldalán található dokkolónyílásába?"
-M06c="Behelyezte a dokkoló modult teljes egészében a lakóegység déli oldalán található „kapuba” olyan módon, hogy a bütykök felfelé állnak?"
-
-M07="Űrséta vészhelyzet"
-M07a="Berakta Gerhardtot <b>részlegesen</b> vagy <b>teljesen</b> a lakóegység belsejében lévő kamrába?"
-
-M08="Aerobikgyakorlat"
-M08a="A mutató hegye a narancssárga mezőben van, vagy részben érinti a szélét?"
-M08b="A mutató hegye teljesen a fehér mezőben van?"
-M08c="A mutató hegye teljesen a szürke mezőben vagy, van vagy részben érinti a szélét?"
-
-M09="Erőgyakorlat"
-M09a="Az erőkar fel van legalább annyira emelve, hogy kilátszódjon a 4. lyuk akár teljesen vagy részlegesen?"
-
-M10="Élelmiszer-előállítás"
-M10a="A nyomórúd lenyomásával úgy pörgettétek meg az élelmiszer-termesztő kamra színeit, hogy a szürke súly a zöld után ESETT le de a halványbarna előtt?"
-
-M11="Szökési sebesség"
-M11a="Elértétek az ütési pont lenyomásával/ráütéssel, hogy az űrjármű olyan gyorsan menjen és olyan magasra jusson, hogy fent is maradt?"
-
-M12="Keringő műholdak"
-M12a="Bármely műhold bármely része a külső keringési pálya két vonala közötti területre vagy a vonalak fölé esik?"
-
-M13="Obszervatórium"
-M13a="A mutató hegye a narancssárga mezőben van vagy részben érinti a szélét?"
-M13b="A mutató hegye teljesen a fehér mezőben van?"
-M13c="A mutató hegye teljesen a szürke mezőben vagy van vagy részben érinti a szélét?"
-
-M14="Meteoroit elterelés"
-M14a="Hány meteoroit van a középső szekcióban?"
-M14b="Hány meteoroit van az oldalsó szekciókban?"
-
-M15="Leszállóegység Touch-Down"
-M15a="Érinti a leszállóegység a pályát és <b>teljesen</b> benne van a saját <b>célkörében</b>?"
-M15b="Érinti a leszállóegység a pályát és <b>teljesen</b> benne van a <b>északi bolygó területben</b>?"
-M15c="Mindkét leszállóegység rész <b>teljesen</b> a <b>bázison</b> van?"
-
-P01="Büntetőpontok"
-P01a="Hányszor volt a robot mozgása megszakítva, hány büntető pontot kaptál?"
-
-translatorCredit = "Az appot magyarra fordította: a Tövis&ASAP csapat."
+    translatorCredit = "Az appot magyarra fordította: a Tövis&ASAP csapat."
 
 
 
 } else if (language == "el") {
+    translatorCredit = "Translated into Greek by Michail Marinakis – Mεταφράστηκε στα ελληνικά από τον Μιχάλη Μαρινάκη"
+
     yes = "Ναι"
     no = "Όχι"
     partly = "Μερικώς"
-    completely = " Εντελώς "
-    resetText = "Επανεκκίνηση"
+    completely = "Εντελώς"
+    resetText = "Επαναφορά"
     saveText = "Αποθήκευση"
     savescoreText="Αποθήκευση Βαθμολογίας"
-    loadsaveText="Άνοιγμα Βαθμολογίας:"
-    deletesaveText="Διαγραφή Βαθμολογίας "
-    importsaveText="Εισαγωγή Βαθμολογίας "
-    exportsaveText="Εξαγωγή Βαθμολογίας "
-    signin = " Συνδεθείτε με "
-    signout = " Αποσυνδεθείτε"
-    GoogleCreate = "Δημιουργήστε Νέο Φύλλο Εργασίας"
-    GoogleOpen = "Άνοιγμα Google Φύλλο Εργασίας "
-    created = " Δημιουργήθηκε "
-    savedto = " Αποθηκεύτηκε στο "
+    loadsaveText="Φόρτωση Αποθηκευμένης Βαθμολογίας:"
+    deletesaveText="Διαγραφή Βαθμολογιών"
+    importsaveText="Εισαγωγή Βαθμολογιών"
+    exportsaveText="Εξαγωγή Βαθμολογιών"
+    signin = "Σύνδεση"
+    signout = "Έξοδος"
+    GoogleCreate = "Δημιουργία Νέου Λογιστικού Φύλλου"
+    GoogleOpen = "Άνοιγμα Google Spreadsheet"
+    created = "Δημιουργήθηκε"
+    savedto = "Αποθηκεύτηκε σε"
     teamText = "Ομάδα"
     roundText = "Γύρος"
     dateText = "Ημερομηνία/Ώρα"
-    totalText = "Συνολικοί Πόντοι"
-    savedText = "Αποθηκευμένο"
-    loadedText = "Φορτωμένο"
-    googleSaveText = " Φύλλα Εργασίας Google (Προκαθορισμένο)"
-    localSaveText = "Τοπικό σύστημα αποθήκευσης (Πρόσφατο)"
-    isIE = " Το σύστημα αποθήκευσης Google δεν είναι συμβατό με τον Microsoft Internet Explorer. Μπορείτε είτε να μεταβείτε σε άλλο πρόγραμμα περιήγησης είτε να συνεχίσετε χρησιμοποιώντας το παλαιό σύστημα αποθήκευσης (κάντε κλικ παραπάνω)"
+    totalText = "Τελική Βαθμολογία"
+    savedText = "Αποθηκεύτηκε"
+    loadedText = "Φορτώθηκε"
+    googleSaveText = "Φύλλα Google (Default)"
+    localSaveText = "Αποθήκευση Προγράμματος Περιήγησης (Legacy)"
+    isIE = "Το σύστημα αποθήκευση της Google δεν είναι συμβατό με το πρόγραμμα περιήγησης “Internet Explorer” της Microsoft. Μπορείτε είτε να αλλάξετε πρόγραμμα περιήγησης είτε να συνεχίσετε χρησιμοποιώντας το σύστημα αποθήκευσης της εφαρμογής (Πατήστε παρακάτω)"
+    systemText = "Αποθήκευση Συστήματος: "
 
-    googleIntro = " Μπορείτε να αποθηκεύσετε τα αποτελέσματά σας σε ένα Φύλλο Εργασίας Google. Αυτό σας βοηθά να παρακολουθείτε την πρόοδο της περιόδου. Δείτε τις οδηγίες στο κάτω μέρος της σελίδας."
-    pastSaves = "Προηγούμενες Αποθηκεύσεις"
+    googleIntro = "Μπορείτε να αποθηκεύσετε τις βαθμολογίες σας στα Φύλλα Google. Αυτό σας βοηθά να ελέγχετε την πρόοδο σας καθ’ όλη την πορεία σας στην σεζόν City Shaper. Δείτε τις οδηγίες στο τέλος της σελίδας."
+    pastSaves = "Παλαιότερες Βαθμολογίες"
     instructions = "Οδηγίες"
-    instructionsA = "Τα βασικά βήματα χρήσης του συστήματος αποθήκευσης είναι:"
-    instructionsB = '1. Συνδεθείτε στο λογαριασμό σας στο Google. Μπορεί να δείτε το παρακάτω μήνυμα «Η εφαρμογή δεν είναι πιστοποιημένη». Αν ναι, πατήστε στο «για προχωρημένους» και μετά στο  "Go to FLL Scorer (Μη Ασφαλές)"'
-    instructionsC = '2. Εάν δεν έχετε δημιουργήσει Φύλλο Εργασίας ξανά στο παρελθόν – πατήστε στη "Δημιουργία Νέου Spreadsheet"'
-    instructionsD = '3. Εάν έχετε δημιουργήσει Φύλλο Εργασίας στο παρελθόν, σιγουρέψτε ότι το πεδίο Google Sheet ID είναι συμπληρωμένο και όχι κενό " απροσδιόριστο". Εάν επιθυμείτε να μοιραστείτε το Φύλλο Εργασίας με άλλες συσκευές, θα πρέπει να εισάγεται το ID σας ξανά.'
-    instructionsE = '4. Κάθε φορά που επιθυμείτε να αποθηκεύσετε τη βαθμολογία αποτελέσματα, πατήστε  "Αποθήκευση Βαθμολογίας" – αυτομάτως θα ενημερώνει το Φύλλο Εργασίας με την τρέχουσα Βαθμολογία και Ημερομηνία'
-    instructionsF = '5. Αν θέλετε να ελέγξετε το Φύλλο Εργασίας σας και να το επεξεργαστείτε, κάντε κλικ στο "Άνοιγμα του Φύλλο Εργασίας Google". Εάν χρειάζεστε ποτέ το Google Sheet ID - βρίσκεται στη URL διεύθυνση του Φύλλο Εργασίας όταν το ανοίγετε.'
-    instructionsG = '6. Μπορείτε επίσης να ανακτήσετε μια προηγούμενη βαθμολογία πληκτρολογώντας τον αριθμό αποθήκευσης που δώσατε και το πλήκτρο "+" και "-" στη συνέχεια πατήστε το πλήκτρο " Φόρτωση Αποθήκευσης:" '
+    instructionsA = "Τα βήματα που πρέπει να ακολουθήσετε για να αποθηκεύεται τις βαθμολογίες σας είναι τα εξής:"
+    instructionsB = '1. Συνδεθήτε με τον Λογαριασμό Google σας. Μπορεί να λάβετε την ειδοποίση "Mη πιστοποιημένη εφαρμογή". Εάν την λάβετε, πατήστε "Ρυθμίσεις για Προχωρημένους - Advanced" και μετά "Μετάβαση στο FLL Scorer (μη ασφαλές)"'
+    instructionsC = '2. Εάν δεν έχετε δημιουργήσει λογιστικό φύλλο στο παρελθόν πατήστε "Δημιουργία νέου Λογιστικού Φύλλου"'
+    instructionsD = '3. Εάν έχετε δημιουργήσει Λογιστικό Φύλλο στο παρελθόν, βεβαιωθήτε ότι το ID του Λογιστικού φύλλου έχει συμπληρωθεί και δεν είναι κενό". Εάν θέλετε να βλέπετε το λογιστικό φύλλο σε άλλη συσκευή, πρέπει να εισάγεται το ID χειροκίνητα.'
+    instructionsE = '4. Κάθε φορά που θέλετε να αποθηκεύσετε την βαθμολογία σας, πατήστε "Αποθήκευση Βαθμολογίας" - αυτό θα αποθηκεύσει την νέα σας βαθμολογία στο λογιστικό φύλλο με την τρέχουσα ημερομηνία και ώρα'
+    instructionsF = '5. Εάν θέλετε να επεξεργαστείτε ή να δείτε το λογιστικό φύλλο, πατήστε "Άνοιγμα Φύλλων Google". Εάν χρειαστείτε το ID σας. - βρίσκεται στο URL του λογιστικού φύλλου σας όταν το ανοίγεται.'
+    instructionsG = '6. Μπορείτε να ανακτήσετε/να εισάγεται την παλιά σας βαθμολογία στο scorer εισάγοντας τον αριθμό αποθήκευσης με τα κουμπιά "+" και "-" and και μετά να πατήσετε το κουμπί "Ανάκτηση Αποθηκευμένης Βαθμολογίας:" '
 
-
-    var monthNames = ["","Ιανουάριος", "Φεβρουάριος", "Μάρτιος", "Απρίλιος", "Μάϊος", "Ιούνιος", "Ιούλιος", "Αύγουστος", "Σεπτέμβριος", "Οκτώβριος", "Νοέμβριος", "Δεκέμβριος"];
-    improvementText = " Βελτιώσεις"
-    scorerText = "Βαθμολογίες"
-    timersText = "Μετρητές"
+    var monthNames = ["Μήνας","Ιανουάριος", "Φεβρουάριος", "Μάρτιος", "Απρίλιος", "Μάιος", "Ιούνιος", "Ιούλιος", "Αύγουστος", "Σεπτέμβριος", "Οκτώβριος", "Νοέμβριος", "Δεκέμβριος"];
+    improvementText = "Πρόοδος"
+    scorerText = "Καταγραφή Βαθμολογίας"
+    timersText = "Χρονόμετρα"
     savesText = "Αποθηκεύσεις"
-    startText = "Εκκίνηση"
-    stopText = "Τερματισμός"
-    pointsText = "Πόντοι"
+    startText = "Έναρξη"
+    stopText = "Παύση"
+    pointsText = "Βαθμοί"
 
-    systemText = "Σύστημα Αποθήκευσης:"
-
-    timerText = "Χρονοδιακόπτης:"
+    timerText = "Χρόνος:"
     stopwatchText = "Χρονόμετρο:"
 
-    revisionText = "Αναθεώρηση του σκόρερ INTO ORBIT"
-    copyrightText = "Δικαιώματα πνευματικής ιδιοκτησίας (c) 2018-19 Seshan Brothers"
+    idText = "Google Sheet ID: "
+    undefinedText = "δεν καθορίζεται"
+
+    revisionText = "CITY SHAPER Scorer Έκδοση "
+    copyrightText = "Copyright (c) 2019 Seshan Brothers"
+
+    title = "CITY SHAPER Scorer"
+
+    A00="Πλεονέκτημα"
+    A00a="Όλος ο Εξοπλισμός χωράει στην Μικρή Περιοχή"
+    A00b="5 Πόντοι για τις αποστολές 1-13 και ακόμα 5 πόντοι για την Αποστολή 2."
+
+    M01="Υπερυψωμένα Σημεία"
+    M01a="Το ρομπότ <b>υποστηρίζεται</b> από την γέφυρα"
+    M01b="Πόσες σημαίες είναι υψωμένες σε οποιαδήποτε απόσταση, αποκλειστικά από το ρομπότ;"
+
+    M02="Γερανός"
+    M02a="Το μπλέ διαμέρισμα του γερανού είναι ξεκάθαρα κατεβασμένο από το σημείο οδηγό"
+    M02b="Είναι το μπλέ διαμέρισμα του γερανού <b> ανεξάρτητο </b> και <b>υποστηρίζεται</b> από ένα άλλο μπλέ διαμέρισμα;"
+    M02c="Tο πρώτο επίπεδο είναι μέσα στον κύκλο."
+
+    M03=" Drone Επιθεώρησης"
+    M03a=" Το Drone Επιθεώρησης <b>υποστηρίζεται</b> από τον άξονα (A) της γέφυρας;"
+
+    M04="Σχεδιασμός για την Άγρια Ζωή"
+    M04a="Η νυχτερίδα <b>υποστηρίζεται</b> από το καφέ κλαδί (B) του δέντρου"
+
+    M05="Δεντρόσπιτο"
+    M05a="Πόσα Διαμερίσματα είναι <b>Ανεξάρτητα</b> και <b>υποστηρίζονται</b> από τα Μεγάλα Κλαδιά του δέντρου;"
+    M05b=" Πόσα Διαμερίσματα είναι <b>Ανεξάρτητα</b> και <b>υποστηρίζονται</b> από τα Μικρά Κλαδιά του δέντρου;"
+
+    M06="Μποτιλάρισμα"
+    M06a=" Είναι ο δρόμος με την κυκλοφοριακή συμφόρηση είναι σηκωμένος, <b>Ανεξάρτητος</b> και <b>υποστηρίζεται</b> μόνο από τους μεντεσέδες του;"
+
+    M07="Κούνια"
+    M07a="Είναι η κούνια ελεύθερη;"
+
+    M08="Ανελκυστήρας Αυτοκινήτων"
+    M08a="Είναι όλα τα τμήματα του ανελκυστήρα <b>Ανεξάρτητα</b> και <b>υποστηρίζονται</b> μόνο από τους μεντεσέδες με και το μπλέ όχημα είναι κάτω;"
+    M08b=" Είναι όλα τα τμήματα του ανελκυστήρα <b>Ανεξάρτητα</b> και <b>υποστηρίζονται</b> μόνο από τους μεντεσέδες σε θέση ισορροπίας;"
+
+    M09="Παράγοντας Ασφαλείας"
+    M09a=" Πόσοι μπλέ δοκοί έχουν κατέβει έστω μέχρι την μέση;"
+    M09b="Το κτήριο δοκιμών είναι <b>Ανεξάρτητο</b> και <b>υποστηρίζεται</b> μόνο από τις μπλέ δοκούς"
+
+    M10="Ατσάλινα Θεμέλια"
+    M10a=" Είναι τα ατσάλινα θεμέλια <b>Ανεξάρτητα</b> και η κατασκευή <b>υποστηρίζεται</b> μόνο από την βάση της;"
 
 
+    M11="Καινοτόμος Αρχιτεκτονική"
+    M11a="Είναι η κατασκευή <b>εντελώς</b> μέσα σε οποιοδήποτε Κύκλο;"
+    M11b=" Είναι η κατασκευή <b>μερικώς</b> μέσα σε οποιοδήποτε Κύκλο;"
+    M11c=" Η κατασκευή πρέπει να είναι μεγαλύτερη από ένα μπλέ διαμέρισμα και κατασκευασμένη μόνο από λευκά LEGO bricks του Bag 10; "
+
+    M12="Σχεδίασε και χτίσε"
+    M12a=" Πόσοι κύκλοι έχουν τουλάχιστον ένα διαμέρισμα με αντίστοιχο χρώμα το οποίο ακουμπά πάνω στο χαλί και είναι <b> εντελώς </b> μέσα στον κύκλο;" 
+    M12b=" Υπάρχουν <b>Ανεξάρτητες</b> δομές τουλάχιστον <b>μερικώς</b> μέσα σε οποιοδήποτε κύκλο; Ποιο είναι το άθροισμα του ύψους τους σε διαμερίσματα;" 
+    M12c="Ο μπλε κύκλος δεν είναι μέρος της αποστολής 12. Μια δόμη είναι ένα ή περισσότερα διαμερίσματα που το επίπεδο 1 ακουμπά ίσιο στο χαλί και οποιοδήποτε άλλο επίπεδο ακουμπά το αποκάτω επίπεδο."
+
+    M13="Ανανάθμιση της βιωσιμότητας"
+    M13a="Πόσες αναβαθμίσεις βιωσιμότητας (ηλιακοί συλλέκτες, κήπος οροφής, μόνωση) είναι <b>Ανεξάρτητες</b> και <b>Υποστηρίζονται</b> μόνο από μία δομή και είναι τουλάχιστον μερικώς μέσα σε οποιοδήποτε κύκλο;"
+
+    M14="Ακρίβεια"
+    M14a=" Πόσες μάρκες ακρίβειας έχουν απομείνει στην πίστα;"
     
-    title = "INTO ORBIT Βαθμολογία"
-
-    M01="Διαστημικό Ταξίδι"
-    M01a="Έχει κυλήσει το φορτωμένο όχημα μέχρι την Πρώτη Θέση Σύνδεσης;"
-    M01b="Έχουν οι φορτωμένες προμήθειες κυλήσει στην Πρώτη Θέση Σύνδεσης;"
-    M01c="Έχει το Φορτωμένο πλήρωμα κυλήσει στην Πρώτη Θέση Σύνδεσης;"
-
-    M02="Ηλιακό Πάνελ"
-    M02a=" Αμφότερα τα Ηλιακά πάνελ γωνιάζουν προς το ίδιο πεδίο;"
-    M02b=" Είναι το ηλιακό πάνελ γωνία προς το άλλο;"
-
-    M03="3D Εκτύπωση"
-    M03a="Έχει εκτοξευτεί το τουβλάκι 2x4 και βρίσκεται <b>Εντελώς<b> στην βορειοανατολική πλευρά του Πλανήτη;"
-    M03b=" Έχει εκτοξευτεί το τουβλάκι 2x4 και βρίσκεται <b>Μερικώς<b> στην βορειοανατολική πλευρά του Πλανήτη;"
-
-    M04="Διέλευση Κρατήρα"
-    M04a="Ο εξοπλισμού διέλευσης του κρατήρα έχει περάσει από ανατολάς προς δύση,  <b>Εντελώς</b> ρίχνοντας την πλατιά πύλη;"
-
-    M05=" Εξόρυξη"
-    M05a=" Και τα τέσσερα δείγματα δεν αγγίζουν πλέον τον άξονα που τα κρατά μέσα στο Core Site Model?"
-    M05b=" Αγγίζει το δείγμα πυρήνα αερίου Εντελώς στο Στόχο προσεδάφισης;"
-    M05c="Το δείγμα πυρήνα αερίου βρίσκεται Εντελώς στη Βάση;"
-    M05d="Βρίσκεται το δείγμα πυρήνα νερού έτσι τοποθετημένο ώστε να υποστηρίζεται μόνο από το Τμήμα Ανάπτυξης Τροφίμων?"
-
-    M06=" Μονάδες Διαστημικού Σταθμού "
-    M06a="Η μονάδα Cone βρίσκεται <b>Εντελώς</b> στη Βάση;"
-    M06b=" Η μονάδα Tube έχει εισέλθει μέσα στη Δυτική πλευρά του Habitation Hub?"
-    M06c="Η μονάδα Dock έχει μεταφερθεί/εισαχτεί στην ανατολική πλευρά του Habitation Hub?"
-
-    M07="Επείγουσα Διαστημική Βόλτα"
-    M07a="Έχει εισέλθει ο Gerhard <b>Μερικώς</b> ή <b>Εντελώς</b> στον θάλαμο κλιματισμού του Habitation Hub;"
-
-    M08="Αεροβική Άσκηση"
-    M08a="Η άκρη του δείκτη είναι εντελώς στο πορτοκαλί, ή μερικώς  μερικώς καλύπτει τις άκρες του πορτοκαλί εξωτερικά;"
-    M08b="Η άκρη του δείκτη βρίσκεται Εντελώς στο Λευκό;"
-    M08c=" Η άκρη του δείκτη βρίσκεται Εντελώς στο γκρι, ή μερικώς καλύπτει τις άκρες του γκρι εξωτερικά;"
-
-    M09=" Άσκηση δύναμης"
-    M09a="Έχει σηκωθεί η μπάρα δύναμης ώστε να εμφανίζεται η 4η τρύπα της λωρίδας των δοντιών;"
-
-    M10="Παραγωγή φαγητού"
-    M10a="Τα χρώματα στο Food Growth Chamber’s έχουν περιστραφεί ώστε το γκρι βάρος να πέσει μετά το πράσινο, αλλά πριν το μαύρο χρησιμοποιώντας τον μοχλό;"
-
-    M11="Εκτόξευση"
-    M11a=" Το διαστημικό σκάφος κινείται τόσο γρήγορα και ψηλά ώστε να παραμένει επάνω, πιέζοντας / χτυπώντας το μαξιλαράκι;"
-
-    M12="Δορυφορικές τροχιές"
-    M12a="Είναι κάθε Δορυφόρος, σε οποιοδήποτε μέρος πάνω ή ψηλότερα από την περιοχή ανάμεσα στις δύο γραμμές της εξωτερικής τροχιάς;"
-
-    M13="Αστεροσκοπείο"
-    M13a="Η άκρη του δείκτη βρίσκεται εντελώς στο πορτοκαλί, ή μερικώς πατάει και στις γραμμές;"
-    M13b=" Η άκρη του δείκτη βρίσκεται εντελώς στο Λευκό;"
-    M13c=" Η άκρη του δείκτη βρίσκεται εντελώς στο γκρι, ή μερικώς πατάει και στις γραμμές;"
-
-    M14=" Εκτροπή Μετεωρίτη "
-    M14a="Πόσοι Μετεωρίτες βρίσκονται μέσα στο κεντρικό σημείο;"
-    M14b=" Πόσοι Μετεωρίτες βρίσκονται μέσα στα πλευρικά σημεία;"
-
-    M15="Προσεδάφιση Ακάτου"
-    M15a=" Η Άκατος άθικτη, ακουμπά την πίστα, και <b>Εντελώς</b> στον <b>Στόχο</b>;"
-    M15b="Η Άκατος άθικτη, ακουμπά την πίστα, και <b>Εντελώς</b> στην <b>Βορειοανατολική πλευρά του πλανήτη</b>;"
-    M15c="Και τα δύο μέρη της Ακάτου βρίσκοται <b>Εντελώς</b> μέσα στην <b>Βάση</b>;"
-
-    P01="Ποινές"
-    P01a=" Πόσες φορές διακόπηκε το ρομπότ;"
-
-    translatorCredit = "Μετάφραση από το WEB STAR - ΗΛΙΑΔΗΣ ΝΕΚΤΑΡΙΟΣ"
-
-
 } else if (language == "fr") {
     yes = "Oui"
     no = "Non"
@@ -1023,75 +919,7 @@ translatorCredit = "Az appot magyarra fordította: a Tövis&ASAP csapat."
 
     timerText = "Zamanlayıcı:"
     stopwatchText = "Kronometre:"
-    
-    revisionText = "INTO ORBIT Scorer Revizyonu"
-    copyrightText = "Telif Hakkı (c) 2018-19 Seshan Kardeşler"
 
-    
-    title = "INTO ORBIT Puanlayıcı"
-
-    M01="Uzay Yolculuğu"
-    M01a=" Araç Yükü İlk Parça Bağlantısından yuvarlanarak geçti mi?"
-    M01b=" Tedarik Yükü İlk Parça Bağlantısından yuvarlanarak geçti mi?"
-    M01c=" Mürettebat Yükü İlk Parça Bağlantısından yuvarlanarak geçti mi?"
-
-    M02="Güneş Paneli Dizisi"
-    M02a=" Her iki güneş panelinin açısı aynı alana doğru mu?"
-    M02b=" Güneş Panelinizin açısı diğer alana doğru mu?"
-
-    M03="3D Yazıcı"
-    M03a="2x4 lego  tuğla fırlatılmış ve tamamen Kuzeydoğu Gezegen Alanı içerisinde mi?"
-    M03b="2x4 lego  tuğla fırlatılmış ve Kuzeydoğu Gezegen Alanı içerisinde <b>değil</b> mi?"
-
-    M04=" Krater Geçişi"
-    M04a=" Geçiş ekipmanının ağırlık taşıyan özellikleri krateri doğudan batıya kapının <b>tamamen</b> düzleşmesini sağlayarak geçti mi? "
-    M05="Çıkarma"
-    M05a=" Dört numunenin tümü artık Core Site Modelinden çıkmış ve aksa değmiyor mu?"
-    M05b=" Gaz Çekirdeği Örneği, Gövde Hedef Çemberinde tamamen görev matına temas ediyor mu?"
-    M05c=" Gaz Çekirdeği Örneği tamamen üs alanı içinde mi?"
-    M05d=" Su Çekirdeği Örneği sadece Gıda Büyümesi Odası tarafından destekleniyor şekilde yerleştirildi mi?"
-
-    M06=" Uzay İstasyonu Modülleri"
-    M06a=" Koni Modülü <b>Tamamen</b> üs alanı içinde mi?"
-    M06b=" Tüp Modülü Habitation Hub'ın batı tarafı içerisine yerleştirildi mi?"
-    M06c=" Dock Modülü Habitation Hub'ın doğu tarafına aktarıldı mı / yerleştirildi mi?"
-
-    M07="Uzay Yürüyüşü Güvenliği"
-    M07a=" Gerhard, Habitation Hub'ın Airlock Odasına <b>kısmen</b> veya <b>tamamen</b> yerleştirildi mi?"
-
-    M08="Aerobic Exercise"
-    M08a=" İşaretçinin ucu tamamen turuncu alan içerisinde  mi, yoksa kısmen turuncu kenarlıklardan birini mi kaplıyor?"
-    M08b=" İşaretçinin ucu tamamen beyaz alan içinde mi?"
-    M08c="İşaretçinin ucu tamamen gri alan içerisinde  mi, yoksa kısmen gri kenarlıklardan birini mi kaplıyor?"
-
-    M09=" Güç egzersizi"
-    M09a=" Güç Bar kaldırıldı mı, böylece dişli çubuğun 4. deliği en azından kısmen görünüyor mu?"
-
-    M10="Yiyecek Üretimi"
-    M10a=" Gıda Büyümesi Odası'nın renkleri basma çubuğu ittirilerek çevrilip, başlangıçta taba rengin arkasında olan gri ağırlık yeşilin arkasına yeşilin DÜŞÜRÜLDÜ mü?"
-
-    M11="Kaçış Hızı"
-    M11a=" Uzay aracı, Fırlatma Koluna'e vurarak/basarak hızla yeterince yükseğe çıkıp yukarda sabit kaldı mı?"
-
-    M12=" Uydu Yörüngeleri "
-    M12a=" Her uydu için, Dışsal Yörüngenin iki çizgisi arasındaki alanın üzerinde veya üstünde herhangi bir kısım var mı?"
-
-    M13="Rasathane"
-    M13a="İşaretçinin ucu tamamen turuncu alan içerisinde  mi, yoksa kısmen turuncu kenarlıklardan birini mi kaplıyor?"
-    M13b="İşaretçinin ucu tamamen beyaz alan içinde mi?"
-    M13c="İşaretçinin ucu tamamen gri alan içerisinde  mi, yoksa kısmen gri kenarlıklardan birini mi kaplıyor?"
-
-    M14=" Meteoroit Sapması "
-    M14a=" Merkez Bölümü'nde kaç tane meteoroit var?"
-    M14b=" Yan Bölümlerde kaç tane meteoroid var?"
-
-    M15="Uzay Aracı İnişi"
-    M15a=" Uzay Aracı sağlam olarak Mat'a dokunuyor ve <b>tamamen</b> <b>Hedef Daire</b> içinde mi?"
-    M15b=" Uzay Aracı sağlam olarak Mat'a dokunuyor ve <b>tamamen</b> <b>Kuzeydoğu Gezegen Alanı</b> içinde mi?"
-    M15c="Uzay Aracının tüm parçaları <b>tamamen</b> <b>Üs Alanı</b> içinde mi?"
-
-    P01="Ceza"
-    P01a=" Robot kaç kere kesintiye uğradı?"
 
     translatorCredit = " Uygulamanın Türkçe çevirisi www.robotum.net kurucusu, Yücel Tekin tarafından yapılmıştır."
 
@@ -1148,207 +976,255 @@ translatorCredit = "Az appot magyarra fordította: a Tövis&ASAP csapat."
     timerText = "Temporizator:"
     stopwatchText = " Cronometru:"
 
-    revisionText = "Calculator de scor INTO ORBIT. Revizia "
-    copyrightText = "Copyright (c) 2018-19 Seshan Brothers"
-
     idText = "ID foaie de calcul Google: "
     undefinedText = "nedefinit"
-    
 
-    title = "Calculator de scor INTO ORBIT"
 
-    M01="Călătoria în spațiu"
-    M01a="Încărcătura cu vehicul a trecut de prima conexiune a căii de rulare?"
-    M01b="Încărcătura cu provizii a trecut de prima conexiune a căii de rulare?"
-    M01c="Încărcătura cu echipaj a trecut de prima conexiune a căii de rulare?"
-
-    M02="Rețeaua de panouri solare"
-    M02a="Ambele panouri solare sunt înclinate spre același teren?"
-    M02b="Propriul panou solar este înclinat spre terenul celeilalte echipe?"
-
-    M03="Tipărirea 3D"
-    M03a="Este cărămida 2x4 scoasă și complet în zona țintă de pe planeta nord-estică?"
-    M03b="Este cărămida 2x4 scoasă, dar nu complet în zona țintă de pe planeta nord-estică?"
-
-    M04="Traversarea craterului "
-    M04a="Au trecut toate elementele de susținere a greutății echipamentului de traversare, de la est la vest, <b>complet</b> dincolo de poarta culcată?"
-
-    M05="Extracția"
-    M05a="Toate cele patru mostre nu mai ating axul care le-a ținut în modelul ”Extracție resurse”?"
-    M05b="Mostra de gaz atinge planșa și este complet în zona țintă a modulului lunar?"
-    M05c="Mostra de gaz este complet în bază?"
-    M05d="Mostra de apă este plasată astfel încât să fie susținută doar de modelul serei?"
-
-    M06="Modulele stației spațiale"
-    M06a="Modulul conic este <b>complet</b> în bază?"
-    M06b="Modulul tubular este introdus în portul de pe partea vestică a habitatului central?"
-    M06c="Modulul de andocare este transferat/inserat în portul estic al habitatului central?"
-
-    M07="Urgență la ieșirea în spațiu"
-    M07a="Astronautul Gerhard este introdus <b>parțial</b> sau <b>complet</b> în camera de etanșare (sas) a habitatului central?"
-
-    M08="Exercițiile aerobice"
-    M08a="Acul indicator este complet pe portocaliu sau parțial acoperind oricare dintre marginile zonei portocalii?"
-    M08b="Acul indicator este complet pe alb?"
-    M08c="Acul indicator este complet pe gri sau parțial acoperind oricare dintre marginile zonei gri?"
-
-    M09="Exercițiile de forță"
-    M09a="Bara de forță este ridicată astfel încât a patra gaură a cremalierei este cel puțin parțial vizibilă?"
-
-    M10="Producția de mâncare"
-    M10a="Culorile serei au fost învârtite astfel încât greutatea gri este CĂZUTĂ după verde, dar înainte de maro, doar prin acționarea barei de împingere?"
-
-    M11="Viteza de evadare"
-    M11a="Nava spațială s-a deplasat suficient de rapid și mult pentru a rămâne sus, doar prin apăsarea/lovirea rampei de lansare?"
-
-    M12="Orbitele sateliților"
-    M12a="Pentru fiecare satelit, oricare partea este pe sau deasupra zonei dintre cele două linii ale orbitei exterioare?"
-
-    M13="Observatorul"
-    M13a="Acul indicator este complet pe portocaliu sau parțial acoperind oricare dintre marginile zonei portocalii?"
-    M13b=" Acul indicator este complet pe alb?"
-    M13c=" Acul indicator este complet pe gri sau parțial acoperind oricare dintre marginile zonei gri?"
-
-    M14="Devierea meteoriților"
-    M14a="Câți meteoriți sunt în secțiunea centrală?"
-    M14b="Câți meteoriți sunt în secțiunile laterale?"
-
-    M15="Aselenizarea modulului lunar"
-    M15a="Modulul lunar este intact, atinge planșa și <b>complet</b> în <b>zona țintă</b>?"
-    M15b="Modulul lunar este intact, atinge planșa și <b> complet </b> în <b> zona planetei nord-estice </b>?"
-    M15c="Sunt ambele părți ale modulului lunar <b>complet</b> în <b>bază</b>?"
-
-    P01="Penalizările pentru întreruperi"
-    P01a="De câte ori a fost întrerupt robotul?"
 
     translatorCredit = "Traducerea și adaptarea în limba română realizată de Asociația pentru educație STEM creativă (CRESTEM). Copyright (c) 2018. www.crestem.org"
 
 
 } else if (language == "it") {
-yes = "Si"
-no = "No"
-partly = "Parzialmente"
-completely = "Completamente"
-resetText = "Resetta"
-saveText = "Salva"
-savescoreText="Salva il Punteggio"
-loadsaveText="Carica i salvataggi:"
-deletesaveText="Elimina i salvataggi"
-importsaveText="Importa i salvataggi "
-exportsaveText="Esporta i salvataggi "
-signin = "Accedi con"
-signout = "Esci"
-GoogleCreate = " Crea un nuovo Foglio Google "
-GoogleOpen = "Apri un Foglio Google"
-created = "Creato"	
-savedto = "Salvato in"
-teamText = "Squadra"
-roundText = "Round"
-dateText = "Data/Ora"
-totalText = "Punteggio Totale"
-savedText = "Salvato"
-loadedText = "Caricato"
-googleSaveText = "Salva su Fogli Google (Default)"
-localSaveText = "Salva su Browser Locale (Legacy)"
-isIE = " Il sistema di salvataggio di Google non è compatibile con Microsoft Internet Explorer. Puoi passare a un altro browser o continuare utilizzando il sistema di salvataggio legacy (fai clic qui sopra)"
-systemText = "Modalità di salvataggio: "
+    translatorCredit = "Tradotto in italiano da Giuseppe Comis"
 
-googleIntro = "Puoi salvare il tuo punteggio in un Foglio Google. Questo ti aiuterà a tenere traccia dei tuoi progressi durante la stagione. Segui le istruzioni in fondo alla pagina."
-pastSaves = "Salvataggi precedenti"
-instructions = "Istruzioni"
-instructionsA = "I passaggi-chiave per usare la modalità di salvataggio sono:"
-instructionsB = '1. Accedere al tuo account Google. Potresti ricevere il messaggio “Questa app non è verificata”. Se accade ciò, clicca su “Avanzate” e "Vai ad FLL Scorer (unsafe)"'
-instructionsC = '2. Se non hai ancora creato un foglio precedentemente, clicca su "Crea un Nuovo Foglio"'
-instructionsD = '3. Se hai precedentemente creato un foglio, assicurati che il campo ID foglio Google sia compilato e non "indefinito". Infatti, se vorrai condividere un Foglio fra apparecchi diversi, come un PC diverso o un tablet, dovrai inserire manualmente questo ID'
-instructionsE = '4. Tutte le volte che vuoi salvare un punteggio, clicca su “Salva Punteggio” - questo aggiornerà il foglio con il punteggio e la data corrente '
-instructionsF = '5. Se vuoi consultare il tuo Foglio e modificarlo, clicca su "Apri Google Fogli". Se ti serve conoscere l`ID del Foglio Google, puoi leggerlo nell`URL del Foglio quando lo apri'
-instructionsG = '6. Puoi anche recuperare uno specifico punteggio passato nel segnapunti, inserendo il numero di salvataggio con il con i pulsanti "+" e "-" e quindi facendo clic sul pulsante "Carica Salva:'
+    yes = "Si"
+    no = "No"
+    partly = "Parzialmente"
+    completely = "Completamente"
+    resetText = "Reset"
+    saveText = "Salva"
+    savescoreText="Salva Punteggio"
+    loadsaveText="Carica Punteggio:"
+    deletesaveText="Cancella i punteggi salvati"
+    importsaveText="Importa File Salvato"
+    exportsaveText="Esporta File"
+    signin = "Accedi con"
+    signout = "Esci"
+    GoogleCreate = "Crea un nuovo Foglio Google"
+    GoogleOpen = "Apri un Foglio Google"
+    created = "Creato"
+    savedto = "Salvato in"
+    teamText = "Squadra"
+    roundText = "Round"
+    dateText = "Data/Ora"
+    totalText = " Punteggio Totale"
+    savedText = "Salvato"
+    loadedText = "Caricato"
+    googleSaveText = "Fogli Google(Default)"
+    localSaveText = "Salva in Locale (Legacy)"
+    isIE = "Il sistema di salvataggio di Google non è compatibile con Microsoft Internet Explorer. Puoi passare a un altro browser o continuare utilizzando il sistema di salvataggio legacy (fai clic sopra)"
 
-var monthNames = ["","Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"];
-improvementText = "Miglioramento"
-scorerText = "Segnapunti"
-timersText = "Timer"
-savesText = "Salvataggi"
-startText = "Start"
-stopText = "Stop"
-pointsText = "Punti"
+    googleIntro = "Puoi salvare i tuoi punteggi su un foglio di lavoro Google. Questo ti aiuta a tenere traccia dei progressi nel corso della stagione. Vedi le istruzioni in fondo alla pagina."
+    pastSaves = "Salvataggi Precedenti"
+    instructions = "Istruzioni"
+    instructionsA = "I passaggi chiave per l'utilizzo del sistema di salvataggio sono:"
+    instructionsB = '1. Accedi al tuo account Google. È possibile che venga visualizzato un avviso "Questa app non è verificata". In tal caso, fai clic su "Avanzate" e poi "Vai a FLL Scorer (non sicuro)" '
+    instructionsC = '2. Se non hai creato precedentemente alcun foglio di lavoro, fai clic su "Crea nuovo foglio di lavoro"'
+    instructionsD = '3. Se precedentemente hai creato un foglio di lavoro, assicurati che il campo ID del Foglio di Google sia compilato e non "indefinito". Se desideri condividere un foglio di calcolo tra dispositivi, devi inserire questo ID manualmente.'
+    instructionsE = '4. Ogni volta che vuoi salvare un punteggio, fai click su "Salva Punteggio" – questo aggiornerà il Foglio Google con l’attuale punteggio e data'
+    instructionsF = '5. Se desideri controllare il foglio di lavoro e modificarlo, fai clic su "Apri foglio di lavoro Google ". Se dovessi avere bisogno dell`ID foglio di Google, si trova nell`URL del foglio di lavoro quando lo apri.'
+    instructionsG = '6. Puoi anche recuperare uno specifico punteggio precedente nel segnapunti inserendo il numero di salvataggio con i pulsanti "+" e "-" e facendo clic sul pulsante "Carica salvataggio:" '
 
-timerText = "Timer:"
-stopwatchText = " Cronometro:"
+    var monthNames = ["","Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"];
+    improvementText = "Miglioramento"
+    scorerText = "Segnapunti"
+    timersText = "Timer"
+    savesText = "Salvataggi"
+    startText = "Start"
+    stopText = "Stop"
+    pointsText = "Punti"
 
-revisionText = "Segnapunti INTO ORBIT Revisione "
-copyrightText = "Copyright (c) 2018-19 Seshan Brothers"
+    systemText = "Sistema di salvataggio:"
 
-idText = "Google Sheet ID: "
-undefinedText = "indefinito"
+    timerText = "Timer:"
+    stopwatchText = "Cronometro:"
 
-title = "Segnapunti INTO ORBIT"
+    idText = "Google Sheet ID: "
+    undefinedText = "Indefinito"
 
-M01="Viaggio Spaziale"	
-M01a="Il carrello col veicolo ha superato la prima connessione della rotaia?"
-M01b="Il carrello coi rifornimenti ha superato la prima connessione della rotaia?"
-M01c="Il carrello con l’equipaggio ha superato la prima connessione della rotaia?"
+    revisionText = "CITY SHAPER Scorer Version "
+    copyrightText = "Copyright (c) 2019 Seshan Brothers"
 
-M02="Posizionamento del pannello solare"
-M02a="Entrambi i pannelli solari sono rivolti verso lo stesso campo?"
-M02b="Il vostro pannello solare è rivolto verso il vostro campo?"
+    title = "CITY SHAPER Scorer"
 
-M03="Stampa 3D"
-M03a="Il mattoncino 2x4 è uscito dalla stampante e posizionato interamente nell’area Nord-Est del pianeta?"
-M03b=" Il mattoncino 2x4 è uscito dalla stampante e posizionato non interamente nell’area Nord-Est del pianeta?"
+    A00="Punti aggiuntivi"
+    A00a="Il robot e l'attrezzatura del team si adattano all'area di ispezione piccola?"
+    A00b="5 punti aggiunti a ciascuna missione 1-13 e altri 5 a M02."
 
-M04="Attraversamento del cratere"
-M04a="Il vostro robot e le sue estensioni hanno attraversato il cratere da Est ad Ovest superando <b>completamente</b> la barra?"
+    M01="Luoghi Elevati"
+    M01a="Il Robot è <b>Sostenuto</b> dal Ponte?"
+    M01b="Quante bandiere sono chiaramente sollevate a qualsiasi altezza, solo dal robot?"
 
-M05="Estrazione"
-M05a="Tutti e quattro i campioni non toccano più l’asse che li tratteneva nella carota?"
-M05b="Il campione di Gas è a contatto col tappeto e si trova completamente all’interno del cerchio del Lander?"
-M05c="Il campione di Gas è completamente in Base?"
-M05d="Il campione di acqua è sostenuto solamente dalla Camera di produzione del cibo?"
+    M02="Gru"
+    M02a="L'unità blu agganciata è chiaramente abbassata a qualsiasi distanza dal foro guida?"
+    M02b="L'unità blu agganciata è <b>Indipendente</b> e <b>Sostenuta</b> da un’altra Unità Blu?"
+    M02c="Il Livello 1 è Completamente nel Cerchio Blu?"
 
-M06=" Moduli della stazione spaziale"
-M06a="Il modulo conico si trova <b>completamente</b> in Base?"
-M06b="Il modulo tubolare è inserito nella porta Ovest dell’Habitation Hub?"
-M06c="Il modulo di attracco (Dock) è trasferito ed inserito nella porta Est dell’Habitation Hub?"
+    M03="Drone d’Ispezione"
+    M03a="Il Drone d’Ispezione è <b>Sostenuto</b> dall’assale (A) sul ponte?"
 
-M07="Emergenza durante la passeggiata spaziale "
-M07a="Gehrard è inserito <b>parzialmente</b> o <b>completamente</b> nella camera di decompressione dell’Hub?"
+    M04="Design per la fauna selvatica"
+    M04a="Il Pipistrello è <b>Sostenuto</b> dal ramo marrone (B) sull’Albero?"
 
-M08="Esercizio aerobico"
-M08a="Il puntatore è completamente nell’area arancione o copre parzialmente uno dei suoi bordi?"
-M08b="Il puntatore è completamente nell’area bianca?"
-M08c="Il puntatore è completamente nell’area grigia o copre parzialmente uno dei suoi bordi?"
+    M05="Casa sull'albero"
+    M05a="Quante Unità sono <b>Indipendenti</b> e <b>Sostenute</b> dai rami grandi dell'albero?"
+    M05b=" Quante Unità sono <b>Indipendenti</b> e <b>Sostenute</b> dai rami piccoli dell’albero?"
 
-M09="Esercizio di potenziamento"
-M09a="La barra della Potenza è sollevata quanto basta affinché il 4° foro della striscia dentata sia visibile almeno in parte?"
+    M06="Ingorgo stradale"
+    M06a="L’ingorgo stradale è stato sollevato, la sua parte mobile è <b>Indipendente</b> e <b>Sostenuta</b> solo dai suoi cardini?"
 
-M10="Produzione di cibo"
-M10a="I colori sono stati ruotati quanto basta che il verde superi il grigio ma non appaia il marrone, usando la barra?"
+    M07="Altalena"
+    M07a="L'altalena è stata rilasciata?"
 
-M11="Velocità di fuga"
-M11a="La navicella è partita ad una velocità tale da farla arrivare in alto e restarci, premendo o colpendo lo Strike Pad?"
+    M08="Ascensore"
+    M08a="Le parti mobili dell’Ascensore sono <b>Indipendenti</b> e <b>Sostenute</b> solo dai loro cardini con la Cabina Blu in basso?"
+    M08b=" Le parti mobili dell’Ascensore sono <b>Indipendenti</b> e <b>Sostenute</b> solo dai loro cardini in posizione bilanciata?"
 
-M12="Orbite dei Satelliti"
-M12a="Per ciascun satellite, almeno una parte di esso si trova nell'area tra le due linee dell'Orbita Esterna o al di sopra di essa?"
+    M09="Fattore sicurezza"
+    M09a="Quanti pilastri sono stati tolti almeno per metà?"
+    M09b=" L'edificio di prova deve essere <b>Indipendente</b> e <b>Sostenuto</b> solo dai pilastri blu"
 
-M13="Osservatorio"
-M13a="Il puntatore è completamente nell’area arancione o copre parzialmente uno dei suoi bordi?"
-M13b="Il puntatore è completamente nell’area bianca?"
-M13c="Il puntatore è completamente nell’area grigia o copre parzialmente uno dei suoi bordi?"
+    M10="Costruzione in acciaio"
+    M10a="La Struttura in Acciaio è in posizione verticale, ed è <b>Indipendente</b> e <b>Sostenuta</b> solo dai suoi cardini?"
+    
+    M11="Architettura Innovativa"
+    M11a="La Struttura è <b>Completamente</b> in un cerchio qualsiasi?"
+    M11b="La Struttura è <b>Parzialmente</b> in un cerchio qualsiasi?"
+    M11c="La struttura deve essere progettata dalla squadra e chiaramente più grande di un'unità di costruzione blu. Deve essere costruita con i mattoncini LEGO in possesso della squadra nella busta 10."
 
-M14="Deviazione dei Meteoroidi"
-M14a="Quanti meteoroidi si trovano nella Sezione Centrale?"
-M14b="Quanti meteoroidi si trovano nelle Sezioni Laterali?"
+    M12="Progetta e costruisci"
+    M12a="Quanti cerchi hanno almeno una corrispondenza fra i colori delle unità <b>Completamente</b> Dentro, e poggiate sul Tappeto?"
+    M12b="Se ci sono Stack <b>Indipendenti</b> almeno <b>Parzialmente</b> in qualunque cerchio, qual è la somma di tutte le loro altezze?"
+    M12c="Il cerchio Blu non è una parte della Missione 12. Uno Stack è una o più Unità di Costruzione col primo livello che tocca il Tappeto, e tutti gli altri livelli che toccano il livello sottostante ad essi."
 
-M15="Area di atterraggio del Lander"
-M15a="Il  Lander è intatto, in contatto col Tappeto, e <b>completamente</b> nel suo <b>Cerchio Bersaglio</b>?"
-M15b="Il  Lander è intatto, in contatto col Tappeto, e <b>completamente</b> nell’ <b>Area Nord-Est del Pianeta</b>?"
-M15c="Entrambe le parti del Lander sono <b>completamente</b> in <b>Base</b>?"
+    M13="Miglioramenti alla Sostenibilità"
+    M13a="Quanti Miglioramenti (pannelli solari, giardini pensili, isolamenti) sono <b>Indipendenti</b> e <b>Sostenuti</b> su uno Stack che si trovi almeno in parte in un Cerchio qualsiasi?"
 
-P01="Penalità"
-P01a="Quante volte il robot è stato fermato?"
+    M14="Precisione"
+    M14a="Quanti Gettoni di Precisione sono rimasti sul campo?"
+    
+} else if (language == "eu") {
 
-translatorCredit = "Traduzione in italiano di Giuseppe Comis"
+    translatorCredit = "Euskaratuta Anartz San Juan-engatik Edurobotic FIRST LEGO League-en taldekidea"
+
+    yes = "Bai"
+    no = "Ez"
+    partly = "Partzialki"
+    completely = "Guztiz"
+    resetText = "Berrabiarazi"
+    saveText = "Gorde"
+    savescoreText="Puntuaketa Gorde"
+    loadsaveText="Puntuaketa Kargatu:"
+    deletesaveText="Ezabatu Gordetakoak"
+    importsaveText="Inportatu Gordetakoa"
+    exportsaveText="Exportatu gordetakoa"
+    signin = "Sartu honekin"
+    signout = "Deskonektatu hemendik"
+    GoogleCreate = "Sortu Kalkulu orri berri bat"
+    GoogleOpen = "Zabaldu Google kalkulu orri bat"
+    created = "Sortuta"
+    savedto = "Gordeta nola"
+    teamText = "Taldea"
+    roundText = "Erronda"
+    dateText = "Data/Ordua"
+    totalText = "Emaitza totala"
+    savedText = "Gordeta"
+    loadedText = "Kargatuta"
+    googleSaveText = "Googleren orriak (Lehenespenez)"
+    localSaveText = "Nabigatzaile Lokaleko Almazenamendua (Heredatua)"
+    isIE = " Googleren gordetze sistema ez da bateragarria Internet Explorerrekin. Nabigatzailez aldatu dezakezu edo heredatutako gordetze sistema erabiltzen jarrai dezakezu (klikatu goian)"
+
+    googleIntro = "Zure puntuazioak Google-ren kalkulu horri batean gorde ditzakezu. Honek denboraldi osoan zehar egin dituzun aurrerapenak gordetzen lagundu zaitzake. Ikusi argibideak orriaren behealdean."
+    pastSaves = "Lehendik gordeta"
+    instructions = "Argibideak"
+    instructionsA = "Gordetze sistema erabiltzeko pausoak hauek dira:"
+    instructionsB = '1. Hasi saioa zure Google kontuarekin. Beharbada "Aplikazio hau ez dago egiaztatua oharra jaso dezakezu. Hori gertatzen bada, klikatu "Aurreratua" eta orduan "FLL Zenbatzailera joan (ez segurua)"'
+    instructionsC = '2. Lehenagotik ez baduzu kalkulu orri bat sortu klikatu "Sortu Kalkulu Orri Berria"'
+    instructionsD = '3. Lehenagotik kalkulu orri bat sortu baduzu, ziurtatu zaitez kalkulu orriko ID eremua beteta dagoela eta ez "mugagabea". Orria beste gailu batzuekin partekatu nahi baduzu, identifikazio hori eskuz idatzi behar duzu.'
+    instructionsE = '4. Puntuaketa bat gorde nahi duzun bakoitzean, klikatu "Gorde Puntuaketa" honek kalkulu orriak gaurkotuko ditu puntuazio eta data berriarekin.'
+    instructionsF = '5. Zure kalkulu orria ikuskatu eta editatu nahi baduzu, sakatu "Zabaldu Google-ren Kalkulu Orriak". Uneren batean kalkulu orriaren ID-a behar baduzu, zure kalkulu orriaren URL-an aurkitu dezakezu.'
+    instructionsG = '6. Aintzinako puntuazio jakin bat ere berreskuratu dezakezu zenbatzailean "+" eta "-" botoiekin gordetze zenbakia ipiniz eta gero "Kargatu Gordetakoa:" sakatuz'
+
+    var monthNames = ["","Urtarrila", "Otsaila", "Martxoa", "Apirila", "Maiatza", "Ekaina", "Uztaila", "Abuztua",
+		      "Iraila", "Urria", "Azaroa", "Abendua"];
+    improvementText = "Hobespena"
+    scorerText = "Zenbatzailea"
+    timersText = "Kronometroa"
+    savesText = "Gordetakoak"
+    startText = "Hasi"
+    stopText = "Gelditu"
+    pointsText = "Puntuak"
+
+    systemText = "Gordetze sistema: "
+
+    timerText = "Denbora zenbatzailea:"
+    stopwatchText = "Kronografoa:"
+
+    idText = "Google Orriaren ID-a: "
+    undefinedText = "zehaztugabea "
+
+    revisionText = "Zenbatzaile errebisioa CITY SHAPER"
+    copyrightText = "Copyright (c) 2019 Seshan Brothers"
+
+    title = "CITY SHAPER Zenbatzailea"
+
+    missionNumbering = "M" // i.e. honela erakusten da: M01, M02, etc. ("Mission"-en lehenengo hizkia zure hizkuntzan)
+
+    A00="Abantaila"
+    A00a="Ekipamendua inspekzio zona txikian sartzen da?"
+    A00b="5 puntu gehitzen dira 1-13 misioetara eta 5 gehiago M02era."
+
+    M01="Pieza Garaiak"
+    M01a="Ba al dago errobota zubiarengatik <b>Eutsita</b>?"
+    M01b="Zenbat bandera daude nabarmen altxatuta bakarrik errobotari esker?"
+
+    M02="Garabia"
+    M02a="Ba al dago zintzilikatuta dagoen modulu urdina nabarmen jaitsita edozein distantziara garabiaren zulotik?"
+    M02b="Ba al dago zintzilikatuta dagoen modulu urdina <b>Independientea</b> eta beste modulu urdin batengatik <b>Eutsita</b>?"
+    M02c="Ba al dago lehenengo maila guztiz zirkulu urdinaren barruan?"
+
+    M03="Ikuskatzeko Drone-a"
+    M03a="Ba al dago ikuskatzeko drone-a (A) ardatzagatik <b>Eutsita</b> zubian?"
+
+    M04="Faunarako Diseinua"
+    M04a="Ba al dago saguzarra (B) adarrarengatik <b>Eutsita</b> zuhaitzean?"
+
+    M05="Zuhaitzeko Etxea"
+    M05a="Zenbat modulu dira <b>Independiente</b> eta Zuhaitzaren Adar Handiengatik <b>Eutsita</b> daude?"
+    M05b="Zenbat modulu dira <b>Independiente</b> eta Zuhaitzaren Adar Txikiengatik <b>Eutsita</b> daude?"
+
+    M06="Trafiko Trabatzea"
+    M06a="Ba al dago Trafiko Trabatzea altxatuta eta bere parte mugikorra <b>Independientea</b> da eta bakarrik bere bandengatik <b>Eutsita</b>?"
+
+    M07="Kulunka"
+    M07a="Askatuta al dago kulunka?"
+
+    M08="Karga-jasogailua"
+    M08a="Ba al daude karga-jasogailuaren parte mugikorrak   <b>Independiente</b> eta bakarrik bere bandengatik <b>Eutsita</b> eta Kotxe Urdinaren posizioan daude behean?"
+    M08b="Ba al daude karga-jasogailuaren parte mugikorrak <b>Independiente</b> eta bakarrik bere bandengatik <b>Eutsita</b> eta Orekatze posizioan daude?"
+
+    M09="Segurtasun Eragilea"
+    M09a="Zenbat laza bidetik kendu dira gutxienez bide erdirarte?"
+    M09b="Eraikin pilotua <b>Independientea</b> da eta laza urdinengatik bakarrik <b>Eutsita</b> dago"
+
+    M10="Altzairu eraikuntza"
+    M10a="Ba al dago altzairuzko egitura altxatuta eta <b>Independientea</b> da eta bere bandengatik <b>Eutsita</b> dago?"
+
+    M11="Arkitektura Berriztatzailea"
+    M11a="Egitura borobil baten barruan <b>Guztiz</b> sartuta dago?"
+    M11b="Egitura borobil baten barruan <b>Partzialki</b> sartuta dago?"
+    M11c="Egitura taldeak diseinatutakoa izan behar da eta modulu urdin bat baino handiagoa izan behar da. Hamargarren poltsako LEGO piezekin egindakoa izan behar da."
+
+    M12="Diseinua eta Eraikuntza"
+    M12a="Zenbat zirkuluk dute gutxienez modulu bat zeinen koloreak zirkuluarekin bat egiten duten eta <b>Guztiz</b> barruan daude eta tapetearekin kontaktu planoan?"
+    M12b="Baldin eta multzo <b>Independienteak</b> badaude gutxienez <b>Partzialki</b> edozein zirkuluren barruan, zein da haien guztien altueraren batuketaren emaitza?"
+    M12c="Zirkulu urdina ez da hamabigarren misioaren parte. Multzo bat da noiz modulu batek edo gehiagok zeinen lehenengo mailak tapetea ukitzen duen era plano batean eta edozein goreneko maila lehenengo mailaren gainean era plano batean daudenean"
+
+    M13="Iraunkortasun Gaurkotzea"
+    M13a="Zenbat gaurkotze (eguzki panelak, sabai berdeak, isolatzeak) daude <b>Independiente</b> eta edozein zirkuluren barruan (gutxienez partzialki) dagoen multzo batengatik <b>Eutsita</b>?"
+
+    M14="Zehaztasuna"
+    M14a="Zenbat zehaztasun lekuko daude joko lurrazalean?"
 }
 
 

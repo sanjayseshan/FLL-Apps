@@ -78,6 +78,8 @@ class ViewController: UIViewController, WKUIDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        
         webView.customUserAgent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1.2 Safari/605.1.15"
         webView.navigationDelegate = self;
         if let filePath = Bundle.main.path(forResource:"index", ofType:"html", inDirectory: "www") {
