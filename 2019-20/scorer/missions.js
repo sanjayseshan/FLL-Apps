@@ -19,17 +19,20 @@ function specialCasesCheck(mission) {
     if (specialCasesComplete != 1){
 	specialCasesComplete = 1
 
-	if (document.getElementById("yescrane2").checked == true) { usedBlocks = 1 }
-	else {usedBlocks = 0}
+	// if (document.getElementById("yescrane2").checked == true) { usedBlocks = 1 }
+	// else {usedBlocks = 0}
+	if (document.getElementById("yescrane3").checked == true) { usedBlocks = 1; totalBlocks = 16; blueCount = 4; maxTotalHeight = 28}
+	else {usedBlocks = 0; totalBlocks = 17; blueCount = 5; maxTotalHeight = 29}
+	
 
-	if (mission=="treehouse1" || mission =="crane2") {
-	    if (parseInt(document.getElementById('treehouse2').value) + parseInt(document.getElementById('treehouse1').value) > (16 - usedBlocks)) {
-		if ((16 - parseInt(document.getElementById('treehouse1').value) - usedBlocks) >= 0){
-		    document.getElementById('treehouse2').value = 16 - parseInt(document.getElementById('treehouse1').value) - usedBlocks
+	if (mission=="treehouse1" || mission =="crane3") {
+	    if (parseInt(document.getElementById('treehouse2').value) + parseInt(document.getElementById('treehouse1').value) > (totalBlocks - usedBlocks)) {
+		if ((totalBlocks - parseInt(document.getElementById('treehouse1').value) - usedBlocks) >= 0){
+		    document.getElementById('treehouse2').value = totalBlocks - parseInt(document.getElementById('treehouse1').value) - usedBlocks
 		    recalc(window['treehouse2'+'inc']*document.getElementById('treehouse2').value,'treehouse2',document.getElementById('treehouse2').value)
 		}
 		else {
-		    document.getElementById('treehouse1').value = 16 - parseInt(document.getElementById('treehouse2').value) - usedBlocks
+		    document.getElementById('treehouse1').value = totalBlocks - parseInt(document.getElementById('treehouse2').value) - usedBlocks
 		    recalc(window['treehouse1'+'inc']*document.getElementById('treehouse1').value,'treehouse1',document.getElementById('treehouse1').value)
 		}
 		    
@@ -38,14 +41,14 @@ function specialCasesCheck(mission) {
 
 	    }
 	}
-	if (mission=="treehouse2" || mission =="crane2") {
-	    if (parseInt(document.getElementById('treehouse1').value) + parseInt(document.getElementById('treehouse2').value) > (16 - usedBlocks)) {
-		if ((16 - parseInt(document.getElementById('treehouse2').value) - usedBlocks) >= 0) {
-		    document.getElementById('treehouse1').value = 16 - parseInt(document.getElementById('treehouse2').value) - usedBlocks
+	if (mission=="treehouse2" || mission =="crane3") {
+	    if (parseInt(document.getElementById('treehouse1').value) + parseInt(document.getElementById('treehouse2').value) > (totalBlocks - usedBlocks)) {
+		if ((totalBlocks - parseInt(document.getElementById('treehouse2').value) - usedBlocks) >= 0) {
+		    document.getElementById('treehouse1').value = totalBlocks - parseInt(document.getElementById('treehouse2').value) - usedBlocks
 		    recalc(window['treehouse1'+'inc']*document.getElementById('treehouse1').value,'treehouse1',document.getElementById('treehouse1').value)
 		}
 		else {
-		    document.getElementById('treehouse2').value = 16 - parseInt(document.getElementById('treehouse1').value) - usedBlocks
+		    document.getElementById('treehouse2').value = totalBlocks - parseInt(document.getElementById('treehouse1').value) - usedBlocks
 		    recalc(window['treehouse2'+'inc']*document.getElementById('treehouse2').value,'treehouse2',document.getElementById('treehouse2').value)
 		}		    
 	    }
@@ -54,30 +57,34 @@ function specialCasesCheck(mission) {
 
 
 	if (mission=="design1") {
-	    if (parseInt(document.getElementById('design1').value) > (16 - usedBlocks)) {
-		document.getElementById('design1').value = 16 - usedBlocks
+	    if (parseInt(document.getElementById('design1').value) > (totalBlocks - usedBlocks)) {
+		document.getElementById('design1').value = totalBlocks - usedBlocks
 		recalc(window['design1'+'inc']*document.getElementById('design1').value,'design1',document.getElementById('design1').value)
 	    }
 	    // if you want to allow for teams to incorrectly do level 1....
-	    // if (parseInt(document.getElementById('design1').value) > parseInt(document.getElementById('design2').value)) {
-	    // 	document.getElementById('design2').value = document.getElementById('design1').value
-	    // 	recalc(window['design2'+'inc']*document.getElementById('design2').value,'design2',document.getElementById('design2').value)
-	    // }
+	    if (parseInt(document.getElementById('design1').value) > parseInt(document.getElementById('design2').value)) {
+	     	document.getElementById('design2').value = document.getElementById('design1').value
+	     	recalc(window['design2'+'inc']*document.getElementById('design2').value,'design2',document.getElementById('design2').value)
+	    }
 	}
-	if (mission=="design2" || mission=="treehouse1" || mission=="treehouse2" || mission =="crane2") {
-	    if (usedBlocks > 4) {
-		maxHeight = 28 - 4 - (2 * (usedBlocks - 4))
+	if (mission=="design2" || mission=="treehouse1" || mission=="treehouse2" || mission =="crane3") {
+	    if (usedBlocks > blueCount) {
+		maxHeight = maxTotalHeight - blueCount - (2 * (usedBlocks - blueCount))
 	    }
 	    else {
-		maxHeight = 28 - usedBlocks
+		maxHeight = maxTotalHeight - usedBlocks
 	    }
 	    if (parseInt(document.getElementById('design2').value) > maxHeight) {
 		document.getElementById('design2').value = maxHeight
 		recalc(window['design2'+'inc']*document.getElementById('design2').value,'design2',document.getElementById('design2').value)
 	    }
-	    if (parseInt(document.getElementById('design1').value) > (16 - usedBlocks)) {
-		document.getElementById('design1').value = 16 - usedBlocks
+	    if (parseInt(document.getElementById('design1').value) > (totalBlocks - usedBlocks)) {
+		document.getElementById('design1').value = totalBlocks - usedBlocks
 		recalc(window['design1'+'inc']*document.getElementById('design1').value,'design1',document.getElementById('design1').value)
+	    }
+	    if (parseInt(document.getElementById('design1').value) > parseInt(document.getElementById('design2').value)) {
+	     	document.getElementById('design1').value = document.getElementById('design2').value
+	     	recalc(window['design1'+'inc']*document.getElementById('design1').value,'design1',document.getElementById('design1').value)
 	    }
 
 	}
@@ -203,8 +210,8 @@ createbutton("wildlife1",10 ,"M04a")
 endtable()
 
 starttable('M05', "M05", 'M05.jpg' , ['treehouse1','treehouse2'], 0)
-createrange("treehouse1",10,0,16,0,"M05a")
-createrange("treehouse2",15,0,16,0,"M05b")
+createrange("treehouse1",10,0,17,0,"M05a")
+createrange("treehouse2",15,0,17,0,"M05b")
 endtable()
 
 starttable('M06', "M06", 'M06.jpg', ['traffic1'], 0)
@@ -239,7 +246,7 @@ endtable()
 
 starttable('M12',"M12", 'M12.jpg', ['design1','design2'], 1)
 createrange("design1", 10 , 0, 3, 1,"M12a",'')
-createrange("design2", 5 , 0, 28, 1,"M12b",'')
+createrange("design2", 5 , 0, 29, 1,"M12b",'')
 createcomment("M12c")
 endtable()
 
