@@ -7,7 +7,7 @@
 // Universal
 versionText = "1.10 - 10/18/2019"
 
-versionNum = "1.11"
+versionNum = "1.12"
 versionDay = 30
 versionMonth = 10
 versionYear = "2019"
@@ -79,6 +79,7 @@ function languageInit() {
 
     revisionText = "CITY SHAPER Scorer Version "
     copyrightText = "Copyright (c) "+versionYear+" Seshan Brothers"
+    tournamentText = "A version of this scorer with added features needed for a tournament can be found <a href='http://tournament.flltutorials.com/'>here</a>."
 
     title = "CITY SHAPER Scorer"
 
