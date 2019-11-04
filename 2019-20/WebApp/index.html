@@ -282,7 +282,7 @@
           <div style="padding-left: 10px; " id="tabs-3">
 
             <div style="max-width: 600px">
-              <div class="no-mobile no-print">
+              <div class="no-mobile no-print" style="display:none;">
                 <text id="systemText">Saving System:</text> <select style="" data-role="none" data-hide-during-focus="false" data-tap-toggle="false" onchange="document.getElementById('google').style.display = 'none'; document.getElementById('legacy').style.display = 'none'; document.getElementById(this.value).style.display = 'inline';">
 
                   <option id="localText" value="legacy">Local Browser Storage (Legacy)</option>
@@ -574,7 +574,7 @@
   ga('send', 'pageview');
 </script>
 
-<div class="no-mobile">
+<div class="no-mobile" style="display:none">
 
   <a target="_blank" class="no-print"
   href="https://play.google.com/store/apps/details?id=com.ev3lessons.fllcityshaperscorer">
@@ -699,7 +699,7 @@
       if (translatorCredit != "") {
 	  document.getElementById('translatorCredit').innerHTML = translatorCredit
       } else {
-	  document.getElementById('translatorCredit').innerHTML = "If you would like to help us translate this scorer into another language, please download <a rel='external' data-ajax='false' href='CityShaper-translations-latest.rtf'>this file</a> and follow the instructions."
+	  document.getElementById('translatorCredit').innerHTML = ""
       }
 
       if ((navigator.userAgent.indexOf("MSIE") != -1 ) || (!!document.documentMode == true )) {
