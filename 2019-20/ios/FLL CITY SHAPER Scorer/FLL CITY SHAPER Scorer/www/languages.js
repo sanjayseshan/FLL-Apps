@@ -1307,7 +1307,7 @@ function languageInit() {
     }
     
     
-    versionText = versionNum + " - " + versionDay + " " + monthNames[versionMonth] + " " + versionYear
+    versionText = versionNum
     
     
     improvement= improvementText
