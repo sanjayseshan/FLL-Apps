@@ -56,6 +56,9 @@
 		6872851422F90BC100CC9885 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		6872851522F90BD400CC9885 /* nl-NL */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "nl-NL"; path = "nl-NL.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		6872851622F90BEF00CC9885 /* de-DE */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "de-DE"; path = "de-DE.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		9290DEDF235AB344008D02A2 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Main.strings; sourceTree = "<group>"; };
+		9290DEE0235AB345008D02A2 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		9290DEE1235AB345008D02A2 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		92B4F0F22309B34000722551 /* eu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = eu; path = eu.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		92B4F0F32309B48E00722551 /* it-IT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "it-IT"; path = "it-IT.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -231,6 +234,7 @@
 				"de-DE",
 				eu,
 				"it-IT",
+				ro,
 			);
 			mainGroup = 6808B8B922E5493200F21B4F;
 			productRefGroup = 6808B8C322E5493200F21B4F /* Products */;
@@ -319,6 +323,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6808B8CA22E5493200F21B4F /* Base */,
+				9290DEDF235AB344008D02A2 /* ro */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -327,6 +332,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6808B8CF22E5493500F21B4F /* Base */,
+				9290DEE0235AB345008D02A2 /* ro */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -342,6 +348,7 @@
 				6872851622F90BEF00CC9885 /* de-DE */,
 				92B4F0F22309B34000722551 /* eu */,
 				92B4F0F32309B48E00722551 /* it-IT */,
+				9290DEE1235AB345008D02A2 /* ro */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";

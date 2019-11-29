@@ -4,4 +4,4 @@ if ((String(langs).indexOf(language+":")) == -1) {
     language = "en";
 }
 
-//language = "it" // debugging
+// language = "ro" // debugging
