@@ -69,6 +69,7 @@
       @page {
         size: A4 portrait;
         margin: 0.5cm;
+        
 
       }
 
@@ -116,6 +117,16 @@
         page-break-inside: avoid;
         break-inside: avoid;
       }
+    
+    .ui-footer {
+        /* ... */
+        /* Status bar height on iOS 10 */
+        padding-bottom: 40px;
+        /* Status bar height on iOS 11.0 */
+        padding-bottom: constant(safe-area-inset-bottom);
+        /* Status bar height on iOS 11+ */
+        padding-bottom: env(safe-area-inset-bottom);
+    }
 
       </style>
       <script>
@@ -399,8 +410,9 @@
       </div>
         </div>
       </div>
-<div data-hide-during-focus="" data-tap-toggle="false" data-role="footer" style=" font-size: 120%; background-color:blue; color: white;" data-theme="a" data-position="fixed">
-  <h1 style="padding-top:0; padding-bottom:0" ><i id="pointsTxt">Points</i><i>: </i><i id="allpoints"> 0</i> &emsp; &emsp; &emsp; <input id="resetTxt" type="button" value="Reset" class="ui-mini no-print" onclick='document.getElementById("missions").reset();loadsave(blanksave);'></h1>
+<div data-hide-during-focus="" data-tap-toggle="false" data-role="footer" style=" font-size: 120%; background-color:blue; color: white;padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);" data-theme="a" data-position="fixed">
+    <h1 style="
+ padding-top:0; padding-bottom:20" ><i id="pointsTxt">Points</i><i>: </i><i id="allpoints"> 0</i> &emsp; &emsp; &emsp; <input id="resetTxt" type="button" value="Reset" class="ui-mini no-print" onclick='document.getElementById("missions").reset();loadsave(blanksave);'></h1>
 </div>
 
     </body>

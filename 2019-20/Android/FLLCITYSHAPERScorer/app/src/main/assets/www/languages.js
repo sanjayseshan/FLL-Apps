@@ -5,12 +5,18 @@
 // Note that the line "langs=[XXX]" has no effect in old versions of the scorer and will just be ignored. To update the language list in old versions, copy that line to the equivalent place in index.html
 
 // Universal
-versionText = "1.10 - 10/18/2019"
+
+versionNum = "1.13"
+versionDay = 4
+versionMonth = 11
+versionYear = 2019
+versionText = ""
 
 //langs=['en:United States:English','pt:Brazil:Portugues','de:Germany:Deutsche','es:Spain:Español','sk:Slovakia:Slovenský','nl:Netherlands:Nederlands','el:Greece:ελληνικά','hu:Hungary:Magyar','he:Israel:עִבְרִית‎','fr:France:français']
-langs=['en:United States:English','es:Spain:Español','pt:Brazil:Portugues','nl:Netherlands:Nederlands','el:Greece:ελληνικά','de:Germany:Deutsche','it:Italy:Italiano','eu:Basque:Euskara','ro:Romania:Românește']
+langs=['en:United States:English','es:Spain:Español','pt:Brazil:Portugues','nl:Netherlands:Nederlands','el:Greece:ελληνικά','de:Germany:Deutsche','it:Italy:Italiano','eu:Basque:Euskara','ro:Romania:Română']
 //  langs=['en:United States:English','es:Spain:Español','pt:Brazil:Portugues','de:Germany:Deutsche','el:Greece:ελληνικά','tr:Turkey:Türk','ro:Romania:Română','nl:Netherlands:Nederlands','hu:Hungary:Magyar','it:Italy:Italiano']
 
+monthNames = []
 
 // Default Language (English/en)
 
@@ -42,9 +48,9 @@ function languageInit() {
     loadedText = "Loaded"
     googleSaveText = "Google Sheets (Testing)"
     localSaveText = "Local Browser Storage (Default)"
-    isIE = "Google saving system is incompatible with Microsoft Internet Explorer. You can either switch to another browser or continue by using the legacy saving system (click above)"
+    isIE = "Google saving system is incompatible with Microsoft Internet Explorer. You can either switch to another browser or continue by using the local storage saving system (click above)"
 
-    googleIntro = "You can save your scores to a Google Spreadsheet. This helps you keep track of progress over the season. See instructions at the bottom of the page."
+    googleIntro = "You can save your scores to a Google Spreadsheet. This helps you keep track of progress over the season. See instructions at the bottom of the page. This may not work for everyone. Please use the Local Storage system if it does not work."
     pastSaves = "Past Saves"
     instructions = "Instructions"
     instructionsA = "The key steps to using the save system are:"
@@ -73,7 +79,8 @@ function languageInit() {
     undefinedText = "undefined"
 
     revisionText = "CITY SHAPER Scorer Version "
-    copyrightText = "Copyright (c) 2019 Seshan Brothers"
+    copyrightText = "Copyright (c) "+versionYear+" Seshan Brothers"
+    tournamentText = "A version of this scorer with added features needed for a tournament can be found <a href='http://tournament.flltutorials.com/'>here</a>."
 
     title = "CITY SHAPER Scorer"
 
@@ -141,7 +148,7 @@ function languageInit() {
 
     if (language == "pt" || language == "pt-br") {
 	translatorCredit = "Traduzido para Português (Brasil) por Anderson Harayashiki Moreira"
-	
+
 	yes = "Sim"
 	no = "Não"
 	partly = "Parcialmente"
@@ -165,8 +172,8 @@ function languageInit() {
 	totalText = "Pontuação Total"
 	savedText = "Salvo"
 	loadedText = "Carregado"
-	googleSaveText = "Planilha Google (Padrão)"
-	localSaveText = "Armazenamento do Navegador Local(Legacy)"
+	googleSaveText = "Planilha Google"
+	localSaveText = "Armazenamento do Navegador Local(Padrão)"
 	isIE = " O armazenamento no sistema Google é incompatível com o Microsoft Internet Explorer. Você pode escolher outro navegador ou continuar utilizando o Sistema de salvamento Legacy (clique acima)"
 
 	googleIntro = "Você pode salvar suas pontuações em uma planilha do Google. Isso ajuda você a acompanhar o progresso durante a temporada. Veja as instruções na parte inferior da página."
@@ -198,7 +205,7 @@ function languageInit() {
 	undefinedText = "indefinido"
 
 	revisionText = "Marcador CITY SHAPER Versão "
-	copyrightText = "Copyright (c) 2019 Seshan Brothers"
+	copyrightText = "Copyright (c) "+versionYear+" Seshan Brothers"
 
 	title = "Marcador CITY SHAPER"
 
@@ -258,7 +265,7 @@ function languageInit() {
 	M14="Precisão"
 	M14a="Quantos discos de precisão foram deixados no campo?"
 
-	
+
 
     } else if (language == "de") {
 	translatorCredit = "Übersetzung von Tim Waibel (Team Cassapeia)"
@@ -286,8 +293,8 @@ function languageInit() {
 	totalText = "Gesamtpunktzahl"
 	savedText = "Gespeichert"
 	loadedText = "Geladen"
-	googleSaveText = "Google Sheets (Standard)"
-	localSaveText = "Festplatte"
+	googleSaveText = "Google Sheets"
+	localSaveText = "Festplatte (Standard)"
 	isIE = "In Google speichern funktioniert nicht im Internet Explorer. Du kannst entweder einen anderen Browser benutzen oder auf der Festplatte speichern (siehe oben)."
 
 	googleIntro = "Du kannst deine Punktzahlen in einem Google Spreadsheet speichern. Das hilft Dir, deinen Fortschritt während der Saison zu verfolgen. Für eine Anleitung an das Ende der Seite scrollen."
@@ -319,12 +326,12 @@ function languageInit() {
 	undefinedText = "undefiniert"
 
 	revisionText = "CITY SHAPER Punkterechner Version "
-	copyrightText = "Copyright (c) 2019 Seshan Brothers"
+	copyrightText = "Copyright (c) "+versionYear+" Seshan Brothers"
 
 	title = "CITY SHAPER Punkterechner"
 
 	missionNumbering = "A"
-	
+
 	A00="Bonus"
 	A00a="Passt das komplette Material des Teams in die kleine Inspektionszone?"
 	A00b="5 Zusatzpunkte für jede (teilweise) gelöste Aufgabe 1-13 und nochmal 5 Punkte für Aufgabe 2."
@@ -407,8 +414,8 @@ function languageInit() {
 	totalText = "Totaal aantal punten"
 	savedText = "Opgeslagen"
 	loadedText = "Geladen"
-	googleSaveText = "Google sheets (standaard)"
-	localSaveText = "Lokale browser opslag (oud)"
+	googleSaveText = "Google sheets"
+	localSaveText = "Lokale browser opslag (standard)"
 	isIE = "Google-opslagsysteem is niet compatibel met Microsoft Internet Explorer. Je kunt naar een andere browser overschakelen of doorgaan met het oude opslagsysteem (klik hierboven)"
 
 	googleIntro = "Je kunt je scores bewaren in een Google spreadsheet. Dit helpt je de voortgang gedurende het seizoen bij te houden. Zie instructies onderaan de pagina."
@@ -440,7 +447,7 @@ function languageInit() {
 	undefinedText = "undefined"
 
 	revisionText = "CITY SHAPER Scorer Versie "
-	copyrightText = "Copyright (c) 2019 Seshan Brothers"
+	copyrightText = "Copyright (c) "+versionYear+" Seshan Brothers"
 
 	title = "CITY SHAPER Scorer"
 
@@ -526,9 +533,9 @@ function languageInit() {
 	totalText = "Puntuación Total"
 	savedText = "Guardada"
 	loadedText = "Cargada"
-	googleSaveText = "Hojas de Google (Por defecto)"
-	localSaveText = "Almacenamiento en Navegador Local (Heredado)"
-	isIE = "El sistema de guardado de Google no es compatible con Microsoft Internet Explorer. Puede cambiar a otro navegador o continuar usando el sistema de guardado heredado (haga clic arriba)."
+	googleSaveText = "Hojas de Google (probando)"
+	localSaveText = "Almacenamiento en Navegador Local (Por defecto)"
+	isIE = "El sistema de guardado de Google no es compatible con Microsoft Internet Explorer. Puede cambiar a otro navegador o continuar usando el sistema de guardado local (haga clic arriba)."
 
 	googleIntro = "Puede guardar sus puntuaciones en una hoja de cálculo de Google. Esto le ayuda a mantener un registro del progreso durante la temporada. Vea las instrucciones en la parte inferior de la página."
 	pastSaves = "Anteriormente Guardadas"
@@ -559,7 +566,7 @@ function languageInit() {
 	undefinedText = "indefinido"
 
 	revisionText = "Marcador CITY SHAPER Versión "
-	copyrightText = "Copyright (c) 2019 Seshan Brothers"
+	copyrightText = "Copyright (c) "+versionYear+" Seshan Brothers"
 
 	title = "Marcador CITY SHAPER"
 
@@ -670,7 +677,7 @@ function languageInit() {
 	totalText = "Össz pontszám"
 	savedText = "Mentve"
 	loadedText = "Betöltve"
-	googleSaveText = "Google Sheets (Alapértelmezett)"
+	googleSaveText = "Google Sheets"
 	localSaveText = "Helyi böngésző tárhelye"
 	isIE = "A Google mentési rendszer nem kompatibilis a Microsoft Internet Explorerrel. Átválthatsz egy másik böngészőre vagy folytathatod a böngésző tárhelyébe mentéssel (kattints fent)"
 	systemText = "Mentés helye"
@@ -734,8 +741,8 @@ function languageInit() {
 	totalText = "Τελική Βαθμολογία"
 	savedText = "Αποθηκεύτηκε"
 	loadedText = "Φορτώθηκε"
-	googleSaveText = "Φύλλα Google (Default)"
-	localSaveText = "Αποθήκευση Προγράμματος Περιήγησης (Legacy)"
+	googleSaveText = "Φύλλα Google"
+	localSaveText = "Αποθήκευση Προγράμματος Περιήγησης (Default)"
 	isIE = "Το σύστημα αποθήκευση της Google δεν είναι συμβατό με το πρόγραμμα περιήγησης “Internet Explorer” της Microsoft. Μπορείτε είτε να αλλάξετε πρόγραμμα περιήγησης είτε να συνεχίσετε χρησιμοποιώντας το σύστημα αποθήκευσης της εφαρμογής (Πατήστε παρακάτω)"
 	systemText = "Αποθήκευση Συστήματος: "
 
@@ -766,7 +773,7 @@ function languageInit() {
 	undefinedText = "δεν καθορίζεται"
 
 	revisionText = "CITY SHAPER Scorer Έκδοση "
-	copyrightText = "Copyright (c) 2019 Seshan Brothers"
+	copyrightText = "Copyright (c) "+versionYear+" Seshan Brothers"
 
 	title = "CITY SHAPER Βαθμολογία"
 
@@ -817,8 +824,8 @@ function languageInit() {
 	M11c=" Η κατασκευή πρέπει να είναι μεγαλύτερη από ένα μπλέ διαμέρισμα και κατασκευασμένη μόνο από λευκά LEGO bricks του Bag 10; "
 
 	M12="Σχεδίασε και χτίσε"
-	M12a=" Πόσοι κύκλοι έχουν τουλάχιστον ένα διαμέρισμα με αντίστοιχο χρώμα το οποίο ακουμπά πάνω στο χαλί και είναι <b> εντελώς </b> μέσα στον κύκλο;" 
-	M12b=" Υπάρχουν <b>Ανεξάρτητες</b> δομές τουλάχιστον <b>μερικώς</b> μέσα σε οποιοδήποτε κύκλο; Ποιο είναι το άθροισμα του ύψους τους σε διαμερίσματα;" 
+	M12a=" Πόσοι κύκλοι έχουν τουλάχιστον ένα διαμέρισμα με αντίστοιχο χρώμα το οποίο ακουμπά πάνω στο χαλί και είναι <b> εντελώς </b> μέσα στον κύκλο;"
+	M12b=" Υπάρχουν <b>Ανεξάρτητες</b> δομές τουλάχιστον <b>μερικώς</b> μέσα σε οποιοδήποτε κύκλο; Ποιο είναι το άθροισμα του ύψους τους σε διαμερίσματα;"
 	M12c="Ο μπλε κύκλος δεν είναι μέρος της αποστολής 12. Μια δόμη είναι ένα ή περισσότερα διαμερίσματα που το επίπεδο 1 ακουμπά ίσιο στο χαλί και οποιοδήποτε άλλο επίπεδο ακουμπά το αποκάτω επίπεδο."
 
 	M13="Ανανάθμιση της βιωσιμότητας"
@@ -826,7 +833,7 @@ function languageInit() {
 
 	M14="Ακρίβεια"
 	M14a=" Πόσες μάρκες ακρίβειας έχουν απομείνει στην πίστα;"
-	
+
     } else if (language == "fr") {
 	yes = "Oui"
 	no = "Non"
@@ -902,8 +909,8 @@ function languageInit() {
 	totalText = "Toplam Puan"
 	savedText = "Kaydedildi"
 	loadedText = "Yüklendi"
-	googleSaveText = " Google E-Tablolar (Varsayılan)"
-	localSaveText = " Yerel Tarayıcı Deposu (Eski)"
+	googleSaveText = " Google E-Tablolar"
+	localSaveText = " Yerel Tarayıcı Deposu (Varsayılan)"
 	isIE = " Google kaydetme sistemi Microsoft Internet Explorer ile uyumsuz. Başka bir tarayıcıya geçebilir veya eski kaydetme sistemini kullanarak devam edebilirsiniz (yukarıyı tıklayın)"
 
 	googleIntro = " Puanlarınızı bir Google E-tablosuna kaydedebilirsiniz. Bu, sezon boyunca ilerlemeyi takip etmenize yardımcı olur. Sayfanın altındaki talimatları görün."
@@ -961,8 +968,8 @@ function languageInit() {
 	totalText = " Punteggio Totale"
 	savedText = "Salvato"
 	loadedText = "Caricato"
-	googleSaveText = "Fogli Google(Default)"
-	localSaveText = "Salva in Locale (Legacy)"
+	googleSaveText = "Fogli Google"
+	localSaveText = "Salva in Locale (Default)"
 	isIE = "Il sistema di salvataggio di Google non è compatibile con Microsoft Internet Explorer. Puoi passare a un altro browser o continuare utilizzando il sistema di salvataggio legacy (fai clic sopra)"
 
 	googleIntro = "Puoi salvare i tuoi punteggi su un foglio di lavoro Google. Questo ti aiuta a tenere traccia dei progressi nel corso della stagione. Vedi le istruzioni in fondo alla pagina."
@@ -994,7 +1001,7 @@ function languageInit() {
 	undefinedText = "Indefinito"
 
 	revisionText = "CITY SHAPER Scorer Version "
-	copyrightText = "Copyright (c) 2019 Seshan Brothers"
+	copyrightText = "Copyright (c) "+versionYear+" Seshan Brothers"
 
 	title = "CITY SHAPER Scorer"
 
@@ -1037,7 +1044,7 @@ function languageInit() {
 
 	M10="Costruzione in acciaio"
 	M10a="La Struttura in Acciaio è in posizione verticale, ed è <b>Indipendente</b> e <b>Sostenuta</b> solo dai suoi cardini?"
-	
+
 	M11="Architettura Innovativa"
 	M11a="La Struttura è <b>Completamente</b> in un cerchio qualsiasi?"
 	M11b="La Struttura è <b>Parzialmente</b> in un cerchio qualsiasi?"
@@ -1053,7 +1060,7 @@ function languageInit() {
 
 	M14="Precisione"
 	M14a="Quanti Gettoni di Precisione sono rimasti sul campo?"
-	
+
     } else if (language == "eu") {
 
 	translatorCredit = "Euskaratuta Anartz San Juan-engatik Edurobotic FIRST LEGO League-en taldekidea"
@@ -1081,8 +1088,8 @@ function languageInit() {
 	totalText = "Emaitza totala"
 	savedText = "Gordeta"
 	loadedText = "Kargatuta"
-	googleSaveText = "Googleren orriak (Lehenespenez)"
-	localSaveText = "Nabigatzaile Lokaleko Almazenamendua (Heredatua)"
+	googleSaveText = "Googleren orriak"
+	localSaveText = "Nabigatzaile Lokaleko Almazenamendua (Lehenespenez)"
 	isIE = " Googleren gordetze sistema ez da bateragarria Internet Explorerrekin. Nabigatzailez aldatu dezakezu edo heredatutako gordetze sistema erabiltzen jarrai dezakezu (klikatu goian)"
 
 	googleIntro = "Zure puntuazioak Google-ren kalkulu horri batean gorde ditzakezu. Honek denboraldi osoan zehar egin dituzun aurrerapenak gordetzen lagundu zaitzake. Ikusi argibideak orriaren behealdean."
@@ -1115,7 +1122,7 @@ function languageInit() {
 	undefinedText = "zehaztugabea "
 
 	revisionText = "Zenbatzaile errebisioa CITY SHAPER"
-	copyrightText = "Copyright (c) 2019 Seshan Brothers"
+	copyrightText = "Copyright (c) "+versionYear+" Seshan Brothers"
 
 	title = "CITY SHAPER Zenbatzailea"
 
@@ -1178,7 +1185,7 @@ function languageInit() {
 	M14a="Zenbat zehaztasun lekuko daude joko lurrazalean?"
 
     } else if (language == "ro") {
-	translatorCredit = "Traducerea și adaptarea în limba română realizată de Ștefan RĂDULESCU @ Asociația pentru educație STEM creativă (CRESTEM). Copyright (c) 2019. www.crestem.org"
+	translatorCredit = "Traducerea și adaptarea în limba română realizată de Ștefan RĂDULESCU @ Asociația pentru educație STEM creativă (CRESTEM). Copyright (c) "+versionYear+". www.crestem.org"
 
 	yes = "Da"
 	no = "Nu"
@@ -1236,7 +1243,7 @@ function languageInit() {
 	undefinedText = "nedefinit"
 
 	revisionText = "Calculator de scor CITY SHAPER. Versiunea "
-	copyrightText = "Copyright (c) 2019 Seshan Brothers"
+	copyrightText = "Copyright (c) "+versionYear+" Seshan Brothers"
 	title = "Calculator de scor CITY SHAPER"
 
 	missionNumbering = "M" // i.e. display as M01, M02, etc. (first letter of the word "Mission" in your language)
@@ -1300,9 +1307,12 @@ function languageInit() {
     }
 
 
+    versionText = versionNum + " - " + versionDay + " " + monthNames[versionMonth] + " " + versionYear
 
 
     improvement= improvementText
+
+    window.monthNames = monthNames
 }
 
 languageInit()

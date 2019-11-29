@@ -89,7 +89,7 @@ function starttable(mission, title, image, children, extrarows){
     all_mission = all_mission.concat([[mission,children]])
     document.write('\
   <div class="missionFmt">\
-  <table style="width:100%; border: 1px solid indigo; border-collapse: collapse; " border="1">\
+  <table style="width:100%; border: 1px solid black; border-collapse: collapse; " border="1">\
   <tr>\
     <td rowspan="'+element+'" width="60px"> <img src="missions/'+image+'" width="58px"></td>\
     <td style="font-size: 110%; text-align: center; background-color: blue; color: white;">\
